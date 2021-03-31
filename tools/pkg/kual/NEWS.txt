@@ -1,0 +1,677 @@
+CHANGE LOG
+
+20190724
++ Detect the Kindle Oasis 3.
+
+20190412
++ Detect the Kindle Basic 3.
+
+20190128
++ Update the atime in the ccdb on Booklet exit
+  Ensures the Booklet variant will be sorted properly when sorting by
+  "Recent".
+
+20181108
++ Detect the Kindle PaperWhite 4.
+
+20171124
++ Detect the 32GB 'Manga' PW3.
++ Detect the Kindle Oasis 2.
+
+**** v2.7 ****
+
+20160719
++ Added a Booklet port, for those devices where we can't use Kindlets
+  (i.e., the Oasis and the Basic 2).
+  Massive thanks to chrox and his KPVBooklet (https://github.com/koreader/kpvbooklet)
+  for support and inspiration,
+  as well as bhaak's HackedUpReaderBooklet (https://github.com/bhaak/HackedUpReaderBooklet/).
+- Updated the documentation accordingly. Do read it.
+
+20160708
++ Detect the White Kindle PaperWhite 3.
++ Detect the Kindle Oasis.
++ Detect the Kindle Basic 2. Might be innacurate.
+
+**** v2.6 ****
+
+20150814
+- Implemented the PW3 detection properly.
+
+20150730
++ Potentially detect the Kindle PaperWhite 3. Most likely innacurate.
+
+**** v2.5 ****
+
+20141123
+- Call on a faithful Wizard if need be!
+
+20141108
+- Rewrote the MR thread. Should now be more concise.
+
+20141107
++ Detect the Kindle Voyage, because why the hell not? ;p
+
+20141005
++ Detect the Kindle Basic, because I'm the hopeful kind of guy... ;D
+
+**** v2.4 ****
+
+20140722
++ Added support for the missing 4GB PW2 variants.
+
+20140621
++ Make the font used by KUAL user-configurable
++ Switches to Futura Regular as the default UI font on KDK-2
+
+20140306
++ Added support for the missing PW2 variant(s).
+
+**** v2.3 ****
+
+20140219
++ Minor code refactoring/cleanup
++ More buildsystem tweaks to fix some portability issues introduced in the
+  previous changes
++ Tweaked the default 'sort' buttons in the KUAL menu to be consistent with
+  the KUAL+ extension.
+
+20131005
++ Detect the PaperWhite 2/2013 as KindlePaperWhite2 (PW2).
+
+20130929
++ Multiple tweaks to the build system:
+  . Automatically strip the commented parser (dropped the stripped version
+  from the repo)
+  . Use a git-describe tag instead of a manual date as the version tag
+  . Bundle a ChangeLog built with git log (renamed this manual ChangeLog,
+  where we can be a bit more verbose than a commit log (or more
+  concise/user-friendly).
+  . Pushed git tags for all known releases
+  . Also add the date of the last commit to the version tag
++ Wrote a minimal dist script for packaging
+- Tweak the format of the default status bar:
+    . Use a square bullet to separate our three fields.
+    . Use the nickname of the device instead of its full model name.
+
+20130928,a
+- Make the menu refresh triggered by refresh:true faster by running only one
+  parser instance instead of two, potentially concurrently.
+
+20130927,a
+- Minor fixes to the parser to make it at least run on mawk, and throw a
+  couple of warnings less with gawk's lint check.
+- Check for mailbox notifications on keypresses, too.
+
+20130926,a
++ Use the custom gawk binary from the gawk extension if it's installed.
+  it seems to be roughly 4 times faster on my Touch :).
+  The extension is available here:
+  http://www.mobileread.com/forums/showpost.php?p=2636883&postcount=59
+
+20130920,a
+- Try to cleanup behind us on exit. Here be dragons!
+  Please test and check that, especially, this:
+    1. doesn't utterly break KUAL
+    2. actually does what it's supposed to
+    3. doesn't break suicidal buttons (exitmenu: true)
+
+**** v2.2 ****
+
+20130816,a
+- Try to create the extensions folder & a blank config file if we can't find a
+  proper config file at init.
+
+20130809,a
+- Fix -o RPN operator, which got broken in 20130701,a
+# Git: changes to make easier dealing with the parser script: **FOR DEVELOPERS**
+  . ignore bitbucket's 'commented' branch from this commit on, and
+  . find the important files in ./resources:
+    . parse-commented.awk (used to be aloop/aloop-v2.awk in commented branch)
+    . CHANGELOG.txt (this file, used to be aloop/CHANGELOG.txt in the
+      commented branch)
+  . add resources/README-tool.txt, which explains the main point:
+    1. edit ./resources/parse-commented.awk to change the parser code, then
+    2. in ./resources run
+       ./tool/strip.awk -v AWK=1 parse-commented.awk > parse.awk
+    3. compile the project
+
+**** v2.1 ****
+
+20130719,a
++ Fix [#6] & [#5]:
+  Implemented a set of keyboard shortcuts on devices without a touchscreen:
+    * the next/prev page buttons do the obvious
+    * the top row of keys (1...0 and Q...P) select the corresponding button
+      (or the last if there are more keys than buttons)
+    * enter & space will click the current focus
+    * the [Aa] & [Keyboard] keys focus the top button
+    * while the [MENU] key focuses the last button (it's tailored for the K4
+      layout, those buttons bracket the five-way controller).
+- Fix [#3]: we always count the extra quit or / button we add as the last item
+  of a menu level, and we don't forget to add even it if it falls at the top of
+  a new page.
+- Fix [#11]: rewrite get_model to properly differentiate the Kindle 2 from the
+  DX (AFAICT, their cpuinfo output is perfectly identical). We get a
+  finer-grained KindleDX model detection in the bargain ;).
+# Don't bundle useless (at runtime) resources in the final jar.
+- Fix [#12]: We now properly draw the shiny unicode glyphs (arrows, checkmarks,
+  ...) on the K2/DX.
+# Refactored duplicated code between KualLabel and KualButton.
+- Fix [#1]: The checkmarks are now drawn properly on non-touch devices
+  (and really is a checkmark, not a cross).
+- Fix [#8]: Don't overwrite a custom status text if the button requested a
+  refresh
+- Fix [#10]: Apply an if clause to a submenu itself, too
+# Tweaked afterParser default value a bit (+50%) on armv6 devices (K2/DX/3).
+
+**** v2.0 ****
+
+20130701,a
+- Fix: add missing -m RPN operator (reported by NiLuJe)
+
+20130523,a
++ Improved status messages when the menu gets reloaded.
+
+20130519,a
+# Changed support link to bit.ly/kualit.
+
+20130314,a
++ Now "if":"expression" can grep a file, test loaded extensions, test device
+  model, compare KUAL option values, test file existence and size.
+# Now KUAL self menu hides "save log" button when the log file is empty.
+
+20130513,a
++ Added: menu collation feature merges same-name sub-menus together.
+  Same-name plain items, if any, are left unchanged.
+  Can even merge user menus named "KUAL" with the KUAL self menu.
++ New KUAL.cfg setting: KUAL_collate=false disables collation (default enabled).
+
+20130312,a
+Internal changes:
++ Added KualLog().printStackTrace().
+
+20130511,a
++ Added JSON key/value "if":"conditional expression" to conditionally
+  display a menu item.
+
+20130509,a
+- Fixed bitbucket issue #4.
+# Added JSON key/value "internal":"internal command" to replace
+  and expand the now unsupported special commands "TRAIL" and "STATUS".
+  See mobileread Wiki page for details.
++ Tool updates.
+
+20130502,a
++ Added: JSON "status":false disables displaying the contents of JSON
+  "action":"commands" in the status line prior to launching action.
+# Added: JSON "date":true displays the current date/time in the
+  status line after having launched an action.
+. Removed: temporary button 'Clear cache on restart (temp)'
+
+20130430,a
+- Fixed: no button focused on 5-way controller devices!
+
+20130429,a
+# More robust, possibly faster, kindlet start.
+
+20130428,a
+- Fix: spurious message 'cannot update cached menu' in KUAL.log
++ Added: JSON key/value "refresh":true rescans /mnt/us/extensions
+  and refreshes the displayed menu. This enables extensions to
+  'dynamically change' the menu.
+
+Internal changes:
++ Class KualLog in package resources
+
+20130427,a
++ Auto-reload changed menu.
+
+Internal changes:
++ Classes KualMenu, kualConfig, and MailboxProcessor in package resources
++ Interface MailboxCommand in package resources
+# Kindlet code refactoring
+
+20130425,a
+# Testing usability of left-sided up button and new toTop and Quit buttons
+- Fixed: kindlet could run on either KT or K3 but not both (timer issue)
++ Added checked buttons - JSON key/value "checked":true
+  . FIXME K3 doesn't repaint the button label immediately
++ Added toTop and Quit buttons - placed after all level buttons
+. Minor cosmetic changes
+
+Internal changes:
++ Class KualEntry in package resources
++ Class TimerAdapter in package timer package
++ Class KualButton in package ui/v2
+# Kindlet code refactoring
+
+20130421,a
+- Fixed: failed starting on K3/K4
++ Added: auto-delete old cache file on new version upgrade.
+- Fixed: spurious "can't hash" error message on very first start.
+
+20130420,a
++ Added automatic cache expiration. Manual cache management should
+  no longer be necessary. The 'Clear cache on restart' temporary
+  button will be phased out shortly, unless testers report that it's
+  still needed and why. Did you need to use it? Why?  Could you achieve
+  the same result in a different way without pressing the button?
+  . Tested on KT only
+
+20130418,a
++ Added cache. KUAL starts faster when the cache exists.
+  . Until implementation of a cache expiration policy (TODO) users
+    Users need to manually delete the cache to apply changes
+    to their configuration and menu. Use new button in KUAL menu
+    'Clear cache on restart' - TEMPORARY.
+  . The cache file includes all configuration data, so if you edit
+    KUAL.cfg or change sort order you need to clear the cache.
+# Change: In KUAL.cfg KUAL_options becomes KUAL_sort_mode.
+   YOU NEED TO manually update your KUAL.cfg file once.
+   # Change sorting options.
+   # "ABC" (default) lexicographically sorts top-level entries only and
+   # leaves sub-menu entries in the order that the menu author defined.
+   # "ABC!" (bang) sorts ALL levels lexicographically.
+   # "123" sorts EACH level by json key "priority" (=0 when unspecified)
+   #KUAL_sort_mode="ABC"
++ Enhanced usability of sub-menu "KUAL"
+! Certain features are discontinued to simplify async execution of
+  the parser script (see Internal changes below).
+  Discontinued features include:
+  . Test applet - replaced by trail message button 'Add some extensions!'
+  . 'Replace/Restore Store button' button - it may come back as a
+     stand-alone extension for KT/PW, if enough interest.
+  . The '[ "$KUAL" ] && $KUAL $n"' application interface. In particular
+    this takes away the 4-line message display on which demo extension
+    'Save KUAL from suicide' relies.
+- Fix: added expansion of all JSON string escapes, \n \t etc.
+  . KNOWN LIMITATION: can't expand \uHHHH escape
+- Fixed rare (and harmless) error message upon sorting zero entries.
+
+Planned (not in this build):
++ Menu collation. Stutus: implemented. Testing in progress.
++ Menu navigation improvements for lower devices.
+
+Internal changes:
+# Script parse.awk replaces parse.sh
++ Upgraded parser core to JSON.awk 1.10.
++ (EXPERIMENTAL) Async execution of the parser script. Now the kindlet
+  does not wait for the parser to exit before calling initializeGUI().
+  This change aims at buying the kindlet more time to build its GUI
+  before the 5000 ms timeout expires. It also frees the parser to run
+  errands as necessary after sending the kindlet the parsed menu - either
+  from the cache file or from scratch.
+# Minor tool and documentation updates.
+
+20130412,a
+# Change: ABC sorting only sorts the top-level entries and leaves sub-menu
+    entries in the order that the menu author defined.
+  . You can force ABC sorting at ALL levels by adding/changing the following
+    option in KUAL.cfg:       KUAL_options="-s=ABC!"
+  . If you use KUAL_options="-s=ABC" (without ! that is) or omit -s=xyz from
+    KUAL_options you get top-level alphabetic sorting only (default).
+  . Be aware that changing sort order from the "KUAL" sub-menu resets the
+    value of -s=xyz in KUAL_options.
+  . When ABC (not ABC!) sorting is in effect, you can rearrange the order of
+    "KUAL" sub-menu entries by simply listing them in a specific order in
+    option KUAL_show_KUAL_buttons, i.e.,  KUAL_show_KUAL_buttons="99 1 2 3"
+    shows the Quit button on top. This tweak has no effect when 123 or ABC!
+    sorting are in effect.
+- Fixed tokenizer issue upon reading backslash-backslash in a JSON string
++ Improved JSON parser error reporting
+# Changed error annunciator (cosmetic)
+
+Internal changes:
+# More dead wood removed from ash script.
+
+
+20130410,a
+- Fix regression in KUAL menu sort option
+# Change: now ABC sorting ignores case
++ documentation updates
+
+20130409,a
+- Fix "wrong action is executed when a menu.json file includes multiple
+  top-level items".
+- Minor fixes and improvements
+
+20130408,a
+Fix kindlet timeout issue
+- Fixed the reason for kindlet timeout issue in the parse script
++ Improved script's early error reporting mechanism
+
+20130407,a
+New options and default values speed up scanning /mnt/us/extensions
+# Change: by default do not recurse /mnt/us/extensions/* when
+  searching for json files. Equivalent to setting KUAL_search_depth=2
+# Change: by default skip searching /mnt/us/extensions/system.
++ KUAL.cfg option: KUAL_search_depth="N"
+  search /mnt/us/extensions up to N levels deep (default N=2)
++ KUAL.cfg option: KUAL_search_exclude_paths="system"
+  semicolon-separated list of paths to exclude when scanning
+  /mnt/us/extensions.
+  It does make a noticeable difference when scanning a huge extension
+  folder like the 'KUAL system' extension.  Comparison: KT running
+  version 20130407a vs. 20130405a w/ and w/o 'system' extension
+    20130407a w/o                w/
+    real    0m 0.67s   real   0m 0.93s   <<<<
+    user    0m 0.55s   user   0m 0.74s
+    sys     0m 0.11s   sys    0m 0.11s
+
+    20130405a w/o                w/
+    real    0m 0.76s   real   0m 3.90s   <<<<
+    user    0m 0.53s   user   0m 0.77s
+    sys     0m 0.14s   sys    0m 0.48s
+
+20130405,a
+Extensions can now write a message to the trail/status lines
++ Extension can write a fixed message into the trail line with json
+  {"name":"label","action":"TRAIL","params":"this message","exitmenu":false}
++ Extension can write a verbatim message into the status line with json
+  {"name":"label","action":"STATUS","params":"this message","exitmenu":false}
+! Note that it's a fixed message; sh doesn't process it at all
++ Capture stderr of extensions to /var/tmp/KUAL.log
++ New KUAL sub-menu button "File KUAL log as a document"; moves KUAL.log to
+  /mnt/us/documents/
+! Still not quite working; the log file is always empty. Could it be due to the
+  suicidal context ?!?
+- Fix out of range index in setTrail()
+- Removed more dead wood and command-line options -c -f,
+
+20130404,d
+- Fix file descriptors and segmentation fault
+= Port of user option handling complete
+
+20130404,c
+- Fixed regression bug in EXTENSIONDIR scan
+- Fixed missing version string (corner case)
+
+20130404,b
++ ixtab's Unicode support for KualButton.
+* commit to kindlelauncher repo
+
+20130404,a
++ ixtab's KUAL 0.4.1 improved GUI buttons on lower devices.
+Internal changes
++ Export interface #3: test_applet install
++ Scan EXTENSIONDIR and read KUAL.cfg in awk script
+# Stripped more dead wood.
+
+20130402,a
+! Huge rewrite complete, I might have missed to reconnected all
+  previous functions but, for the most part, KUAL 2 is here!
++ Dive-in menu support, 3 button navigation (prev, next, up) with
+  trail line (press the trail line to go up).
++ Faster startup time. KT takes twobob's huge extensions folder no sweat.
++ Improved but -by design - UNFORGIVING json parser. Fix your menus.
+  Invalid json files don't slow down loading the menu.
++ KUAL.log file in /mnt/us/extensions (pending bug fix).
++ KUAL menu stays fixed on top. Shows number of error messages, if any.
+  Press any error message button => KUAL.log snapshot to /mnt/us/documents.
++ No suicide json key - "exitmenu":false
++ KUAL.cfg in /mnt/us/extensions, options to: selectively hide KUAL
+  menu buttons, stop following links when looking for json files,
+  hide the status line (sends status info to the trail line).
++ Show version/build number in the status line (if not hidden).
+! Before starting any extension KUAL changes directory to the
+  location of the menu.json file.
+- Sundry bug fixes, improvements, cosmetics.
+= KUAL menu: Quit, Store button, Sort 123, Sort ABC.
+= Tested on KT 5.3.2 only. Should run on K3.
+
+20130330,a
++ Start new version based on stepk's awk port of JSON.sh
+! Urge to document - before I forget - the limits of nested menus:
+  - maximum nesting level = 10 [0..9]
+  - maximum entries per sub-menu = 255 [0..254]
+    255^10 = 1,162,523,670,191,533,212,890,625 =~ =~ 1.1625 x 10^24
+    1 septillion... 1 million billion billion...  Compare it with:
+    4.3 x 10^17 seconds, age of the universe
+    1.0 x 10^80 estimated number of atoms in the universe
+
+20130329,b
+! Archived version 20130329,b as the last version based on JSON.sh
+  archive file ALOOP-JSON-SH-STABLE-20130329.zip
+- Fixed null labels (again)
+- Corrected documentation (LIMITS)
+- Fixed npath encoder - missing first "items" byte for level 0 keys
+
+20130329,a
+! Before starting any extension the script performs a change
+  directory to the location of the menu.json file
++ Show menu trail line at screen north
++ KUAL.cfg option to hide the status line at screen south
+     KUAL_no_show_status="true" # requires restart
+  Note: it also rerouteѕ status messages to the trail line
+
+20130324,a
+! This is the last version compatible with KUAL1 flat menus.
+- Fixed 'invalid syntax' label mangling
+# Pressing any 'error message' button saves the KUAL error log as a document.
+! Performance improvements. Ref. 20130318,a
+  Not on the kindle but just on my PC.  Building menu with KUAL 2 vs KUAL 1
+  KUAL2 has improved significantly
+
+  # time ash aloop-v2.sh -p=tbl -v=2 >vvv2 *** KUAL2
+  real 0m 2.29s
+  user 0m 0.29s
+  sys  0m 0.50s
+
+  # time ash aloop-v2.sh -p=tbl -v=1 >vvv1 *** KUAL 1
+  real 0m 1.79s
+  user 0m 0.42s
+  sys  0m 0.50s
+
+  This is of course with invalid extensions removed, since leaving them in
+  would trigger a menu recovery process in KUAL2 which would greatly slow
+  down building a valid menu.
+
+20130323,a
+! Sorting is kind of broken now, but I don't care to fix it because
+  eventually KUAL 2 will feature a different sorting strategy.
++ Improved error handling of invalid json files. Please note: just one
+  invalid menu.json file slows down loading *all other* json files, so
+  fix invalid files!
+- Bug fix: connector between version 2 parser and version 1 GUI no
+  longer gets stuck trying to report invalid json syntax to the kindlet
+  . lists invalid files as button labels "Syntax ..filename.json"
+  . tested on KT with twobob's huge extensions-K5-FAIL/ folder
++ Added 'save KUAL error log as document' function for other scripts to call.
++ KUAL.cfg option to stop following links when looking for json files:
+  KUAL defaults to following links.
+     KUAL_nofollow="true"    # stop following links
+# changed json "exitmenu":0 to "exitmenu":false
++ added json "hidden":true to hide a menu (to be implemented)
+
+20130319,b
++ selectively show one/more/all KUAL menu buttons
+  In KUAL.cfg set
+    KUAL_show_KUAL_buttons="" (or don't set at all) to show all buttons
+    KUAL_show_KUAL_buttons="1 2" to show buttons 1 and 2
+    KUAL_show_KUAL_buttons="0" to hide all menu buttons
+    As currently defined:
+     1: replace/restore Store button with KUAL
+     2: change KUAL sort order (double button)
+    99: quit KUAL
+
+20130318,a
+- fixed bug introduced in ver 20130306,a which could cause
+  weird things to happen. Twobob, this was for you, I think!
+
+~~~ internal step towards KUAL2 ~~~
++ new json parsing engine can parse up to 9 sub-menu levels
+  . the GUI hasn't changed yet so it can't show levels above 2
+  . license MIT or APACHE 2
++ option -v=1|2 selects the parsing engine; 1=old 2=new(nested,DEFAULT)
+  . the new engine exposes issue
+    http://kual.knetconnect.com/forums/topic/menu-json-structure-and-future/#post-92
+    KUAL team to fix invalid menu.json files out there?
+  . unlike engine 1, engine 2 doesn't touch up labels anymore
+  . unlike engine 1, engine 2 doesn't make up the group label when one isn't
+    specified
+  . soon the old engine 1 will go
+  . don't worry about script size, there's still a lot of dead wood
+  . performance sucks for now.
+Time spent processing 24 entries with engine 1 vs 2 & busybox 1.17.1 vs 1.7.2
+[root@kindle bin]# time ash aloop.sh>/dev/null
+real	0m 0.72s
+user	0m 0.27s
+sys	0m 0.31s
+[root@kindle bin]# time ash aloop-v2.sh>/dev/null
+real	0m 2.06s
+user	0m 0.64s
+sys	0m 1.35s
+[root@kindle bin]# time ./busybox-k3 ash aloop.sh>/dev/null
+real	0m 2.30s
+user	0m 0.50s
+sys	0m 0.85s
+[root@kindle bin]# time ./busybox-k3 ash aloop-v2.sh>/dev/null
+real	0m 9.65s       ***  O U C H ! ! ! ***
+user	0m 1.58s
+sys	0m 3.91s
+
+20130306,a
+user:
++ set json "exitmenu":0 (goes with "action") to save KUAL from suicide!
+  If your extension prints to the screen it isn't a nice savior.
++ user-configurable page size:
+  set KUAL_page_size="<integer>" in file /mnt/us/extensions/**/KUAL.cfg
+internal:
++ WIP "suicide" json value
++ added usleep to screen_msg
+# stripped one_level(), touch_runner()
++ send KUAL.cfg to Kindlet
+
+--- KT/PW/K3/DX monolithic versions below and above
+20130226,a,stepk
+# Changed the test applet from 411.sh to printing exit message "Add extensions."
+  Test applet (un)install error messages redirected to tier 1 button.
++ Added 'screen reporting area' function for other scripts to call.
+  For developers, see README-dev.txt for more info
+  (required changing Kindlet java code).
+
+20130225,a,stepk
+# changed/renamed command-line options as follows:
+  . removed long options: --format --sort --colors --execmenu --log;
+    use the short form equivalents: -f -s -c -e -l
+  . removed short option -S
+    -S becomes -s=123 and -s becomes -s=abc (default)
+  . -f=default becomes -f=onelevel (-f=twolevel is the default)
++ added lexicographic sort option to sort by action name in addition to
+  sorting by group name; applies to -f=twolevel only. Summary of sort options
+  . abc  lexicographic by group, names within each group do not move
+  . ABC  lexicographic by group and by action name, same name groups coalesce
+  . 123  by priority, group priority first then action priority within group
+         (and lexicographic by group name within each priority tier)
++ added KUAL menu to apply all three sort options
++ added visual aid debugging option -p=FMT to output by columns, etc.
+# internal changes:
+  . tier placement
+  . improved error handling and visualization
+  . now emit each record as multiple lines
+    (required changing the Kindlet's java code - read logic)
+- fixed an issue with identical labels in the Kindlet's java code
+- minor tweaks and fixes
++ more developer's documentation
+
+20130221,a,stepk
++ read script options from KUAL.cfg, type aloop.sh -h for rules
+  (upon config errors the script carries on with default options)
++ option -S or --nsort sorts menu by priority (json)
++ (tada!) enter the ***KUAL menu***
+  with three new spanking functions:
+  . Change sort order: lexicographic (abc), by priority (123)
+  . 'Replace/Restore Store Button' (*)
+    K5/PW only, tested on 5.3.2 should work on 5.1.2 also
+  . Quit KUAL menu
++ expand entity &nbsp; (only) to hard space in json values
++ $EXTENSIONDIR can be a colon-separated list of directories
+- fix: didn't launch action when action path included spaces
+(*) KUAL menu entries appear at the end of the button list
+    regardless of sort order.
+
+20130208,a,stepk
+- fix: prevent null label (Audio recorder and player for KT)
+- fix: preserve '$' in labels
+- fix: failed when config.xml path included spaces
+! change: accept all characters in menu labels
+  . ':' '|' aren't stripped anymore
+  . white space runs are still squeezed to one space
+
+20130201,a,stepk (silent update)
+! test applet: changed PRODUCTNAME to "Kindle Unified Launcher"
+
+20130130,a,stepk
+! monolithic KT/PW/K3/DX compatible script (busybox level 1.7.2)
+! faster on all platforms
++ allow double quotes in json values, i.e., "params":"-a \"foo bar\""
+- fix: did not clear command parameters in multi-entry menus, like Helper menu
+- all previous fixes up to unreleased version 20130129,a included
+
+20130129,a,stepk (unreleased: poor performance; branched out of 20130128,a)
+. todo: backport: allow double quotes in json values
+! monolithic KT/PW/K3/DX compatible script (busybox level 1.7.2)
+! performace improved relative to interim monolithic mod (twobob)
+- fix: mangled multiword label to single word, sanitize()
+- fix: missing group menu name in RoadRunner-formatted menu
+- minor fix: test_applet()
+- minor tweaks
+
+20130128,a,stepk (unreleased)
+. begin: allow double quotes in json values; unfinished
+! monolithic KT/PW/K3/DX compatible script (busybox level 1.7.2)
+- fix: mangled multiword label to single word, compat-K[35].sh sanitize()
+- fix: did not compact adjacent spaces sometimes, compat-K3.sh sanitize()
+- fix: missing group menu name in TouchRunner-formatted menu
+- minor fix: test_applet()
+- minor tweaks
+= clean up interim monolithic mod (twobob)
+= all previous fixes up to 20130127,b,stepk included
+
+--- KT/PW/K3/DX modular versions below
+
+20130127,b,stepk (unreleased)
+- fix: compat-K3.sh sanitize()
+- fix: compat-K5.sh sanitize()
+
+20130127,a,stepk
+! colorizing is now disabled by default use -c=MAXCOLORS to enable, i.e. -c=2
++ modular compatibility layer for K3 busybox ash! Now aloop runs on K3 too.
+  K5 module ran roughly 350% faster than K3 module (real time, one sample)
++ option -l | --log
+! explicit shebang ash (defensive)
+- fix: test applet install loop (defensive)
+* minor tweaks and fixes
+* tested on K3 and K5 /bin/ash (both running on KT)
+
+--- KT/PW only versions below ---
+
+20130126,b,stepk
+- fix: K3 ash compatibility
+  http://www.mobileread.com/forums/showpost.php?p=2397966&postcount=160
+
+20130125,a,stepk
++ auto fix DOS line endings
++ added $PRODUCTNAME="Unified Kindle Launcher"
++ -c=0 disables color index output
++ if no menu items found install a test applet (411)
+- fix: bail out on unknown script option
++ documentation: added README-dev.txt
+
+20130124,a,stepk
++ option -h | --help
++ option --format=debuginfo
++ options --format=twolevel and -c=|--colors=N
++ config.xml and menu.json can reside in different folders
+! search extensions by config.xml (was by menu.json)
+! extract group (top) menu name from json file (was from config.xml)
+- silently reject invalid xml/json files
++ documented parser's limitations (corner cases)
+* code factorization
+
+20130122,c,stepk
++ options --sort and --format=touchrunner
+
+20130122,a,stepk
+= first version

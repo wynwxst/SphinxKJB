@@ -1,0 +1,3809 @@
+* commit 9f3694a3354f977eb8b63c02f3364c49ffad66f8
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Jun 4 20:58:15 2020 +0200
+| 
+|     Enable WhisperTouch on the Voyage
+|     
+|     Should allow KOReader to get consistently working buttons...
+|     
+|     c.f., https://github.com/koreader/koreader/issues/6038#issuecomment-612564693
+| 
+|  .../kindlelauncher/resources/booklet/install/install.sh     | 11 +++++++++++
+|  .../resources/booklet/install/whispertouch.install.sql      |  1 +
+|  2 files changed, 12 insertions(+)
+| 
+* commit 0a7be78b36e24f856e2185e5ececb62e1e575c57
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Mar 8 18:20:38 2020 +0100
+| 
+|     Stop packaging the Booklet for devices that shipped on FW >= 5.9
+|     
+|     This makes it consistent with the hotfix packaging, which was already
+|     doing this.
+| 
+|  .../ixtab/kindlelauncher/resources/tool/build-updates.sh           | 5 +++--
+|  1 file changed, 3 insertions(+), 2 deletions(-)
+| 
+* commit 699ae4a08a84b845a4660cd8d25ec1c8e59a477c
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Nov 15 19:02:53 2019 +0100
+| 
+|     Eh.
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/tool/build-updates.sh   | 2 ++
+|  1 file changed, 2 insertions(+)
+| 
+* commit 3928582388fb6d0a9aa387421127ad0221225516
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Jul 24 00:10:35 2019 +0200
+| 
+|     Detect the KOA3
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/KualConfig.java    | 2 ++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt      | 3 +++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk    | 1 +
+|  3 files changed, 6 insertions(+)
+| 
+* commit c2948b808586f01d650bdc9e03aaf088a7137a41
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jun 4 18:37:19 2019 +0200
+| 
+|     Make it more obvious ;).
+| 
+|  MR_THREAD.txt | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 01a70d264bb54da69ec4e470a6c7db67842d61bf
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jun 4 18:35:48 2019 +0200
+| 
+|     Update thread. Move downloads to the snapshots thread.
+| 
+|  MR_THREAD.txt | 14 ++++++++------
+|  1 file changed, 8 insertions(+), 6 deletions(-)
+| 
+* commit 1c2a27b4e7b89b0e1c6995ddbf6d15f6d8f94d87
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 1 15:17:46 2019 +0200
+| 
+|     Plug in a few new PW4 IDs...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit d94a0da28089ad9d63f487806350fc49b1e71aec
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Apr 12 05:25:08 2019 +0200
+| 
+|     Premptively mention the KT4
+| 
+|  MR_THREAD.txt | 12 ++++++------
+|  1 file changed, 6 insertions(+), 6 deletions(-)
+| 
+* commit 7fb7fc3b2b593eb5ae2c838b45f7bec347933027
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Apr 12 05:22:39 2019 +0200
+| 
+|     Detect the KT4
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/KualConfig.java    | 2 ++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt      | 3 +++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk    | 1 +
+|  3 files changed, 6 insertions(+)
+| 
+* commit e3361f53417f36755c58a731ed884514b5ea7c9c
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jan 28 16:21:52 2019 +0100
+| 
+|     Pilfer a bit of ccdb magic from KPVBooklet in order to update atime on
+|     exit in the Booklet version
+|     
+|     So we we sorted as expected when sorting by date...
+| 
+|  .gitignore                                        |  2 +
+|  lib/README.txt                                    |  2 +-
+|  .../ixtab/kindlelauncher/KualBooklet.java         | 63 +++++++++++++++++++++
+|  .../ixtab/kindlelauncher/resources/dist/NEWS.txt  |  5 ++
+|  4 files changed, 71 insertions(+), 1 deletion(-)
+| 
+* commit 174c43f9a0fac00f287e898e843b61241722808b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Dec 9 05:21:01 2018 +0100
+| 
+|     New PW4 IDs...
+|     
+|     Potentially not the right ones, at that.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit a644e72fae358dfd8fefe5367932140ab78f7093
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Nov 19 17:29:49 2018 +0100
+| 
+|     Update thread to explicitly mention the PW4
+| 
+|  MR_THREAD.txt | 20 ++++++++++----------
+|  1 file changed, 10 insertions(+), 10 deletions(-)
+| 
+* commit 9623dd8e8f8ec2801d2e1882319dbdd36ff1d0ea
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Nov 8 23:04:23 2018 +0100
+| 
+|     Detect the PW4
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/KualConfig.java  | 2 ++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt    | 5 ++++-
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk  | 1 +
+|  3 files changed, 7 insertions(+), 1 deletion(-)
+| 
+* commit 456d03ac16cc666765fcc38a234667dd22e779e3
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Jun 1 17:50:47 2018 +0200
+| 
+|     And now it actually works as intended!
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/tool/build-updates.sh   | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 3e2bbddd218ca4022b217c7cefed0ca484652cd2
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Jun 1 17:46:55 2018 +0200
+| 
+|     Add packaging metadata to the update packages
+| 
+|  .../ixtab/kindlelauncher/resources/tool/build-updates.sh         | 7 +++++--
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/shipit.sh | 2 +-
+|  2 files changed, 6 insertions(+), 3 deletions(-)
+| 
+* commit 9d848dee6ebaaab7a4a6b06a4f8ae2175867b495
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Jun 1 17:28:10 2018 +0200
+| 
+|     My name if Fail, Epic Fail.
+| 
+|  MR_THREAD.txt | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit dc35b3f6971354b50f6279e04c0ca92bf0d5fd8a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Jun 1 17:26:48 2018 +0200
+| 
+|     Link to a recap thread re: the ghost KUAL icon
+| 
+|  MR_THREAD.txt | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit b65f69a52bf10216719b97ee44c710ecf1b4be5a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Jun 1 04:06:00 2018 +0200
+| 
+|     Tweak the 5.9.x info, after a detailed recap of the situation from knc1
+|     ;).
+| 
+|  MR_THREAD.txt | 6 +++++-
+|  1 file changed, 5 insertions(+), 1 deletion(-)
+| 
+* commit 5e8580520d0cb9be15598bae37e769f82a640ce6
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu May 31 20:15:27 2018 +0200
+| 
+|     Reword some stuff.
+| 
+|  MR_THREAD.txt | 9 +++++----
+|  1 file changed, 5 insertions(+), 4 deletions(-)
+| 
+* commit 5d68283d916c003fa3c602502c01b969a0ebc6aa
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu May 31 20:11:21 2018 +0200
+| 
+|     Direct KOA2 owners straight to the patched build
+| 
+|  MR_THREAD.txt | 4 ++++
+|  1 file changed, 4 insertions(+)
+| 
+* commit 2a3a67eef2fe890c99c9b78438c66fe152676ebd
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu May 31 20:08:15 2018 +0200
+| 
+|     Update thread for KOA2 & FW 5.9.x info
+| 
+|  MR_THREAD.txt | 22 +++++++++++++++++-----
+|  1 file changed, 17 insertions(+), 5 deletions(-)
+| 
+* commit b84d280520ca5b29fc263828b237e5f00b611601
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu May 31 17:49:41 2018 +0200
+| 
+|     Mentioon KOA2 support in the README
+|     
+|     Things may not actually be so rosy in practice, but, still.
+| 
+|  README.txt | 7 ++++---
+|  1 file changed, 4 insertions(+), 3 deletions(-)
+| 
+* commit ea85a194b45a2c74c2ced7b936a2671611f68c35
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 25 02:05:54 2017 +0100
+| 
+|     Fix shebang for distro with a crap^Wnon-bash default shell
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/stripit.sh | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 1086c35141d5cbc07be02cd49aea126f8195a024
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Nov 24 22:09:58 2017 +0100
+| 
+|     Detect the 32GB PW3 & the KOA2
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/KualConfig.java   | 2 ++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt     | 4 ++++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk   | 3 ++-
+|  3 files changed, 8 insertions(+), 1 deletion(-)
+| 
+* commit fd21f69ad791435cb55c0279fab6063bb32dce20
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Jul 21 20:20:22 2016 +0200
+| 
+|     Bump to v2.7
+| 
+|  MR_THREAD.txt                                                   | 2 +-
+|  build.properties                                                | 2 +-
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 2 ++
+|  3 files changed, 4 insertions(+), 2 deletions(-)
+| 
+* commit c002f4a6eb01b9238128258dd17d0c3d38689038
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 19 15:53:02 2016 +0200
+| 
+|     Make sure the Booklet always gets torn down @ exit
+|     
+|     Even on the Touch, when using the [Home] button :).
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java              | 2 ++
+|  .../ixtab/kindlelauncher/resources/booklet/install/appreg.install.sql | 1 +
+|  2 files changed, 3 insertions(+)
+| 
+* commit b4f66b131a682c08b46b53a25d94f73d17c24493
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 19 12:32:57 2016 +0200
+| 
+|     Kill debug logging.
+|     
+|     KualLog is once again only used in error paths :).
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 10 +++++-----
+|  1 file changed, 5 insertions(+), 5 deletions(-)
+| 
+* commit a3fe23869afa1a0c2d0f2833c7e28181d7ac4d35
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 19 12:28:11 2016 +0200
+| 
+|     Fix lamest c/p mistake ever. sigh.
+|     
+|     Thanks to chrox for catching that one ;).
+| 
+|  .../resources/booklet/uninstall/appreg.uninstall.sql              | 6 +++---
+|  1 file changed, 3 insertions(+), 3 deletions(-)
+| 
+* commit d9549547494592d9866d2cba94c58bde0d7a526b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 19 05:23:08 2016 +0200
+| 
+|     Amend that Quit button comment.
+|     
+|     This only applies to the KUAL submenu itself.
+|     Can't recall what happens when a parsing error occurs, though, so it
+|     might still be worth remembering ;).
+|     I *think* the Java UI always ensures a Quit button will be there,
+|     though.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/KUAL.cfg | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 3b90f13cc0e05861f82eceb3a0e545344f23bf0c
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 19 05:15:04 2016 +0200
+| 
+|     Mention avoiding the Home button on the Touch
+|     
+|     It only backgrounds the app (no destroy()).
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 2 ++
+|  1 file changed, 2 insertions(+)
+| 
+* commit 4708a1d1c9a6ccc0e124959b72ce60fd9a0abfa2
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 19 02:26:48 2016 +0200
+| 
+|     Rather important notice...
+|     
+|     Disabling the Quit button for the Booklet would be bad...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/KUAL.cfg | 2 ++
+|  1 file changed, 2 insertions(+)
+| 
+* commit c35a3a5a7de66bec37161ea9a993271cf1eb36b6
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 19 01:41:34 2016 +0200
+| 
+|     Forgot the special thanks in my enthusiasm...
+|     
+|     Bad, bad NiLuJe!
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 3 +++
+|  1 file changed, 3 insertions(+)
+| 
+* commit 11c7749c95b7f7524674d2aea19189b642652bf7
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 19 01:18:45 2016 +0200
+| 
+|     Update doc
+| 
+|  MR_THREAD.txt                                     | 30 ++++++++++++++++-----
+|  README.txt                                        |  7 ++++-
+|  .../ixtab/kindlelauncher/resources/dist/NEWS.txt  |  5 ++++
+|  3 files changed, 34 insertions(+), 8 deletions(-)
+| 
+* commit c345f12a7e543a32d7041e98d9054c1316e92d4e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 19 00:41:34 2016 +0200
+| 
+|     Strip git hash from update package filename
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/tool/build-updates.sh   | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 3afced29cb4d4e0fbabea1a1a182d08a1dd16ae1
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 23:50:34 2016 +0200
+| 
+|     Cleanup behind us
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/shipit.sh | 3 +++
+|  1 file changed, 3 insertions(+)
+| 
+* commit 343f2a79bf259375e0298f8a8f28aa0911020aa1
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 23:44:13 2016 +0200
+| 
+|     Update buildsystem to package the Booklet
+| 
+|  build.xml                                         |  2 +
+|  .../resources/booklet/install}/appreg.install.sql |  0
+|  .../resources/booklet/install/install.sh          | 37 ++++++++++++++++++
+|  .../booklet/uninstall}/appreg.uninstall.sql       |  0
+|  .../resources/booklet/uninstall/uninstall.sh      | 37 ++++++++++++++++++
+|  .../kindlelauncher/resources/tool/README-tool.txt |  4 ++
+|  .../resources/tool/build-updates.sh               | 42 +++++++++++++++++++++
+|  .../ixtab/kindlelauncher/resources/tool/shipit.sh |  3 ++
+|  8 files changed, 125 insertions(+)
+| 
+* commit f2d5b284e9e8028a68180cecabd16ea98a89c71b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 23:04:43 2016 +0200
+| 
+|     Excise some more legacy stuff from the booklet
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 7 -------
+|  1 file changed, 7 deletions(-)
+| 
+* commit 563d4e99bc9727b6ae0e55abf5a4bd5e42cd71e4
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 22:58:02 2016 +0200
+| 
+|     Update some comments
+| 
+|  .../ixtab/kindlelauncher/KualBooklet.java         | 34 +++++++++++++--------
+|  1 file changed, 21 insertions(+), 13 deletions(-)
+| 
+* commit 9e02049beb2456e5dcc140c6778b70c7054a50f1
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 20:38:06 2016 +0200
+| 
+|     Unbreak commandToRunOnExit
+|     
+|     Now that the lifecycle is understood and behaves as on the Kindlet,
+|     we need the same sleep() workarounds to avoid races...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 6 ++++++
+|  1 file changed, 6 insertions(+)
+| 
+* commit b68655ae9d86f11fd005ce8a9bb508d074845c1d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 20:26:54 2016 +0200
+| 
+|     Drop the KeyListener stuff from the Booklet.
+|     
+|     We (mostly) don't have any physical keys, and that's unused by the v2 ui
+|     anyway.
+| 
+|  .../ixtab/kindlelauncher/KualBooklet.java         | 81 ++-------------------
+|  1 file changed, 5 insertions(+), 76 deletions(-)
+| 
+* commit da3918cc25c8698a57005cbc54552f0b5cb03c07
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 20:21:59 2016 +0200
+| 
+|     Clearup the lifecycle thing ;).
+|     
+|     A backward just backgrounds the app, a stop properly tears it down.
+| 
+|  .../ixtab/kindlelauncher/KualBooklet.java         | 23 ++++-----------------
+|  1 file changed, 4 insertions(+), 19 deletions(-)
+| 
+* commit 77bd0d644ae3f8702e6e3a6bc33e3ac198977829
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 07:08:00 2016 +0200
+| 
+|     Unbreak. We actually still use KTimer on FW 5.x ;).
+| 
+|  build.xml | 1 -
+|  1 file changed, 1 deletion(-)
+| 
+* commit 32d2dc9c0ced901bf8345fdf141e1a5e651b4fbb
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 07:07:44 2016 +0200
+| 
+|     Strip unneeded classes from the booklet
+| 
+|  build.xml | 3 +++
+|  1 file changed, 3 insertions(+)
+| 
+* commit ca508bf482316211f4aee8c907f64bfce911c3a3
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 06:53:53 2016 +0200
+| 
+|     Cosmetics
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 5 +++--
+|  1 file changed, 3 insertions(+), 2 deletions(-)
+| 
+* commit 5880d6036817436b53d8389489a9c63d06b658be
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 06:09:16 2016 +0200
+| 
+|     Minor style tweaks
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 26066807ad6faee796f5dc5b297975c21785488f
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 06:02:31 2016 +0200
+| 
+|     More lifecycle experimentation...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 14 +++++++++++++-
+|  1 file changed, 13 insertions(+), 1 deletion(-)
+| 
+* commit bbd9026bd4872b92005b80dc6eea467390022443
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 05:33:22 2016 +0200
+| 
+|     Really cache the rootContainer
+|     
+|     And look into the whole lifecycle thing...
+|     (we're never detsroyed, AFAICT)
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 14 +++++++-------
+|  1 file changed, 7 insertions(+), 7 deletions(-)
+| 
+* commit 4fb84d224156ae227d87ebe4252c09c55ae76403
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 05:12:41 2016 +0200
+| 
+|     Handle getUIContainer obfuscation...
+| 
+|  .../ixtab/kindlelauncher/KualBooklet.java         | 51 +++++++++++++++++++--
+|  1 file changed, 47 insertions(+), 4 deletions(-)
+| 
+* commit 817c31e57d126ec2122ad57c8d9f80956e9bff2c
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 01:35:45 2016 +0200
+| 
+|     ...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 12 +++++-------
+|  1 file changed, 5 insertions(+), 7 deletions(-)
+| 
+* commit a02e688efe75f1db2894c4f08f95621b466f3e04
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 18 01:14:56 2016 +0200
+| 
+|     Raaaaah.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 12 +++++++-----
+|  1 file changed, 7 insertions(+), 5 deletions(-)
+| 
+* commit a717af35e524a5f0ad5a9dd782525c179033bbb0
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 23:39:31 2016 +0200
+| 
+|     Meh?
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 12 +++++-------
+|  1 file changed, 5 insertions(+), 7 deletions(-)
+| 
+* commit d046af57e9f2d8c568609e925a20fcf5173064f4
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 22:58:56 2016 +0200
+| 
+|     Oops, unbreak ;)
+| 
+|  .gitignore                                               | 1 +
+|  lib/README.txt                                           | 4 ++--
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 2 +-
+|  3 files changed, 4 insertions(+), 3 deletions(-)
+| 
+* commit 68ce671c4b20d0216d828223e30464c69eedc7c8
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 22:54:14 2016 +0200
+| 
+|     Can't use log.Log, it's not a public API
+|     
+|     (got obfuscated...)
+| 
+|  .gitignore                                        |  1 -
+|  lib/README.txt                                    |  4 +--
+|  .../ixtab/kindlelauncher/KualBooklet.java         | 28 ++++++++++-----------
+|  3 files changed, 15 insertions(+), 18 deletions(-)
+| 
+* commit d8b99e1a9e9acfe6e1325f676597c8c2769ec556
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 22:38:37 2016 +0200
+| 
+|     Drop unneeded JB from Booklet
+| 
+|  build.xml                                         |  6 --
+|  .../ixtab/kindlelauncher/KualBooklet.java         | 73 ---------------------
+|  2 files changed, 79 deletions(-)
+| 
+* commit 69fbc9adc25f901e2300a9a8965725953a99f99d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 22:14:23 2016 +0200
+| 
+|     Add appreg stuff
+| 
+|  booklet/appreg.install.sql   | 18 ++++++++++++++++++
+|  booklet/appreg.uninstall.sql |  8 ++++++++
+|  2 files changed, 26 insertions(+)
+| 
+* commit 602c628f3e06de4bca121194fb34d817283f2e15
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 20:23:27 2016 +0200
+| 
+|     Don't mix Kindlet & Booklet stuff
+| 
+|  build.xml | 3 +++
+|  1 file changed, 3 insertions(+)
+| 
+* commit b43b5747830f5ddb11f1223c5b5ad6ec76f9ab67
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 20:19:24 2016 +0200
+| 
+|     Fix build.
+| 
+|  .gitignore                                               | 1 +
+|  src/com/mobileread/ixtab/kindlelauncher/KualBooklet.java | 8 ++++----
+|  2 files changed, 5 insertions(+), 4 deletions(-)
+| 
+* commit 2c9276bf1a69d1704873e3c42b663e44c317cb03
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 20:03:17 2016 +0200
+| 
+|     Nearly builds...
+| 
+|  .gitignore                                             |  2 ++
+|  lib/README.txt                                         |  3 +++
+|  .../mobileread/ixtab/kindlelauncher/KualBooklet.java   | 16 +++++++++++++---
+|  3 files changed, 18 insertions(+), 3 deletions(-)
+| 
+* commit 6517c32daca993a8604b7e134875771c8287d3de
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 19:32:08 2016 +0200
+| 
+|     Plug the Booklet into ant...
+| 
+|  build.properties                                  |  2 ++
+|  build.xml                                         | 35 +++++++++++++++++++++
+|  .../ixtab/kindlelauncher/KualBooklet.java         |  2 +-
+|  3 files changed, 38 insertions(+), 1 deletion(-)
+| 
+* commit d97747c7fac7b673cf47074046cf3e7b2cbc5f3f
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 19:23:19 2016 +0200
+| 
+|     SuicidalKindlet JB mangling...
+| 
+|  .../ixtab/kindlelauncher/KualBooklet.java         | 53 +++++++++++++++++++++
+|  1 file changed, 53 insertions(+)
+| 
+* commit ef52afadd2d1f0119a70059074374550b6490bed
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 19:12:28 2016 +0200
+| 
+|     Naive Kindlet -> Booklet port
+| 
+|  .../ixtab/kindlelauncher/KualBooklet.java         | 65 ++++++++++++---------
+|  1 file changed, 38 insertions(+), 27 deletions(-)
+| 
+* commit eed40f670ddd8a9cca9ee40c64783af7d9190d14
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jul 17 18:40:57 2016 +0200
+| 
+|     Start working on a Booklet version?
+| 
+|  .../ixtab/kindlelauncher/KualBooklet.java         | 998 ++++++++++++++++++++
+|  1 file changed, 998 insertions(+)
+| 
+* commit ea3a0d121c3c76d0ea90d98626a9eb181cf207b7
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 11 14:23:37 2016 +0200
+| 
+|     Tweak some device codes...
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk   | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit c36706262039d7886d283a97bf2a3847410aabb6
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Jul 8 20:34:12 2016 +0200
+| 
+|     Detect the White PW3, KOA & KT3
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/KualConfig.java  | 4 ++++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt    | 5 +++++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk  | 4 +++-
+|  3 files changed, 12 insertions(+), 1 deletion(-)
+| 
+* commit 1af6165fde9f25e5238a09b42eaacab7093a4a51
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Jul 8 20:19:47 2016 +0200
+| 
+|     I moved to a new box ;).
+| 
+|  build.properties | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 677c06691f0c143eb15f877d8bab3fc237c6c8be
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Aug 19 15:07:21 2015 +0200
+| 
+|     Bump to v2.6
+| 
+|  MR_THREAD.txt                                     | 23 +++++++++++----------
+|  README.txt                                        |  5 +++--
+|  build.properties                                  |  2 +-
+|  .../ixtab/kindlelauncher/resources/dist/NEWS.txt  |  2 ++
+|  4 files changed, 18 insertions(+), 14 deletions(-)
+| 
+* commit 2b0af4c7fe7fcc63ac1876a8bc4ec3eadd79c1d7
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Aug 14 15:09:53 2015 +0200
+| 
+|     Detect the PW3 properly
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt    | 3 +++
+|  .../ixtab/kindlelauncher/resources/parse-commented.awk         | 9 +++++++--
+|  2 files changed, 10 insertions(+), 2 deletions(-)
+| 
+* commit 180703fe9a93df9bb3527c7f08e05e7d7b0317a9
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Jul 30 05:24:49 2015 +0200
+| 
+|     Maybe detect the PW3?
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/KualConfig.java    | 2 ++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt      | 3 +++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk    | 1 +
+|  3 files changed, 6 insertions(+)
+| 
+* commit bb480e3d7cfa1456c4df8bc6d7b3120bb663350d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Mar 19 17:01:18 2015 +0100
+| 
+|     Minor tweak to the signing process.
+|     
+|     Make sure a signjar from a recent JDK won't get any bright idea and
+|     default to stronger algorithms.
+| 
+|  build.xml | 6 +++---
+|  1 file changed, 3 insertions(+), 3 deletions(-)
+| 
+* commit c3370bb75c5e7868bc3c1401b53e45d8e49eb913
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 29 15:26:15 2014 +0100
+| 
+|     Print the current version when scream()ing
+|     
+|     Also fix some minor misindents
+| 
+|  .../kindlelauncher/resources/parse-commented.awk  | 77 ++++++++++-----------
+|  1 file changed, 36 insertions(+), 41 deletions(-)
+| 
+* commit c39acf13ebdf7ecbd067afad8ef4e1c9a1370895
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 29 15:07:01 2014 +0100
+| 
+|     Restore previous behavior.
+|     
+|     Pinpointed the original issue I was working around, and it had nothing
+|     to do with this, and everything to do with Windows being awful.
+| 
+|  .../kindlelauncher/resources/parse-commented.awk      | 17 +++++++++++++++++
+|  1 file changed, 17 insertions(+)
+| 
+* commit 0a264677c069b831472828adb12e4eb6305731e0
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 29 15:01:14 2014 +0100
+| 
+|     Kill debugging
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualKindlet.java    | 11 ++---------
+|  .../ixtab/kindlelauncher/resources/parse-commented.awk      |  8 --------
+|  2 files changed, 2 insertions(+), 17 deletions(-)
+| 
+* commit 3f582bfdcd156631556ebe3c791010d281fe0944
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 29 14:42:13 2014 +0100
+| 
+|     Yuuuup. Windows is evil.
+| 
+|  MR_THREAD.txt | 1 +
+|  1 file changed, 1 insertion(+)
+| 
+* commit 8f5b7913b83dfa40da657bad1b1cac72a1f17cd9
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 29 03:04:32 2014 +0100
+| 
+|     Plug a few holes in my logic...
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 6 ++++--
+|  1 file changed, 4 insertions(+), 2 deletions(-)
+| 
+* commit cec5af65e3a857cc486224410e318944b6a261d0
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 29 02:53:13 2014 +0100
+| 
+|     Symmetric tests, and also more accurate anyway.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 84f4cc02b76b3bcaf347786c7163f952054a44d0
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 29 01:56:41 2014 +0100
+| 
+|     Update a comment
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 58efe4ed8caae9209eaeca1cd747c49f045fc635
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 29 01:55:39 2014 +0100
+| 
+|     Oops, fix last commit.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 ++
+|  1 file changed, 2 insertions(+)
+| 
+* commit ea59c6df92cc669734a495817049a30a204ae9ce
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 29 01:53:20 2014 +0100
+| 
+|     Another wild guess...
+|     
+|     Absolute paths for everyone, always...
+| 
+|  .../ixtab/kindlelauncher/KualKindlet.java         |  9 +---
+|  .../kindlelauncher/resources/parse-commented.awk  | 46 ++++++++++++++++++---
+|  2 files changed, 42 insertions(+), 13 deletions(-)
+| 
+* commit 60e2e8e8b6bb1abf8509f11388ac7ba79cb4081a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 29 00:24:41 2014 +0100
+| 
+|     More crazy ideas
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualKindlet.java   | 12 +++++++++++-
+|  .../ixtab/kindlelauncher/resources/parse-commented.awk     |  8 ++++++++
+|  2 files changed, 19 insertions(+), 1 deletion(-)
+| 
+* commit baf435b2df8d9b2466d6ef6d7c944f09a5b1477c
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Nov 28 21:15:52 2014 +0100
+| 
+|     Revert "Shot in the dark..."
+|     
+|     This reverts commit 1ec53ac36d1a2efad0af95873a1157a5094008ec.
+|     
+|     While perfectly fine in its implementation, it simply was a stupid idea
+|     to begin with ;).
+| 
+|  .../ixtab/kindlelauncher/resources/parse-commented.awk          | 8 --------
+|  1 file changed, 8 deletions(-)
+| 
+* commit 92084e110d5c00bfd1d7077d692c19f4b94a0cb9
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Nov 28 21:15:33 2014 +0100
+| 
+|     Another shot in the dark...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualKindlet.java | 8 ++++++--
+|  1 file changed, 6 insertions(+), 2 deletions(-)
+| 
+* commit 1ec53ac36d1a2efad0af95873a1157a5094008ec
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Nov 28 20:37:15 2014 +0100
+| 
+|     Shot in the dark...
+|     
+|     Might work-around a weird interaction w/ Gandalf in some circumstances...
+| 
+|  .../ixtab/kindlelauncher/resources/parse-commented.awk          | 8 ++++++++
+|  1 file changed, 8 insertions(+)
+| 
+* commit 18d1866a0cf6fde1bc104e1341f702446fced4eb
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Nov 26 00:26:27 2014 +0100
+| 
+|     More typos
+| 
+|  MR_THREAD.txt | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 4f7a711641a8bc4845d8fe598491eb5705f5a14a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Nov 26 00:24:26 2014 +0100
+| 
+|     Another typo
+| 
+|  MR_THREAD.txt | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 7706ad3e60de28e769de61368de589d4fe15d5ea
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Nov 26 00:23:29 2014 +0100
+| 
+|     Typo
+| 
+|  MR_THREAD.txt | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 386002958a5f4ffacfc7640c1c806cfacff01f13
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Nov 25 22:53:48 2014 +0100
+| 
+|     Bump to v2.5
+| 
+|  MR_THREAD.txt                                                   | 7 ++++---
+|  build.properties                                                | 2 +-
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 2 ++
+|  3 files changed, 7 insertions(+), 4 deletions(-)
+| 
+* commit 470ffe77eda163a5a1f58f394d66046c76e6c7a6
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Nov 23 21:34:21 2014 +0100
+| 
+|     Apparently, I can't spell ;).
+| 
+|  .../mobileread/ixtab/kindlelauncher/KualKindlet.java | 18 +++++++++---------
+|  1 file changed, 9 insertions(+), 9 deletions(-)
+| 
+* commit a703be2a9e91fe0c119e7f7f3c6e4d804a7cee3e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Nov 23 18:56:17 2014 +0100
+| 
+|     Rocks fall, everyone dies.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 3 +++
+|  1 file changed, 3 insertions(+)
+| 
+* commit 981580fbe258dc704d6b10101e87b7f79f15ca08
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Nov 23 18:54:42 2014 +0100
+| 
+|     Make Gandalf happy
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualKindlet.java | 6 +++---
+|  1 file changed, 3 insertions(+), 3 deletions(-)
+| 
+* commit 6c081067c271ba1f7f23a34ead71d4655a1b1e00
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Nov 23 18:49:55 2014 +0100
+| 
+|     Broken WIP commit for posterity...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualKindlet.java | 5 ++++-
+|  1 file changed, 4 insertions(+), 1 deletion(-)
+| 
+* commit fa4d48f7385da4872115f5931787a6e6ba540d38
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 22 17:08:09 2014 +0100
+| 
+|     Fix gandalf call
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualKindlet.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit f2e5524adcfe190d6ba5c2051bdfc358466daae3
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 22 16:10:38 2014 +0100
+| 
+|     Ask Gandalf for help if need be
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualKindlet.java | 13 ++++++++++---
+|  1 file changed, 10 insertions(+), 3 deletions(-)
+| 
+* commit d12870fdc73905be954e52a26936166f76beed66
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 22 16:00:42 2014 +0100
+| 
+|     Take two...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualKindlet.java | 6 +++---
+|  1 file changed, 3 insertions(+), 3 deletions(-)
+| 
+* commit 3fa750025c59699de548a02417ac9d0650e66b78
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 22 15:50:07 2014 +0100
+| 
+|     Print more feedback to handle the 5.6.1 mess...
+| 
+|  .../mobileread/ixtab/kindlelauncher/KualKindlet.java   | 16 ++++++++++++++++
+|  1 file changed, 16 insertions(+)
+| 
+* commit c6d4e9a64f055dfb5f031afb37daef72293e10bd
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 15 23:46:45 2014 +0100
+| 
+|     Promo time!
+| 
+|  MR_THREAD.txt | 1 +
+|  1 file changed, 1 insertion(+)
+| 
+* commit ed8c4efb029dcfd10f94b4b495e688190ae0b7b5
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Nov 14 16:54:58 2014 +0100
+| 
+|     Detect another KT2 model
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 941c371fcfec93e7d62d2804fc0759b70e1ed924
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 8 18:49:52 2014 +0100
+| 
+|     Tweak MR Thread
+| 
+|  MR_THREAD.txt | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 940027c8368a7e16e50491e0c6529a6c99ea673a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 8 15:35:52 2014 +0100
+| 
+|     Rewrote the MR thread.
+|     
+|     Hopefully shorter, simpler & clearer.
+|     Feel free to shout at me if I missed something ;).
+| 
+|  MR_THREAD.txt                                     | 79 +++++++++++++++++++++
+|  .../ixtab/kindlelauncher/resources/dist/NEWS.txt  |  3 +
+|  2 files changed, 82 insertions(+)
+| 
+* commit 0c7cf9f91db78fc1cd2aad1134f307795c044662
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 8 00:06:51 2014 +0100
+| 
+|     Detect more KV models
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 12df8f914429384e872e06fd9694c417e99cbe16
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Nov 7 18:05:10 2014 +0100
+| 
+|     Detect the Kindle Voyage
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/KualConfig.java    | 2 ++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt      | 3 +++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk    | 3 ++-
+|  3 files changed, 7 insertions(+), 1 deletion(-)
+| 
+* commit 02112de0d1c6ebc04d84af469c2a77db650adfac
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Oct 6 16:31:05 2014 +0200
+| 
+|     Change the KindleBasic nickname to KT2
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/KualConfig.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 8152d34a865aefd47f314c9275699ed6f5c4e18b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Oct 5 17:02:41 2014 +0200
+| 
+|     Detect the Kindle Basic
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/KualConfig.java    | 2 ++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt      | 3 +++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk    | 1 +
+|  3 files changed, 6 insertions(+)
+| 
+* commit dd8365d31d795db7d02485ea1f4dc2af37b88b22
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jul 26 20:47:07 2014 +0200
+| 
+|     Tweak the FW 5.4.5 spiel.
+|     
+|     For now, note that the JB has to be applied *before* updating.
+| 
+|  MR_THREAD.txt | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit aca62f315840fb3f9dd5802393635f474e149998
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jul 26 18:17:16 2014 +0200
+| 
+|     Bump to v2.4
+| 
+|  MR_THREAD.txt                                                   | 4 ++--
+|  build.properties                                                | 8 ++++----
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 2 ++
+|  3 files changed, 8 insertions(+), 6 deletions(-)
+| 
+* commit 07154ee910e0610ea82fb738760d61eb98b17dda
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jul 26 18:12:32 2014 +0200
+| 
+|     Take note of the Kindlet issue on non-JP 4GB PW2
+| 
+|  MR_THREAD.txt                                                   | 5 +++++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 3 +++
+|  2 files changed, 8 insertions(+)
+| 
+* commit e19ef6607bf4d3f8a95b9c59ba908dd77340e19a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 22 00:08:08 2014 +0200
+| 
+|     Support even more unidentified PW2 models.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit dd368641151d45e01143a63c5e311a81037231e2
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 15 20:33:27 2014 +0200
+| 
+|     Detect the 4GB EU 3G PW2
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit e86dd17e0624d19473f61f902f7b829b54e8f4a1
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 8 00:16:38 2014 +0200
+| 
+|     Detect the 4GB EU WiFi PW2
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 5c118e6ac1bed6c1877018a1ac1051fd0552f939
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jun 22 00:05:16 2014 +0200
+| 
+|     Update NEWS
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 3 +++
+|  1 file changed, 3 insertions(+)
+| 
+* commit 7409217f6328451ab7fa5d8dd9f36395cd5ed87e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Jun 22 00:01:59 2014 +0200
+| 
+|     Forgot to revert that (cosmetic)
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/ui/v1/KUIAdapter.java | 3 +--
+|  1 file changed, 1 insertion(+), 2 deletions(-)
+| 
+* commit a54e423097a1799ca431b03defa1e5658db61cb9
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 23:49:32 2014 +0200
+| 
+|     Fix user fonts on KDK-1
+| 
+|  .../ixtab/kindlelauncher/resources/dist/KUAL.cfg  |  4 +++-
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    | 23 ++++++++++++---------
+|  .../ixtab/kindlelauncher/ui/v1/KualFonts.java     |  9 +++++++-
+|  3 files changed, 24 insertions(+), 12 deletions(-)
+| 
+* commit ade86ae0a3b81889211894a3284ee06a1f4ab72b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 22:16:40 2014 +0200
+| 
+|     And the NEWS...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 721ac8b1a15b9c077e68380ec66ece041d664cae
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 22:16:09 2014 +0200
+| 
+|     Update deault config accordingly.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/KUAL.cfg | 7 +++++--
+|  1 file changed, 5 insertions(+), 2 deletions(-)
+| 
+* commit 16f286e49d13ca9ac263e942d1dbb2536cbb2cf7
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 22:12:32 2014 +0200
+| 
+|     Actually, even if it's not terribly useful...
+|     
+|     Handle user fonts on KDK-1, too...
+| 
+|  .../ixtab/kindlelauncher/KualKindlet.java         | 52 ++++++++++-----------
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    | 23 +++++++--
+|  2 files changed, 43 insertions(+), 32 deletions(-)
+| 
+* commit 75757a1c004c50efa88d9c05c8a1d797c64aa25a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 19:50:02 2014 +0200
+| 
+|     Don't even parse the font settings on KDK-1
+| 
+|  .../ixtab/kindlelauncher/KualKindlet.java         | 52 +++++++++++----------
+|  1 file changed, 27 insertions(+), 25 deletions(-)
+| 
+* commit 56dec93e5cf3cba120a3d4ff460d08945f4a3a67
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 19:29:00 2014 +0200
+| 
+|     Nice typo!
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualKindlet.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 35f364f08734a96edd6b8af451211cdd9df9238d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 19:27:18 2014 +0200
+| 
+|     Update NEWS
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 4 ++++
+|  1 file changed, 4 insertions(+)
+| 
+* commit ac32afb9ab1da0c94c5210b1fb80a1e399681c1e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 19:25:33 2014 +0200
+| 
+|     Fix breadcrumb not using the user font
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualKindlet.java        | 6 ++++--
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/KUAL.cfg | 8 ++++++++
+|  2 files changed, 12 insertions(+), 2 deletions(-)
+| 
+* commit 93ce60215b7a73a4fc762fe515c3c08e8951e9c7
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 19:14:59 2014 +0200
+| 
+|     Make the font user-configurable on KDK-2
+| 
+|  .../ixtab/kindlelauncher/KualKindlet.java         | 28 +++++++++++++++++++--
+|  .../ixtab/kindlelauncher/ui/UIAdapter.java        |  2 +-
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    |  2 +-
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    |  8 +++---
+|  4 files changed, 31 insertions(+), 9 deletions(-)
+| 
+* commit 7252ea0a5f0f90f3c78c7047af01d182ef9bc01a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 18:56:16 2014 +0200
+| 
+|     Only setup custom fonts once per UI setup.
+|     
+|     Instead of on each button/label.
+|     Makes me feel better to start making it user-configurable...
+| 
+|  .../ixtab/kindlelauncher/KualKindlet.java         | 19 ++++++++-----
+|  .../ixtab/kindlelauncher/ui/UIAdapter.java        |  2 ++
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    |  4 +++
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    | 30 +++++++++++----------
+|  4 files changed, 35 insertions(+), 20 deletions(-)
+| 
+* commit ec89ca152286d6750c7b79706c331174065eae6b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 17:43:28 2014 +0200
+| 
+|     Revert "And if we do it like on legacy devices..."
+|     
+|     This reverts commit 7e313c543e2ed59031684d1eca694b7172eb86c2.
+|     
+|     Because it's a bad idea if we want to make that user-configurable, and
+|     file I/O is evil anyway.
+| 
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    | 24 +++++++++++----------
+|  1 file changed, 13 insertions(+), 11 deletions(-)
+| 
+* commit 7e313c543e2ed59031684d1eca694b7172eb86c2
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 17:43:07 2014 +0200
+| 
+|     And if we do it like on legacy devices...
+| 
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    | 24 ++++++++++-----------
+|  1 file changed, 11 insertions(+), 13 deletions(-)
+| 
+* commit 4b79bdbf717c311baa9ad4af6506d45288ce0b83
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 07:22:36 2014 +0200
+| 
+|     Don't change anything if Futura isn't supported
+| 
+|  .../mobileread/ixtab/kindlelauncher/ui/v2/JUIAdapter.java   | 11 ++++++++---
+|  1 file changed, 8 insertions(+), 3 deletions(-)
+| 
+* commit 1865d4b6feb357a7752ff93dd538b83e58c9ce6d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 07:09:54 2014 +0200
+| 
+|     Revert the useless parts of the last commit
+| 
+|  .../ixtab/kindlelauncher/KualKindlet.java          | 20 --------------------
+|  1 file changed, 20 deletions(-)
+| 
+* commit 02f836630a86fb998d26d9732d75489545db2dfa
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 07:09:16 2014 +0200
+| 
+|     Useless commit for posterity's sake...
+| 
+|  .../ixtab/kindlelauncher/KualKindlet.java          | 20 ++++++++++++++++++++
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java     |  2 ++
+|  2 files changed, 22 insertions(+)
+| 
+* commit ee2acf04373145401306c90aad5306981bd4a4d8
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Jun 21 06:44:46 2014 +0200
+| 
+|     Use Futura instead of the fugly Helevtica on KDK-2
+| 
+|  .../mobileread/ixtab/kindlelauncher/ui/v2/JUIAdapter.java   | 11 ++++++++++-
+|  1 file changed, 10 insertions(+), 1 deletion(-)
+| 
+* commit 2ea7ac10b4ef3059cd3acfcb428e8659e18480c8
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat May 10 18:03:17 2014 +0200
+| 
+|     Horror! A typo!
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit fd83a2663f1b10c8ed78bf8f594d734d7461879a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Mar 6 20:58:42 2014 +0100
+| 
+|     Detect the CA PW2 3G
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit dbd2ec0aa9bdde5902989e65bea63da66171810f
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Feb 20 03:36:23 2014 +0100
+| 
+|     Bestest commit ever.
+|     
+|     (Or not.)
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/KualKindlet.java | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 8a64bfd09f57594082d05820501ed3fd88c9dbaf
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Feb 20 02:58:52 2014 +0100
+| 
+|     Fix one missed Kindlet Jailbreak -> MKK switch
+| 
+|  MR_THREAD.txt | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit a6c1a6ed449e2334197fc3d6998170783d005b3e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Feb 19 20:54:51 2014 +0100
+| 
+|     Missed this in the NEWS
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 2 ++
+|  1 file changed, 2 insertions(+)
+| 
+* commit acf08aca38e77ff63c6414e2a7f206dd5169404b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Feb 19 20:53:23 2014 +0100
+| 
+|     Remove gpg stuff from the MR Thread.
+|     
+|     Also, fix link to the NEWS file.
+| 
+|  MR_THREAD.txt | 14 +-------------
+|  1 file changed, 1 insertion(+), 13 deletions(-)
+| 
+* commit 44ac767704020da716083ebae740701c5af1ec27
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Feb 19 18:24:37 2014 +0100
+| 
+|     Minor tweak to the MR thread
+| 
+|  MR_THREAD.txt | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 53a5b48d1d0bd89bcfbeafb91053735585dc6e2e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Feb 19 18:15:56 2014 +0100
+| 
+|     Fix helper install instructions for new archives
+| 
+|  MR_THREAD.txt | 6 +++---
+|  README.txt    | 2 +-
+|  2 files changed, 4 insertions(+), 4 deletions(-)
+| 
+* commit 24442db620fcd087dff6df05af70d54fbfea963b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Feb 19 18:12:30 2014 +0100
+| 
+|     Update link to the updated helper extension
+| 
+|  MR_THREAD.txt | 5 ++---
+|  1 file changed, 2 insertions(+), 3 deletions(-)
+| 
+* commit d9f993d358e288656bc7eb0a10a3dc23077af767
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Feb 19 17:45:02 2014 +0100
+| 
+|     Minor default sort button status tweak.
+|     
+|     Make it consistent with the ones from KUAL+ (status: false instead of
+|     date).
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit d2b79d18ad30b08dd286a5670cf22dfd6cb1bf72
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Feb 19 17:37:09 2014 +0100
+| 
+|     Make the default sort button effective immediately
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk   | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 722a1f3d92f9cbe80fdb55dff3b44e52df1604e4
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Feb 19 16:06:42 2014 +0100
+| 
+|     Update NEWS.
+|     
+|     (And fix the word wrapping, for those 80cols hardcore users out there).
+| 
+|  .../ixtab/kindlelauncher/resources/dist/NEWS.txt  | 45 ++++++++++++++-------
+|  1 file changed, 31 insertions(+), 14 deletions(-)
+| 
+* commit 1cf080a75f00200d52c1ed45e6f17f24434f5e7d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Feb 19 15:58:27 2014 +0100
+| 
+|     Don't distribute the raw MR thread file
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/shipit.sh | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 424dbe5df08337daeace65b59bc259d85dd19150
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Feb 19 15:22:52 2014 +0100
+| 
+|     Fix gawk version check w/ gawk 3
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/stripit.sh | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit e515757e2963ddb547a104fe22bee0fbf91ea0f7
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Feb 19 15:17:29 2014 +0100
+| 
+|     Fix build w/ gawk 3
+|     
+|     Switch from \s (which is a GNU extension only found in GNU Awk >= 4) to
+|     the POSIX character class [:space:] in the strip awk script.
+|     Adapt the version check accordingly, but keep it, because we still have
+|     to rely on GNU Awk (mawk, bb awk & osx awk all fail to handle it in subtly
+|     different ways).
+| 
+|  .../ixtab/kindlelauncher/resources/tool/strip.awk  | 20 ++++++++++----------
+|  .../ixtab/kindlelauncher/resources/tool/stripit.sh |  6 +++---
+|  2 files changed, 13 insertions(+), 13 deletions(-)
+| 
+* commit eb0771d1fe3f73b83c8a29d3a9bfe93f33db3ef5
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Feb 15 17:26:25 2014 +0100
+| 
+|     Oops, the return of the nasty typo!
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/stripit.sh | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 27c1ef1ea4ca0b47da9f77a46b0c57ee4967b022
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Feb 15 17:22:27 2014 +0100
+| 
+|     Slight rework of the gawk handling.
+|     
+|     Kill the wrapper, and do the version check earlier (before the I/O
+|     redir), so that out error diagnostic makes it through to ant.
+| 
+|  .../ixtab/kindlelauncher/resources/tool/README-tool.txt      |  3 ---
+|  .../mobileread/ixtab/kindlelauncher/resources/tool/gawk.sh   |  9 ---------
+|  .../ixtab/kindlelauncher/resources/tool/stripit.sh           | 10 +++++++++-
+|  3 files changed, 9 insertions(+), 13 deletions(-)
+| 
+* commit a1d752547de5da764e80caf604711830128f0f8d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Feb 15 17:10:50 2014 +0100
+| 
+|     Tweak the gawk wrapper a it...
+|     
+|     Gotta stop forgetting about cut... -_-".
+|     
+|     Also tweak the build script a bit, don't necessarily eat the error
+|     output on our exec tasks...
+| 
+|  build.xml                                                | 14 ++++++++++----
+|  .../ixtab/kindlelauncher/resources/tool/gawk.sh          |  2 +-
+|  2 files changed, 11 insertions(+), 5 deletions(-)
+| 
+* commit e082f8c729c2eca0e358cf2237584d4f57c7b2a8
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Feb 15 13:27:43 2014 +0100
+| 
+|     Oops, nasty typo.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/gawk.sh | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 2ba34cd2896e9296b89199497520dadac70dbb57
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Feb 15 13:23:20 2014 +0100
+| 
+|     Add a version check to the gawk wrapper.
+|     
+|     Confirmed than nothing (bb, mawk, gawk 3) except gawk 4 does the job...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/gawk.sh | 7 ++++++-
+|  1 file changed, 6 insertions(+), 1 deletion(-)
+| 
+* commit 86deb8c24c111a1917f4056a72f1dcfb1873699f
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Feb 14 22:48:40 2014 +0100
+| 
+|     Update docs for the filename change.
+| 
+|  MR_THREAD.txt                                     |   8 +-
+|  README.txt                                        |   4 +-
+|  .../ixtab/kindlelauncher/resources/aloop/aloop.sh |  30 +-
+|  .../ixtab/kindlelauncher/resources/old/parse.sh   | 314 ++++++++++----------
+|  4 files changed, 179 insertions(+), 177 deletions(-)
+| 
+* commit cc8cc81eb55925a34459bc163202f9654d12853e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Feb 14 22:42:00 2014 +0100
+| 
+|     Update Kindlet jailbreak backend.
+|     
+|     Fresh build from the tree, other than that, identical.
+| 
+|  lib/jailbreak.jar | Bin 11436 -> 11384 bytes
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit 6304dcec75e4f4dab90d7063f6ed3344e1877a83
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Feb 14 22:35:06 2014 +0100
+| 
+|     Update the MR thread.
+|     
+|     In preparation of the 2.3 release ;).
+| 
+|  MR_THREAD.txt | 78 +++++++++++++++++++++++----------------------------------
+|  1 file changed, 32 insertions(+), 46 deletions(-)
+| 
+* commit 092021d724744b5134108def42b9d7f3b1402b33
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Feb 14 22:06:30 2014 +0100
+| 
+|     COmmit the current incarnation of the MR thread.
+|     
+|     For safekeeping, because I'm gonna tweak it a bit ;).
+| 
+|  MR_THREAD.txt | 410 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 410 insertions(+)
+| 
+* commit c3e59ca118dffac08146cf1d935df28c0df61e30
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Feb 14 20:09:09 2014 +0100
+| 
+|     Update the README to point to MKK
+| 
+|  README.txt | 10 +++++-----
+|  1 file changed, 5 insertions(+), 5 deletions(-)
+| 
+* commit e650eed673539114c44830bba866de6924717975
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Feb 14 19:19:24 2014 +0100
+| 
+|     Re-implement a gawk wrapper.
+|     
+|     The shebang handling I was hoping for isn't portable :/.
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/tool/README-tool.txt  | 3 +++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/gawk.sh      | 4 ++++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/strip.awk    | 2 +-
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/stripit.sh   | 2 +-
+|  4 files changed, 9 insertions(+), 2 deletions(-)
+| 
+* commit 8b89345444340aab91e50cb6e880391823f44f3f
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Feb 14 19:03:39 2014 +0100
+| 
+|     Avoid the awk wrapper.
+|     
+|     Also make sure strip.awk is run by GNU Awk, we apparently can't vouch
+|     for other implementations...
+| 
+|  .../ixtab/kindlelauncher/resources/tool/README-tool.txt           | 3 ---
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/awk.sh     | 6 ------
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/strip.awk  | 2 ++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/stripit.sh | 2 +-
+|  4 files changed, 3 insertions(+), 10 deletions(-)
+| 
+* commit a9a806cab47a69d3005e563b3b7cbf2fdde1e4be
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Feb 14 18:59:24 2014 +0100
+| 
+|     Revert "THIS COMMIT SHOULD BE UNDONE!"
+|     
+|     This reverts commit 1c90315fb6b1b8a0338d3494ea3949953339ab8f.
+| 
+|  .../ixtab/kindlelauncher/resources/parse.awk.ok   | 1252 -------------------
+|  .../kindlelauncher/resources/tool/stripit.sh      |    2 -
+|  2 files changed, 1254 deletions(-)
+| 
+* commit 1c90315fb6b1b8a0338d3494ea3949953339ab8f
+| Author: ixtab <ixtab@ixtab.tk>
+| Date:   Fri Feb 14 17:58:44 2014 +0100
+| 
+|     THIS COMMIT SHOULD BE UNDONE!
+|     
+|     It's just to show how I worked around the awk problem. But it doesn't actually fix the problem.
+| 
+|  .../ixtab/kindlelauncher/resources/parse.awk.ok   | 1252 +++++++++++++++++++
+|  .../kindlelauncher/resources/tool/stripit.sh      |    2 +
+|  2 files changed, 1254 insertions(+)
+| 
+* commit a8652ebe725fab01c777f1c1c120fb489f83e64c
+| Author: ixtab <ixtab@ixtab.tk>
+| Date:   Fri Feb 14 17:56:10 2014 +0100
+| 
+|     Changed dependency reference to "Mobileread Kindlet Kit" + small refactoring.
+| 
+|  build.properties                                  |  3 ++-
+|  .../{LauncherKindlet.java => KualKindlet.java}    | 22 ++++++++++-----------
+|  2 files changed, 13 insertions(+), 12 deletions(-)
+| 
+* commit 6f32a9f8a9c1cf00c269e7cd8337ee6dc3773723
+| Author: ixtab <ixtab@ixtab.tk>
+| Date:   Fri Feb 14 17:04:52 2014 +0100
+| 
+|     updated build files
+| 
+|  build.properties | 4 ++--
+|  build.xml        | 2 +-
+|  2 files changed, 3 insertions(+), 3 deletions(-)
+| 
+* commit 1991a24405aa31c782bf82f450bfeed4e7f544fc
+| Author: ixtab <ixtab@ixtab.tk>
+| Date:   Fri Feb 14 16:00:20 2014 +0100
+| 
+|     cleanup + awk wrapper
+| 
+|  README.txt                                                       | 6 +++---
+|  build.properties                                                 | 3 ++-
+|  build.xml                                                        | 4 ++--
+|  .../mobileread/ixtab/kindlelauncher/resources/KualConfig.java    | 2 --
+|  src/com/mobileread/ixtab/kindlelauncher/resources/KualMenu.java  | 6 ------
+|  .../ixtab/kindlelauncher/resources/MailboxProcessor.java         | 7 +------
+|  .../ixtab/kindlelauncher/resources/tool/README-tool.txt          | 3 +++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/awk.sh    | 6 ++++++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/strip.awk | 2 --
+|  .../mobileread/ixtab/kindlelauncher/resources/tool/stripit.sh    | 2 +-
+|  src/com/mobileread/ixtab/kindlelauncher/ui/v2/KualButton.java    | 3 ++-
+|  11 files changed, 20 insertions(+), 24 deletions(-)
+| 
+* commit 667d8d2d5707e8d7ae0a0fa4114da731e622620a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Jan 10 04:41:07 2014 +0100
+| 
+|     Revert "Detect yet another 3G PW2 model..."
+|     
+|     This reverts commit 7c3f6bf8ffc7fa9b5e98d9064b410e78acfd5fa2.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 7c3f6bf8ffc7fa9b5e98d9064b410e78acfd5fa2
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Jan 9 23:56:34 2014 +0100
+| 
+|     Detect yet another 3G PW2 model...
+|     
+|     Possibly targeting Central Africa.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 46c39299658e24dddd1ed267c8fc086d52545a2b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Nov 28 18:33:10 2013 +0100
+| 
+|     Detect the PW2 3G JP
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit cba2c3a34df2c55f8b60ad085498a51e05eca987
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Nov 25 18:13:57 2013 +0100
+| 
+|     Detect the PW2 3G RU
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 95af87a51a8d585f752cf254ae5f11977ca21f9a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Nov 23 15:52:45 2013 +0100
+| 
+|     Detect the PW2 3G EU
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 686cfa300a2c006fbf491e11b6765c0f4061ed03
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Nov 11 01:42:50 2013 +0100
+| 
+|     Detect the PW2 3G US
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 706da2f11a5384cbaafacf7914a1e04702194e7f
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Nov 1 15:53:48 2013 +0100
+| 
+|     Detect the JP PW2 WiFi
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit ec4f72eabf4c99a0adc6adbe10230eaa24ec849f
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Oct 5 14:54:14 2013 +0200
+| 
+|     Apparently, I'm really bad with dates.
+|     
+|     Good thing the actual version tag is now automatic >_<".
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/dist/NEWS.txt | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 66ba3f6c5e1b5fb53a7104413a257ec814492a28
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Oct 5 14:52:35 2013 +0200
+| 
+|     Assign the PW2 its own name/nickname.
+| 
+|  README.txt                                                |  5 +++++
+|  .../ixtab/kindlelauncher/resources/KualConfig.java        |  2 ++
+|  .../ixtab/kindlelauncher/resources/dist/NEWS.txt          | 13 ++++++++-----
+|  .../ixtab/kindlelauncher/resources/parse-commented.awk    |  3 ++-
+|  4 files changed, 17 insertions(+), 6 deletions(-)
+| 
+* commit 25b0649d8174a6fc52b196772873e55be159babe
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Oct 3 23:06:40 2013 +0200
+| 
+|     For science!
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit d12b4f4a4165ca1614c9d93dd381ddefb6d79ae0
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Sep 30 18:20:41 2013 +0200
+| 
+|     Tweak the version tag some more.
+|     
+|     Appedn the first letter of the awk binary used to interpret the script,
+|     to give users an idea of whether they're using bb awk or gawk (or even
+|     mawk, if we supported that)
+| 
+|  .../kindlelauncher/resources/parse-commented.awk    | 19 +++++++++++--------
+|  1 file changed, 11 insertions(+), 8 deletions(-)
+| 
+* commit 0fb4a3354cc8a7c2b264732cc75caf43598b84a2
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 16:50:49 2013 +0200
+| 
+|     Handle the CRLF/LF mess ourselves.
+|     
+|     Git does it properly on its own, but it shouts at us a bit... :p
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/shipit.sh | 5 ++++-
+|  1 file changed, 4 insertions(+), 1 deletion(-)
+| 
+* commit d420ec0b9978e80169e3e4f9afbedc61c2ac8336
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 16:48:06 2013 +0200
+| 
+|     Tweak the status bar some more.
+|     
+|     Go back to thre previous way of appending the date, but use the nickname
+|     of the device instead of its full model name.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     |  5 +++--
+|  .../kindlelauncher/resources/KualConfig.java      | 24 +++++++++++++++++++++
+|  .../ixtab/kindlelauncher/resources/KualMenu.java  |  6 +++++-
+|  .../ixtab/kindlelauncher/resources/dist/NEWS.txt  |  5 +++--
+|  .../kindlelauncher/resources/parse-commented.awk  |  2 +-
+|  5 files changed, 36 insertions(+), 6 deletions(-)
+| 
+* commit 4b604f9f68e4d555ca8a7cae797ac47299049cb8
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 16:27:38 2013 +0200
+| 
+|     Slightly more compact formatting of version tag
+| 
+|  build.xml                                                       | 8 ++++++++
+|  .../ixtab/kindlelauncher/resources/parse-commented.awk          | 2 +-
+|  2 files changed, 9 insertions(+), 1 deletion(-)
+| 
+* commit 97c69a3ad572f3354b0975a2af3db6211704cbe2
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 15:57:48 2013 +0200
+| 
+|     Sigh. It's unix -> dos, not the other way around.
+| 
+|  .gitignore                                        |  3 +-
+|  README.txt                                        | 46 ++++++++++-----------
+|  .../ixtab/kindlelauncher/resources/tool/shipit.sh |  4 +-
+|  3 files changed, 26 insertions(+), 27 deletions(-)
+| 
+* commit 5ac8e1f208cfc1d4dbea880f989de090cfb298d0
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 15:50:34 2013 +0200
+| 
+|     Rename the manual ChangeLog to NEWS
+|     
+|     AFAIK, that follows the usual nomenclature.
+| 
+|  build.xml                                                           | 4 ++--
+|  .../ixtab/kindlelauncher/resources/dist/{CHANGELOG.txt => NEWS.txt} | 0
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/shipit.sh    | 3 +++
+|  3 files changed, 5 insertions(+), 2 deletions(-)
+| 
+* commit ebe19ef462c1b9de035b50522ac1696ae0056d2e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 15:45:56 2013 +0200
+| 
+|     More buildsystem tweaks!
+|     
+|     Wrote a minimal packaging script for the dist target (which happens to
+|     be the default target). Outputs a tarball in dist/.
+|     Moved stuff around to accomodate it, and topped bundling
+|     ChangeLogs/configs in the jar itself.
+| 
+|  .gitignore                                        |  2 +-
+|  build.xml                                         | 17 ++++++++----
+|  .../CHANGELOG.txt}                                |  8 ++++--
+|  .../kindlelauncher/resources/{ => dist}/KUAL.cfg  |  0
+|  .../resources/{ => tool}/README-tool.txt          | 10 ++++++-
+|  .../ixtab/kindlelauncher/resources/tool/shipit.sh | 29 +++++++++++++++++++++
+|  6 files changed, 57 insertions(+), 9 deletions(-)
+| 
+* commit bed359ebdc30554fd7ca129c911cd6dbb53b603a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 15:14:30 2013 +0200
+| 
+|     More buildsystem tweaks :)
+|     
+|     Show the version tag on console at the end of the build
+|     Tweak some deps
+|     Fail if we can't strip the parser
+|     Add the date of the last commit in our usual format to the version tag
+| 
+|  build.xml                                         | 46 ++++++++++++++++++---
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 13 +++---
+|  .../kindlelauncher/resources/parse-commented.awk  |  2 +-
+|  3 files changed, 49 insertions(+), 12 deletions(-)
+| 
+* commit 402fdb33a6d3dd82da6625a06733bafbde25512d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 05:52:31 2013 +0200
+| 
+|     Comments/ChangeLog update
+| 
+|  build.xml                                          | 20 ++++++++++----------
+|  .../resources/ChangeLog-Detailed.txt               |  2 ++
+|  2 files changed, 12 insertions(+), 10 deletions(-)
+| 
+* commit 3f253eeea208f4a78f706ac3c7248880a679dcb9
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 05:41:54 2013 +0200
+| 
+|     Tweak the status bar.
+|     
+|     Use a pipe to separate the different type of infos:
+|     Pagination | Build Version | Kindle Model
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit e5d2b9bbc73a9c5b0ec1dc93a9aa4fb99c0a5fae
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 05:35:18 2013 +0200
+| 
+|     Update detailed ChangeLog
+| 
+|  .../ixtab/kindlelauncher/resources/ChangeLog-Detailed.txt    | 10 ++++++++++
+|  1 file changed, 10 insertions(+)
+| 
+* commit e2f16d29cbaa61fac758fb3421795dcfba2347e3
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 05:29:47 2013 +0200
+| 
+|     Horror! A typo!
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/stripit.sh | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit f5687ac1e03e969fb8db67b3cd9434a7c0e40213
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 05:25:00 2013 +0200
+| 
+|     Tweak a few comments...
+| 
+|  build.xml                                                           | 2 +-
+|  .../ixtab/kindlelauncher/resources/ChangeLog-Detailed.txt           | 4 ++++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/tool/stripit.sh   | 2 +-
+|  3 files changed, 6 insertions(+), 2 deletions(-)
+| 
+* commit f031cf10ed9dff530c2e47d95e2b48b4d5768746
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 05:19:24 2013 +0200
+| 
+|     Bundle a ChangeLog generated by git
+| 
+|  build.xml                                              | 16 +++++++++++++---
+|  .../{CHANGELOG.txt => ChangeLog-Detailed.txt}          |  2 ++
+|  2 files changed, 15 insertions(+), 3 deletions(-)
+| 
+* commit 9250622ad5548eb424860af7e7f460da33b33825
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 05:03:19 2013 +0200
+| 
+|     Git versioning, take two.
+|     
+|     Also, make the stripping of the parser part of the build process,
+|     because I'm lazy :).
+| 
+|  build.xml                                         |   34 +-
+|  .../kindlelauncher/resources/KualConfig.java      |    2 +-
+|  .../kindlelauncher/resources/parse-commented.awk  |    4 +-
+|  .../ixtab/kindlelauncher/resources/parse.awk      | 1252 -------------------
+|  .../kindlelauncher/resources/tool/stripit.sh      |   10 +
+|  5 files changed, 35 insertions(+), 1267 deletions(-)
+| 
+* commit 8473022dadfdc327a882a9466dffe7516f9f1d9b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 04:41:39 2013 +0200
+| 
+|     Dynamic version tag from git, take one.
+| 
+|  build.xml                                         | 53 ++++++++++++++++++---
+|  .../kindlelauncher/resources/KualConfig.java      |  2 +-
+|  2 files changed, 48 insertions(+), 7 deletions(-)
+| 
+* commit 2b42bf8c64dcdf74ed265c2c9b8f35e7518288a4
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 00:33:52 2013 +0200
+| 
+|     More timer tweaks...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit d25e43308c22d2ca0e449bc11e67ab6ac207dca2
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sun Sep 29 00:19:32 2013 +0200
+| 
+|     Tweak timers a bit...
+|     
+|     Be a tad more aggressive at boot when checking for a cache update.
+|     Fix the timeout of the last cache check on refresh that I mistakenly slashed
+|     in two with 503eaaf
+| 
+|  .../mobileread/ixtab/kindlelauncher/LauncherKindlet.java   | 12 +++++++-----
+|  1 file changed, 7 insertions(+), 5 deletions(-)
+| 
+* commit 9df3c25c3c7073a1f49e0378882bc1039b8d9200
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 28 20:50:37 2013 +0200
+| 
+|     Bump to 20130928
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/CHANGELOG.txt     | 4 ++++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk   | 4 ++--
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.awk         | 4 ++--
+|  3 files changed, 8 insertions(+), 4 deletions(-)
+| 
+* commit 3a9c86da7428d1f53d64544e79605faeee394fed
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 28 20:36:09 2013 +0200
+| 
+|     Make refresh:true faster.
+|     
+|     It used to run two parsers, potentially concurrently, which made things
+|     even slower. AFAICT, this still has the desired effect, while being
+|     faster since we only run *one* parser.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 9 +++++++++
+|  1 file changed, 9 insertions(+)
+| 
+* commit b39f013e1fd95769e6800b73441d343099467689
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 28 20:07:24 2013 +0200
+| 
+|     Add some comments re: UNBLOCK_KINDLET
+| 
+|  .../ixtab/kindlelauncher/resources/parse-commented.awk           | 7 +++++--
+|  1 file changed, 5 insertions(+), 2 deletions(-)
+| 
+* commit 0200dbb6c7fedd6d840e0ae5a6f6d448b2aace63
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 28 04:43:43 2013 +0200
+| 
+|     Forgot to update the changelog.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/CHANGELOG.txt | 1 +
+|  1 file changed, 1 insertion(+)
+| 
+* commit 9402cbb11c775127867f1b1252fbec75464883b2
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 28 03:21:04 2013 +0200
+| 
+|     Tweak our behavior on legacy/keyboard devices.
+|     
+|     They now also check the mailbox for news, because we bypass actionPerformed...
+|     (That could lead to being able to navigate a stale cache by only using
+|     the keyboard, whereas using the FW would 'catch' an cache refresh
+|     notification).
+|     Tweak the afterParser some more on legacy devices, they're *really* slow
+|     ;).
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 6 ++++--
+|  1 file changed, 4 insertions(+), 2 deletions(-)
+| 
+* commit 69d15ce8c5964ed74a30a9952e021308aa165d6a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 28 02:18:21 2013 +0200
+| 
+|     Minor cleanups to ease debugging.
+|     
+|     Move the sleep to the right place to test UNBLOCK_KINDLET
+|     Rename the old get_model method in the commented script to make
+|     gawk/mawk happy
+| 
+|  .../ixtab/kindlelauncher/resources/parse-commented.awk          | 8 +++++---
+|  1 file changed, 5 insertions(+), 3 deletions(-)
+| 
+* commit 1e23cf7dbabc4741204b36d29155c8e8914e9ac4
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 28 01:18:50 2013 +0200
+| 
+|     I, of course, forgot to strip the parser :P.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.awk | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 9e4bdb6bb6cd922612f3766c59ec72b405de9a8e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 28 01:18:30 2013 +0200
+| 
+|     Bump to 20130927
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/CHANGELOG.txt     | 4 ++++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk   | 4 ++--
+|  2 files changed, 6 insertions(+), 2 deletions(-)
+| 
+* commit 19ebd047dbf6e239c89b6324821de97d56bf5b79
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 28 00:38:22 2013 +0200
+| 
+|     Make mawk happy...
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk | 6 +++---
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.awk       | 4 ++--
+|  2 files changed, 5 insertions(+), 5 deletions(-)
+| 
+* commit 99a5160b417641a2db7916b19b1ed9305b6e5e6e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 28 00:36:56 2013 +0200
+| 
+|     substring() doesn't exist?
+|     
+|     That's according to both mawk & gawk's lint checker...
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk   | 4 ++--
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.awk         | 2 +-
+|  2 files changed, 3 insertions(+), 3 deletions(-)
+| 
+* commit 975035ca0ad330225adc17c04966fc68ce4d041c
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Sep 27 20:40:36 2013 +0200
+| 
+|     Enable gawk optimizer
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/Util.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 6dbc0fc2ce8acc5a012c188b412d748a00b59c52
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Sep 26 21:09:56 2013 +0200
+| 
+|     Don't tweak the longStart polling timer
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 0998e95593a9ea1fedf4ffa1c4308b7f0ce5f46b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Sep 26 20:53:31 2013 +0200
+| 
+|     Grmbl. Bump those a bit for the K2...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 4 +++-
+|  1 file changed, 3 insertions(+), 1 deletion(-)
+| 
+* commit 2891763073a173f625767829b502d5558cd45b4c
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Sep 26 19:09:39 2013 +0200
+| 
+|     Fix moving collated child with GNU awk.
+|     
+|     Cf. the NON_GNU_AWK comments in the parser.
+|     I went with the extra CLI switch, since it doesn't mess with busybox's
+|     awk.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/Util.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 95128e2ff290b876c04d0e1f29679ac6e4ec04a8
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Sep 26 17:58:08 2013 +0200
+| 
+|     Bump this one a bit, to be safe...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 26deaa823365eb3c0f852ace42253afb20957f26
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Sep 26 17:46:30 2013 +0200
+| 
+|     Bump to 20130926
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java        | 2 +-
+|  src/com/mobileread/ixtab/kindlelauncher/resources/CHANGELOG.txt     | 4 ++++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk   | 4 ++--
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.awk         | 4 ++--
+|  4 files changed, 9 insertions(+), 5 deletions(-)
+| 
+* commit 45eae88e599f41afa92209d678c24a76b98dee89
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Sep 26 17:37:02 2013 +0200
+| 
+|     Forgot this one
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 503eaaf2ae43437070422fa6f58aeda06618edb1
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Sep 26 17:32:56 2013 +0200
+| 
+|     Slash timers by 2, to see how well gawk copes...
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 28 ++++++++++-----------
+|  1 file changed, 14 insertions(+), 14 deletions(-)
+| 
+* commit 8c8185839c2c1299de4bb5eb3f1d929c5435eaa9
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Sep 26 17:25:10 2013 +0200
+| 
+|     Use a custom gawk binary if it's installed
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/Util.java | 4 ++++
+|  1 file changed, 4 insertions(+)
+| 
+* commit f1f0e9ddc49099b84b491f00390d54c013c0a03e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 21 02:12:04 2013 +0200
+| 
+|     Huh.
+|     
+|     We might be able to get away with a much shorter sleep...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit e1506ac2d058ee3198a2d3b8399e291935bb8029
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 21 01:39:33 2013 +0200
+| 
+|     Ah, nope, I wasn't crazy!
+|     
+|     Something is indeed a bit racy somewhere... Work around it in a slightly
+|     less stupid way than in dc1894c...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 2 ++
+|  1 file changed, 2 insertions(+)
+| 
+* commit 40b6af2d18427c5340cb73771362338032a1a0a2
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Sep 21 00:16:40 2013 +0200
+| 
+|     Oh. Okay. That works.
+|     
+|     Well, at least it makes somewhat more sense now.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 6 ------
+|  1 file changed, 6 deletions(-)
+| 
+* commit dc1894c1f390d76f2453b790c0a0b687e79be183
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Sep 20 23:57:02 2013 +0200
+| 
+|     Try to cleanup our tempfiles on exit.
+|     
+|     This is highly experimental, and may in fact be completely
+|     stupid/crazy/wrong and/or break a number of things in fun & interesting
+|     ways...
+|     
+|     I'm not even sure the jailbreak patch is safe/sane/correct/needed...
+| 
+|  lib/jailbreak.jar                                 | Bin 12996 -> 11436 bytes
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     |  21 +++++++++++++++++++-
+|  .../ixtab/kindlelauncher/resources/CHANGELOG.txt  |   7 +++++++
+|  .../kindlelauncher/resources/parse-commented.awk  |   4 ++--
+|  .../ixtab/kindlelauncher/resources/parse.awk      |   4 ++--
+|  5 files changed, 31 insertions(+), 5 deletions(-)
+| 
+* commit 92c320fac625d08fc4cf3f877d3641e1aef6bbe0
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Tue Aug 20 04:11:43 2013 +0100
+| 
+|     updated README again. ++ Niluje.
+| 
+|  README.txt | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+|   
+*   commit e353e62b545728378721e2e51b183835a31a56d1
+|\  Merge: 20c6764 53f9dff
+| | Author: Twobob <seeTwobob@live.com>
+| | Date:   Tue Aug 20 04:08:21 2013 +0100
+| | 
+| |     Merge branch 'master' of https://bitbucket.org/ixtab/kindlelauncher
+| | 
+| * commit 53f9dffba6a5f3b501fe9a0fec6f41f4618c00e0
+| | Author: NiLuJe <ninuje@gmail.com>
+| | Date:   Sat Aug 17 17:47:03 2013 +0200
+| | 
+| |     Don't break the EXTENSIONDIR-as-a-list feature.
+| |     
+| |     Thanks to stepk for explaining this one ;).
+| | 
+| |  .../mobileread/ixtab/kindlelauncher/resources/parse-commented.awk   | 2 +-
+| |  src/com/mobileread/ixtab/kindlelauncher/resources/parse.awk         | 2 +-
+| |  2 files changed, 2 insertions(+), 2 deletions(-)
+| | 
+* | commit 20c67646cfa512fc0b97eb145bef82e1d9f13186
+|/  Author: Twobob <seeTwobob@live.com>
+|   Date:   Tue Aug 20 04:07:55 2013 +0100
+|   
+|       updated README
+|   
+|    README.txt | 16 ++++++++++++----
+|    1 file changed, 12 insertions(+), 4 deletions(-)
+| 
+* commit cfcc5c2c8d863da753bf228b3de203f67e0c8415
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Fri Aug 16 23:08:48 2013 +0100
+| 
+|     KUAL VERSION 2.2
+| 
+|  build.properties | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 45e5cc53d00f8bc9a16a7da0b3d79ba83cd3ce67
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Aug 16 03:45:22 2013 +0200
+| 
+|     Tweak the parser init to help with borken setups
+|     
+|     Always try to create the extensions folder and a blank config file if we
+|     can't find a proper config file (usually because it doesn't exists ;)).
+| 
+|  .../ixtab/kindlelauncher/resources/CHANGELOG.txt  | 12 ++++---
+|  .../kindlelauncher/resources/parse-commented.awk  | 38 +++++++++++----------
+|  .../ixtab/kindlelauncher/resources/parse.awk      |  7 ++--
+|  .../ixtab/kindlelauncher/resources/tool/strip.awk |  0
+|  4 files changed, 32 insertions(+), 25 deletions(-)
+| 
+* commit ca8179a8291dfd52ddcff33300d3f078cbc2fd5f
+| Author: stepk <stepk@>
+| Date:   Sat Aug 10 17:46:50 2013 +0200
+| 
+|     exclude KUAL.cfg
+| 
+|  build.xml | 1 +
+|  1 file changed, 1 insertion(+)
+| 
+* commit 593ab41c03b1cd7999ae6504c9654c8c5750f34d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Sat Aug 10 03:51:34 2013 +0200
+| 
+|     Follow the latest tree moves...
+|     
+|     to exclude the tools & commented script from the final jar.
+|     (Leave a copy of the changelog & default config).
+| 
+|  build.xml | 5 ++++-
+|  1 file changed, 4 insertions(+), 1 deletion(-)
+| 
+* commit 242794359b93eaaeeb91ce0f7e9cd7c390c8bbdb
+| Author: stepk <stepk@>
+| Date:   Sat Aug 10 02:23:40 2013 +0200
+| 
+|     fix RPN option-o; move commented parser script + tool
+| 
+|  .../ixtab/kindlelauncher/resources/CHANGELOG.txt  |   22 +-
+|  .../kindlelauncher/resources/README-tool.txt      |   12 +
+|  .../kindlelauncher/resources/parse-commented.awk  | 2228 +++++++++++++++++++
+|  .../ixtab/kindlelauncher/resources/parse.awk      |   50 +-
+|  4 files changed, 2272 insertions(+), 40 deletions(-)
+| 
+* commit 74c493fcb72b80b09e0cf84077603665444dcffb
+| Author: stepk <stepk@>
+| Date:   Sat Aug 10 02:10:39 2013 +0200
+| 
+|     more moves
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/{aloop => }/CHANGELOG.txt | 0
+|  src/com/mobileread/ixtab/kindlelauncher/resources/{aloop => }/KUAL.cfg  | 0
+|  2 files changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit 8acb3c617580dcc04ac5ea921f036d2350840833
+| Author: stepk <stepk@>
+| Date:   Sat Aug 10 01:59:35 2013 +0200
+| 
+|     move tool dir
+| 
+|  .../ixtab/kindlelauncher/resources/{aloop => }/tool/strip.awk           | 0
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit 2be5dd51aa21b832ea2902a1d347a6e5340f4ec3
+| Author: stepk <stepk@>
+| Date:   Sat Aug 10 01:39:09 2013 +0200
+| 
+|     tool improvement
+| 
+|  .../ixtab/kindlelauncher/resources/aloop/tool/strip.awk         | 8 +++++---
+|  1 file changed, 5 insertions(+), 3 deletions(-)
+| 
+* commit c8b3a15c26371517211aab7d7e0692ad39e6b11b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Aug 9 03:09:20 2013 +0200
+| 
+|     More cleanup
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 28abc9b0eeab5717e70f9970a581ccf66385b495
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Aug 9 02:52:10 2013 +0200
+| 
+|     Remove useless get_model() copy
+| 
+|  build.xml                                         |  1 -
+|  .../resources/verbose/get_model.awk               | 43 ---------------------
+|  2 files changed, 44 deletions(-)
+| 
+* commit 3e56406d96d7fc646873a56e34232a6264700e04
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Thu Aug 8 04:28:54 2013 +0100
+| 
+|     VERSION 2.1
+| 
+|  build.properties | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit a7406d79138c5b0a7476e9f1830db3eb07e06bf8
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Aug 8 03:05:38 2013 +0200
+| 
+|     Actually write a summary of the changes...
+|     
+|     (instead of talking about it :p)
+| 
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  | 36 ++++++++++++++++++---
+|  1 file changed, 31 insertions(+), 5 deletions(-)
+| 
+* commit f7249344b0f0772eaa7d6499ddf6bffe44f7b12d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Jul 19 17:49:10 2013 +0200
+| 
+|     Poor man's workaround for missing wraparound nav.
+|     
+|     Bind [Aa] & [KEYBOARD] to a 'go to top' action, and [MENU] to a 'go to
+|     bottom' action. It's mostly tailored for the K4 layout (where the
+|     fiveway controller is framed by [KEYBOARD] on the left, and [MENU] on
+|     the right, since we have the direct keybinds (1..0/Q..P) on the K2/K3.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 39 +++++++++++++--------
+|  .../ixtab/kindlelauncher/resources/parse.awk      |  2 +-
+|  2 files changed, 26 insertions(+), 15 deletions(-)
+| 
+* commit 67846965cf904cb490d279b490278a673abe04b8
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Jul 19 16:58:29 2013 +0200
+| 
+|     Revert "Commit FiveWay handling for posterity..."
+|     
+|     This reverts commit 0d0ae80ab740f36862019abbf603de117c1cc73e.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 46 ---------------------
+|  1 file changed, 46 deletions(-)
+| 
+* commit 0d0ae80ab740f36862019abbf603de117c1cc73e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Fri Jul 19 16:52:49 2013 +0200
+| 
+|     Commit FiveWay handling for posterity...
+|     
+|     The intent was to implement wraparound, at the very least for UP/DOWN.
+|     Unfortunately, we don't get KeyEvents for the fiveway directions...
+|     (Funnily enough, we get one for the selecttion, though).
+|     So, err, I'll revert this right away, but if someone has any idea why
+|     something eats the VK_FIVE_WAY_(UP|DOWN|LEFT|RIGHT) KeyEvents, I'm all
+|     ears!
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 46 +++++++++++++++++++++
+|  1 file changed, 46 insertions(+)
+| 
+* commit d06974a910171605038b7c3f4f6a4e49908b8e2e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Jul 18 22:04:02 2013 +0200
+| 
+|     Bump to 20130718
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit c8a22da48795eb2c0b06b981456af13d25c2cbea
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Jul 18 22:00:59 2013 +0200
+| 
+|     Even better when I don't reinvent the wheel ;)
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 21 +++++++--------------
+|  1 file changed, 7 insertions(+), 14 deletions(-)
+| 
+* commit 70984b636f0f52324ad9dcd5072978c8e51546b9
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Thu Jul 18 19:39:19 2013 +0200
+| 
+|     Tweak hardware pageturns.
+|     
+|     Request focus on the first button when we use a hardware key to
+|     switch pages, instead of focusing the next/up button.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 26 ++++++++++++++-------
+|  1 file changed, 18 insertions(+), 8 deletions(-)
+| 
+* commit eb1b008cd510bccbb12b2c5ea2be8e8f99bda571
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 21:06:36 2013 +0200
+| 
+|     Hey, there's an Enter key, too ;)
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 1 +
+|  1 file changed, 1 insertion(+)
+| 
+* commit 819edf12a96d898953e1f2be6e22135e22e221ca
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 19:22:00 2013 +0200
+| 
+|     Do it like everybody else seems to be doing it
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit c48a64e163045c081883bd736e60ead61f001e9d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 19:09:16 2013 +0200
+| 
+|     Allow selecting a button with the spacebar
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 3 +++
+|  1 file changed, 3 insertions(+)
+| 
+* commit c31cb5da7c2ef90a22b0e952f4095c0dfe0dfc67
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 19:06:46 2013 +0200
+| 
+|     Tweak afterParser default value on armv6 devices
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 10 ++++++++--
+|  1 file changed, 8 insertions(+), 2 deletions(-)
+| 
+* commit 3994dd337e56aa4176473352bc074cb65e0451b7
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 17:38:33 2013 +0200
+| 
+|     Work on #10
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.awk | 3 +++
+|  1 file changed, 3 insertions(+)
+| 
+* commit 5cb0e9979abe46e30593e644ed4c5da7bd84360a
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 16:58:00 2013 +0200
+| 
+|     One-line our clamp()
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 8 +-------
+|  1 file changed, 1 insertion(+), 7 deletions(-)
+| 
+* commit a3fdae982f73123d79a6417db1dbf7b7e0262e64
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 05:56:53 2013 +0200
+| 
+|     Hey there, #8! :)
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 10 +++++++++-
+|  1 file changed, 9 insertions(+), 1 deletion(-)
+| 
+* commit b0e52601e6e09cf7b9658125c4ea4d41c90fee2c
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 05:42:18 2013 +0200
+| 
+|     Remove comment.
+|     
+|     Apparently, I was wrong, the glyph used by setChecked just wasn't in any
+|     of the fonts shipped on FW 2.x...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/ui/v1/KUIAdapter.java | 1 -
+|  1 file changed, 1 deletion(-)
+| 
+* commit 140d73f8cd11b9e8aa4a4831d75afb7ad77ccb9b
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 05:38:41 2013 +0200
+| 
+|     Mmkay #1. So, err, this works on FW 2.x, yay!
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/KualEntry.java | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit f78d50d3e3a843ab33247903d2158bc0d6f15b6e
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 05:25:32 2013 +0200
+| 
+|     Tweak button selection via keybind.
+|     
+|     Clamp to the actual number of buttons on the page,
+|     rather than pageSize. We don't necessarily fill the last page ;).
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 21 ++++++++++++---------
+|  1 file changed, 12 insertions(+), 9 deletions(-)
+| 
+* commit 4bdcc8959a477822314a2041e54d48268012d83c
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 01:07:40 2013 +0200
+| 
+|     Bump to 20130716
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.awk | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit f307eafbc52b6855c108881e55f81ba2d81fee5f
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 01:07:15 2013 +0200
+| 
+|     Kill unneeded repaints
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java  | 2 --
+|  src/com/mobileread/ixtab/kindlelauncher/ui/v1/KUIAdapter.java | 1 -
+|  2 files changed, 3 deletions(-)
+| 
+* commit be153e3e3977da10b5f295328ef9bf725eb5bf15
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 01:06:20 2013 +0200
+| 
+|     A hint of progress for #1...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java  | 4 ++--
+|  src/com/mobileread/ixtab/kindlelauncher/ui/v1/KUIAdapter.java | 5 +++--
+|  2 files changed, 5 insertions(+), 4 deletions(-)
+| 
+* commit 14efab48bb82fea9eab406826e77ecd7f8b6a7c7
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 16 00:01:45 2013 +0200
+| 
+|     Request focus on the button we select via keybind
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 3 +++
+|  1 file changed, 3 insertions(+)
+| 
+* commit 9a1fd69cf99595ba6ba02e181a430e2c1f70d28c
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 15 23:49:22 2013 +0200
+| 
+|     Implement the rest of #6.
+|     
+|     1234567890/QWERTYUIOP are now bound, and act as button selectors.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 64 ++++++++++++++++++++-
+|  .../ixtab/kindlelauncher/resources/parse.awk      |  2 +-
+|  2 files changed, 62 insertions(+), 4 deletions(-)
+| 
+* commit 1fdcc29dd74ec3a69a43e3c2adac0d1f661be0e6
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Fri Jul 12 00:15:02 2013 +0200
+| 
+|     Bugfix: detection of (potential) Unicode characters
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/ui/v1/KualFonts.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit c0afbabfe51956ffb886a3c47747ba3826c4c204
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Fri Jul 12 00:08:24 2013 +0200
+| 
+|     just pretty-printing...
+| 
+|  .../ixtab/kindlelauncher/ui/v1/KualFonts.java           | 15 ++++++---------
+|  1 file changed, 6 insertions(+), 9 deletions(-)
+| 
+* commit 2ae28b5ba4fdc9d45ae412fbf43a3438c44c07c9
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Fri Jul 12 00:02:37 2013 +0200
+| 
+|     Fix for KualFonts returning the same font for buttons and labels.
+| 
+|  .../ixtab/kindlelauncher/ui/v1/KualFonts.java     | 71 ++++++++++-----------
+|  1 file changed, 34 insertions(+), 37 deletions(-)
+| 
+* commit 524f56954fc4391db886c8928f38c3cd80e2f45e
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Thu Jul 11 23:38:06 2013 +0200
+| 
+|     Argh. Forgot to add the new files...
+| 
+|  .../ixtab/kindlelauncher/ui/v1/KualFonts.java     | 103 ++++++++++++++++++++
+|  .../ixtab/kindlelauncher/ui/v1/KualPaintable.java |  36 +++++++
+|  .../ixtab/kindlelauncher/ui/v1/KualPainter.java   |  77 +++++++++++++++
+|  3 files changed, 216 insertions(+)
+| 
+* commit 9ca3e6d7ab2fdb250fa0cd56935569b44e929d3e
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Thu Jul 11 23:29:29 2013 +0200
+| 
+|     Refactored duplicated code between KualLabel and KualButton.
+|     Made support for K4 button backwards-compatible.
+|     Minimal code cleanup.
+| 
+|  build.properties                                  |   4 +-
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 342 +++++++++++---------
+|  .../ixtab/kindlelauncher/ui/v1/KualButton.java    | 103 +-----
+|  .../ixtab/kindlelauncher/ui/v1/KualLabel.java     | 102 +-----
+|  4 files changed, 222 insertions(+), 329 deletions(-)
+| 
+* commit dbb84a0d52339636630e5ec88f6fa2ba762df8a3
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Wed Jul 10 00:08:29 2013 +0200
+| 
+|     Must have forgotten to revrt that at some point...
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 87e7a33ad558bdb90b9ce1111b0e1f6d5159b3ca
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 19:46:31 2013 +0200
+| 
+|     Ugly workaround for #11
+| 
+|  .../ixtab/kindlelauncher/resources/parse.awk      |  2 +-
+|  .../ixtab/kindlelauncher/ui/v1/KualButton.java    | 14 ++++++++---
+|  .../ixtab/kindlelauncher/ui/v1/KualLabel.java     | 27 ++++++++++++++-------
+|  3 files changed, 30 insertions(+), 13 deletions(-)
+| 
+* commit 8d61d1f219b0c49fc5f8e61ed6ed144c20ccc0aa
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 19:33:39 2013 +0200
+| 
+|     Sigh.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/ui/v1/KualButton.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit ee83723cd886eec030542c76018d6053a7216897
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 19:18:30 2013 +0200
+| 
+|     Add a FIXME in the comments for #11
+| 
+|  .../ixtab/kindlelauncher/ui/v1/KualButton.java          | 15 ++++++++-------
+|  1 file changed, 8 insertions(+), 7 deletions(-)
+| 
+* commit 1d91f8b016ade19d8b8a8510e852f13942b8c6e9
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 17:51:52 2013 +0200
+| 
+|     Also handle #3 for the toplevel menu
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 286f941a5f5a2e4ca96eea22b19af92fa69f833d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 06:38:59 2013 +0200
+| 
+|     Avoid bundling useless stuff in the final jar.
+|     
+|     By moving stuff around in the resources folder.
+| 
+|  build.xml                                         | 23 ++++++++++++---------
+|  .../kindlelauncher/resources/{ => old}/parse.sh   |  0
+|  .../resources/{ => verbose}/get_model.awk         |  0
+|  3 files changed, 13 insertions(+), 10 deletions(-)
+| 
+* commit ec207462ac3e2698ae4384b0e23ebbf5da25d84d
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 06:22:31 2013 +0200
+| 
+|     Don't try to id a device we don't even support...
+|     
+|     (The K1 ;D)
+| 
+|  .../ixtab/kindlelauncher/resources/get_model.awk  | 14 ++++++-------
+|  .../ixtab/kindlelauncher/resources/parse.awk      | 22 +++++++++------------
+|  2 files changed, 16 insertions(+), 20 deletions(-)
+| 
+* commit 97b24bcebdf52fdd68d322b7794ab79e0bec8648
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 06:19:27 2013 +0200
+| 
+|     For kicks, the 'allergic to regex' edition!
+|     
+|     I have no idea which one is actually more efficient with Awk, though...
+| 
+|  .../ixtab/kindlelauncher/resources/get_model.awk  | 22 +++++++++------------
+|  1 file changed, 9 insertions(+), 13 deletions(-)
+| 
+* commit 82cd9ac8a44827c92b82fdba9576627c33695207
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 05:05:17 2013 +0200
+| 
+|     Even better if I actually add said file...
+| 
+|  .../ixtab/kindlelauncher/resources/get_model.awk  | 47 +++++++++++++++++++++
+|  1 file changed, 47 insertions(+)
+| 
+* commit 7fa1888219be6130739585be4b8af4bbd7b299d7
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 04:59:43 2013 +0200
+| 
+|     Rewrite get_model to use the device code
+|     
+|     Get the S/N from /proc/usid, it's there on every device.
+|     (Kindle 2 (possibly DX as well) detection was broken with the old code,
+|     which probably means KOReader's detection is broken too).
+|     Bonus: we get a finer-grained detection for the white Kindle DX ;).
+|     
+|     See get_model.awk in resources for a commented version
+| 
+|  .../ixtab/kindlelauncher/resources/parse.awk      | 458 ++++++++++----------
+|  1 file changed, 232 insertions(+), 226 deletions(-)
+| 
+* commit 6e4a0227dcb8b15289a0d5563fb54aa98ea999cb
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 03:36:57 2013 +0200
+| 
+|     Slightly less ugly KeyListener handling for #6...
+|     
+|     At least now it's not used on devices with no physical keys...
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 52 +++++++++------------
+|  .../ixtab/kindlelauncher/ui/UIAdapter.java        |  7 +--
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    |  5 +-
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    |  4 +-
+|  4 files changed, 34 insertions(+), 34 deletions(-)
+| 
+* commit dfd5cbaa64b8010973da93d8e56d532fb05cfdcb
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 03:24:27 2013 +0200
+| 
+|     Kill useless cruft from previous commit
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 34 +++++----------------
+|  1 file changed, 7 insertions(+), 27 deletions(-)
+| 
+* commit 7d642e116134d0be5f1aea7c1a47c8434b0a927c
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 03:17:48 2013 +0200
+| 
+|     Slightly less sucky workaround for #3...
+|     
+|     At least the counters are consistent, this time...
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 42 +++++++++++++++++----
+|  1 file changed, 34 insertions(+), 8 deletions(-)
+| 
+* commit c8bebfc7700d8a0eea64dc195ef61ad07298f5c9
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 02:50:21 2013 +0200
+| 
+|     Don't initalize button inside the loop
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 87f8d9d9fb6cacaa1236ddefd480f8a8849444c2
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 01:43:21 2013 +0200
+| 
+|     Kill debug logging
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java       | 19 +++----------------
+|  1 file changed, 3 insertions(+), 16 deletions(-)
+| 
+* commit 1d5c22b6b1ba14c8ddc8e03207ac0c9b41fb9b38
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 01:37:48 2013 +0200
+| 
+|     Slightly more consistent extra button accounting
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 10 +++-------
+|  1 file changed, 3 insertions(+), 7 deletions(-)
+| 
+* commit a8323bca1d9ea8b5a48e731a0f52e8e384ec91c1
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Tue Jul 9 01:32:33 2013 +0200
+| 
+|     Attempt to fix #3...
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 42 ++++++++++++++++++---
+|  1 file changed, 37 insertions(+), 5 deletions(-)
+| 
+* commit c5ac2d28c91af588b35309ebf04babbf3170e591
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 8 23:33:26 2013 +0200
+| 
+|     Forgot a stupid c/p leftover.
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 1 -
+|  1 file changed, 1 deletion(-)
+| 
+* commit 1967e7ce2956222195266c367989ae2f2fd4f924
+| Author: NiLuJe <ninuje@gmail.com>
+| Date:   Mon Jul 8 23:25:57 2013 +0200
+| 
+|     Terrible attempt at tackling part of #6...
+|     
+|     Wth 0 java skills.
+|     It's horribly implemented in LauncherKindlet and not the KUIAdapter
+|     because I suck at Java, and I couldn't figure out the whole scope issue.
+| 
+|  build.properties                                  |  2 +
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 42 +++++++++++++++++----
+|  .../ixtab/kindlelauncher/resources/parse.awk      |  4 +-
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    |  1 -
+|  4 files changed, 39 insertions(+), 10 deletions(-)
+| 
+* commit 2a41feda0d1821eebbbcdc55e00291299a4b340c
+| Author: stepk <stepk@>
+| Date:   Mon Jul 1 15:17:21 2013 +0200
+| 
+|     Fix: add missing -m RPN operator (reported by NiLuJe)
+| 
+|  .../ixtab/kindlelauncher/resources/aloop/CHANGELOG.txt   |  3 +++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse.awk  | 14 ++++++++------
+|  2 files changed, 11 insertions(+), 6 deletions(-)
+| 
+* commit 499ddb64e41031a74eedd088b971d4b41dcc5419
+| Author: stepk <stepk@>
+| Date:   Thu May 23 18:55:55 2013 +0200
+| 
+|     Improved status messages when the menu gets reloaded.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 101 +++++++++++---------
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |   3 +
+|  .../ixtab/kindlelauncher/resources/parse.awk      |   4 +-
+|  3 files changed, 60 insertions(+), 48 deletions(-)
+| 
+* commit ba78c9e777e675b872b1bf1f3f34555a75cd4df9
+| Author: stepk <stepk@>
+| Date:   Sun May 19 11:22:38 2013 +0200
+| 
+|     Changed support link to bit.ly/kualit.
+| 
+|  .../mobileread/ixtab/kindlelauncher/resources/aloop/CHANGELOG.txt | 3 +++
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.awk       | 6 +++---
+|  2 files changed, 6 insertions(+), 3 deletions(-)
+| 
+* commit 02ed78c3f0a5463e6fcf954a307e68d293bedd6f
+| Author: stepk <stepk@>
+| Date:   Thu May 16 08:44:12 2013 +0200
+| 
+|     Fix issue #2 and two new features: collate sub-menus; conditionally display menu items.
+|     + Adds menu collation feature which merges same-name sub-menus together.
+|       Same-name plain items, if any, are left unchanged.
+|       Can even merge user menus named "KUAL" with the KUAL self menu.
+|       KUAL.cfg setting: KUAL_collate=false disables collation (default enabled).
+|     + Adds "if":"expression" to conditionally display a menu item.
+|       Expression can grep a file, test loaded extensions, test device
+|       model, compare KUAL option values, test file existence and size.
+|     + Display device model in status line.
+|     . KUAL self menu hides "save log" button when the log file is empty.
+|     - Fix issue #2, Unicode font labels on K3/DX.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 130 +++----
+|  .../ixtab/kindlelauncher/resources/KualLog.java   |  14 +-
+|  .../resources/MailboxProcessor.java               |   2 +-
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  19 +
+|  .../ixtab/kindlelauncher/resources/aloop/KUAL.cfg |  27 +-
+|  .../resources/aloop/extensions-kindle-list.txt    |  10 +-
+|  .../resources/aloop/test-tree-kindle.tgz          | Bin 4069 -> 8836 bytes
+|  .../ixtab/kindlelauncher/resources/parse.awk      | 373 ++++++++++++++++++--
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    |   2 +-
+|  .../ixtab/kindlelauncher/ui/v1/KualLabel.java     | 109 ++++++
+|  10 files changed, 578 insertions(+), 108 deletions(-)
+| 
+* commit cd30bb6e90bffa345b7cc696e27083c8591e18d4
+| Author: stepk <stepk@>
+| Date:   Thu May 9 22:41:17 2013 +0200
+| 
+|     - Fixed bitbucket issue #4.
+|     # Added JSON key/value "internal": "internal command" to replace
+|       and expand the now unsupported special commands "TRAIL" and "STATUS".
+|       See mobileread Wiki page for details.
+|     + Tool updates.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     |  161 +-
+|  .../ixtab/kindlelauncher/resources/KualEntry.java |   63 +-
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |    7 +
+|  .../kindlelauncher/resources/aloop/tool/strip.awk |   79 +-
+|  .../ixtab/kindlelauncher/resources/parse.awk      | 1573 ++++++++++---------
+|  5 files changed, 935 insertions(+), 948 deletions(-)
+| 
+* commit 980c560347fe3e5e40149c46763801dcb4813141
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Tue May 7 06:06:18 2013 +0100
+| 
+|     VERSION 2.0
+| 
+|  build.properties | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 9c6868438d4d9249c95e145aa0f689c5eaa02f66
+| Author: stepk <stepk@>
+| Date:   Thu May 2 22:04:38 2013 +0200
+| 
+|     Removed temp button; added JSON "status":false "date":true
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 14 ++++++-
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  7 ++++
+|  .../ixtab/kindlelauncher/resources/parse.awk      | 44 ++++++++++-----------
+|  3 files changed, 42 insertions(+), 23 deletions(-)
+| 
+* commit fb1c635b2e1cb41569e71dae5fca2082468870c0
+| Author: stepk <stepk@>
+| Date:   Tue Apr 30 22:03:09 2013 +0200
+| 
+|     Fixed: no button focused on 5-way controller devices!
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 24 +++++++++++++++------
+|  .../ixtab/kindlelauncher/resources/KualLog.java   |  2 +-
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  3 +++
+|  .../ixtab/kindlelauncher/resources/parse.awk      |  4 ++--
+|  4 files changed, 24 insertions(+), 9 deletions(-)
+| 
+* commit cdedcc47cb86656ed19cbe0402fbe89a62896416
+| Author: stepk <stepk@>
+| Date:   Tue Apr 30 13:02:34 2013 +0200
+| 
+|     More robust, possibly faster, kindlet start.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 59 ++++++++++++---------
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  2 +
+|  .../ixtab/kindlelauncher/resources/parse.awk      |  4 +-
+|  3 files changed, 39 insertions(+), 26 deletions(-)
+| 
+* commit 81c73fc7e95646e268c3c0e1d507be253e0af86e
+| Author: stepk <stepk@>
+| Date:   Mon Apr 29 00:54:42 2013 +0200
+| 
+|     Extensions can dynamically change the menu (3 examples included); some bugs fixed.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 120 +++++++++++++-------
+|  .../ixtab/kindlelauncher/resources/KualLog.java   |  24 ++++
+|  .../resources/MailboxProcessor.java               |   9 +-
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  13 ++-
+|  .../resources/aloop/test-tree-kindle.tgz          | Bin 1982 -> 4069 bytes
+|  .../ixtab/kindlelauncher/resources/parse.awk      |   6 +-
+|  6 files changed, 127 insertions(+), 45 deletions(-)
+| 
+* commit 971405f74a8485fe5ebac5d3363f84e8d946d9d8
+| Author: stepk <stepk@>
+| Date:   Sat Apr 27 16:45:01 2013 +0200
+| 
+|     + Auto-reload changed menu.
+|     Internal changes:
+|     + Classes KualMenu, kualConfig, and MailboxProcessor in package resources
+|     + Interface MailboxCommand in package resources
+|     # Kindlet code refactoring
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 253 ++++++++------------
+|  src/com/mobileread/ixtab/kindlelauncher/Util.java |   9 +-
+|  .../kindlelauncher/resources/KualConfig.java      |  64 +++++
+|  .../ixtab/kindlelauncher/resources/KualEntry.java |   2 +-
+|  .../ixtab/kindlelauncher/resources/KualMenu.java  | 102 ++++++++
+|  .../kindlelauncher/resources/MailboxCommand.java  |   5 +
+|  .../resources/MailboxProcessor.java               | 126 ++++++++++
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  25 +-
+|  .../ixtab/kindlelauncher/resources/parse.awk      |  24 +-
+|  9 files changed, 447 insertions(+), 163 deletions(-)
+| 
+* commit b7f293025f23bc4607ac2b19a621892b75aab0c9
+| Author: stepk <stepk@>
+| Date:   Thu Apr 25 17:40:48 2013 +0200
+| 
+|     # Testing usability of left-sided up button and new toTop and Quit buttons
+|     - Fixed: kindlet could run on either KT or K3 but not both (timer issue)
+|     + Added checked buttons - json key/value "checked":true
+|       . FIXME K3 doesn't repaint the button label immediately
+|     + Added toTop and Quit buttons - placed after all level buttons
+|     . Minor cosmetic changes
+|     
+|     Internal changes:
+|     + Class KualEntry in package resources
+|     + Class TimerAdapter in package timer package
+|     + Class KualButton in package ui/v2
+|     # Kindlet code refactoring
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 311 +++++++++-----------
+|  .../ixtab/kindlelauncher/resources/KualEntry.java | 146 +++++++++
+|  .../ixtab/kindlelauncher/resources/parse.awk      |   7 +-
+|  .../ixtab/kindlelauncher/timer/JTimerAdapter.java |  29 ++
+|  .../ixtab/kindlelauncher/timer/KTimerAdapter.java |  29 ++
+|  .../ixtab/kindlelauncher/timer/TimerAdapter.java  |  19 ++
+|  .../ixtab/kindlelauncher/ui/UIAdapter.java        |   7 +-
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    |  25 +-
+|  .../ixtab/kindlelauncher/ui/v1/KualButton.java    |  10 +-
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    |  20 +-
+|  .../ixtab/kindlelauncher/ui/v2/KualButton.java    |  18 ++
+|  11 files changed, 423 insertions(+), 198 deletions(-)
+| 
+* commit ef558bf94b57c87c494a338ed87eba86a0781735
+| Author: stepk <stepk@>
+| Date:   Sun Apr 21 15:03:52 2013 +0200
+| 
+|     - Fixed: failed starting on K3/K4
+|     + Added: auto-delete old cache file on new version upgrade.
+|     - Fixed: spurious 'cannot hash' error message on very first start.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 32 +++++++++------
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  7 +++-
+|  .../ixtab/kindlelauncher/resources/parse.awk      | 44 +++++++++++++--------
+|  3 files changed, 55 insertions(+), 28 deletions(-)
+| 
+* commit b1e8c1a50d280035f36eb8bc44fbddef4b087b61
+| Author: stepk <stepk@>
+| Date:   Sat Apr 20 17:14:07 2013 +0200
+| 
+|     Automatic cache expiration
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 99 ++++++++++++++++-----
+|  src/com/mobileread/ixtab/kindlelauncher/Util.java | 19 +++-
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  8 ++
+|  .../ixtab/kindlelauncher/resources/parse.awk      | 95 +++++++++++++++-----
+|  4 files changed, 172 insertions(+), 49 deletions(-)
+| 
+* commit db9f031f3d25467fb80f0a052e1e7b08dd8673e7
+| Author: stepk <stepk@>
+| Date:   Fri Apr 19 20:19:56 2013 +0200
+| 
+|     Cache parser results for faster startup; async parser execution (preview)
+|     enhanced usability of submenu 'KUAL'
+|     JSON parser bug fix; expand JSON string escapes
+|     other bug fixes and improvements, read CHANGELOG.txt
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     |  37 +-
+|  src/com/mobileread/ixtab/kindlelauncher/Util.java |   6 +-
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  45 +
+|  .../ixtab/kindlelauncher/resources/aloop/KUAL.cfg |  13 +-
+|  .../kindlelauncher/resources/aloop/tool/strip.awk |  31 +-
+|  .../ixtab/kindlelauncher/resources/parse.awk      | 886 ++++++++++++++++++++
+|  6 files changed, 991 insertions(+), 27 deletions(-)
+| 
+* commit 72c4a0ee28103b65671239c306ba44335c192059
+| Author: stepk <stepk@>
+| Date:   Sat Apr 13 08:47:45 2013 +0200
+| 
+|     Change: ABC sorting only sorts the top-level entries and leaves sub-menu
+|     - Fixed tokenizer issue upon reading backslash-backslash in a JSON string
+|     + Improved JSON parser error reporting
+| 
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  22 ++
+|  .../ixtab/kindlelauncher/resources/aloop/KUAL.cfg |  17 +-
+|  .../ixtab/kindlelauncher/resources/parse.sh       | 210 +++++++++++++-------
+|  3 files changed, 173 insertions(+), 76 deletions(-)
+| 
+* commit 539f7da67246be6fefd31e89a81ee624931d3440
+| Author: stepk <stepk@>
+| Date:   Wed Apr 10 19:05:30 2013 +0200
+| 
+|     - Fix regression in KUAL menu sort option
+|     # Change: now ABC sorting ignores case
+|     + documentation updates
+| 
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |   5 +
+|  .../ixtab/kindlelauncher/resources/aloop/KUAL.cfg |   2 +-
+|  .../kindlelauncher/resources/aloop/README-dev.txt | 127 ++++++++++++++--
+|  .../kindlelauncher/resources/aloop/README.txt     | 134 +----------------
+|  .../resources/aloop/extensions-kindle-list.txt    |   2 +
+|  .../resources/aloop/test-tree-kindle.tgz          | Bin 1727 -> 1982 bytes
+|  .../ixtab/kindlelauncher/resources/parse.sh       | 156 ++++++++++----------
+|  7 files changed, 198 insertions(+), 228 deletions(-)
+| 
+* commit 8b6257b411ba1e618bea91049241878efaefe6e0
+| Author: stepk <stepk@>
+| Date:   Tue Apr 9 22:30:34 2013 +0200
+| 
+|     - Fix "wrong action is executed when a menu.json file includes multiple top-level items".
+|     - Minor fixes and improvements
+| 
+|  .../ixtab/kindlelauncher/resources/aloop/CHANGELOG.txt |  4 ++++
+|  .../mobileread/ixtab/kindlelauncher/resources/parse.sh | 16 +++++++++-------
+|  2 files changed, 13 insertions(+), 7 deletions(-)
+| 
+* commit 45e3519bdaee366af564d07f57286bda47730304
+| Author: stepk <stepk@>
+| Date:   Mon Apr 8 11:42:57 2013 +0200
+| 
+|     Fix kindlet timeout issue
+|     - Fixed the reason for kindlet timeout issue in the parse script
+|     + Improved script early error reporting mechanism
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 45 ++++++-------
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  5 ++
+|  .../ixtab/kindlelauncher/resources/parse.sh       | 71 +++++++++++----------
+|  3 files changed, 63 insertions(+), 58 deletions(-)
+| 
+* commit cde6504da6a721208c48117e5397596f90440ea7
+| Author: stepk <stepk@>
+| Date:   Sun Apr 7 21:10:52 2013 +0200
+| 
+|     New options and default values speed up scanning /mnt/us/extensions
+|     # Change: by default do not recurse /mnt/us/extensions/* when
+|       searching for json files. Equivalent to setting KUAL_search_depth=2
+|     # Change: by default skip searching /mnt/us/extensions/system.
+|     + KUAL.cfg option: KUAL_search_depth=N
+|       search /mnt/us/extensions up to N levels deep (default N=2)
+|     + KUAL.cfg option: KUAL_search_exclude_paths=system
+|       semicolon-separated list of paths to exclude when scanning
+|       /mnt/us/extensions.
+|       It does make a noticeable difference when scanning a huge extension
+|       folder like the 'KUAL system' extension.  Comparison: KT running
+|       version 20130407a vs. 20130405a w/ and w/o 'system' extension
+|         20130407a w/o                w/
+|         real    0m 0.67s   real   0m 0.93s   <<<<
+|         user    0m 0.55s   user   0m 0.74s
+|         sys     0m 0.11s   sys    0m 0.11s
+|     
+|         20130405a w/o                w/
+|         real    0m 0.76s   real   0m 3.90s   <<<<
+|         user    0m 0.53s   user   0m 0.77s
+|         sys     0m 0.14s   sys    0m 0.48s
+| 
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  | 23 +++++++++++++++
+|  .../ixtab/kindlelauncher/resources/aloop/KUAL.cfg | 30 ++++++++++++++------
+|  .../ixtab/kindlelauncher/resources/parse.sh       | 31 +++++++++++++--------
+|  3 files changed, 65 insertions(+), 19 deletions(-)
+| 
+* commit 2567fe713c63b8cb6759fd6046b6daaae1e43d82
+| Author: stepk <stepk@>
+| Date:   Sat Apr 6 07:28:14 2013 +0200
+| 
+|     fix typo in stderr capture
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 5e544f85fbc2319c491485ed05dab56c7e0145fb
+| Author: stepk <stepk@>
+| Date:   Fri Apr 5 23:55:46 2013 +0200
+| 
+|     update KUAL.cfg
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/aloop/KUAL.cfg | 5 +++--
+|  1 file changed, 3 insertions(+), 2 deletions(-)
+| 
+* commit 5ff7d1c33fb3024dee3510b787b3209e8f38d80d
+| Author: stepk <stepk@>
+| Date:   Fri Apr 5 22:22:45 2013 +0200
+| 
+|     Extensions can now write a message to the trail/status lines
+|     + Extension can write a fixed message into the trail line with json
+|       {"name":"label","action":"TRAIL","params":"this message","exitmenu":false}
+|     + Extension can write a verbatim message into the status line with json
+|       {"name":"label","action":"STATUS","params":"this message","exitmenu":false}
+|     ! Note that it's a fixed message; sh doesn't process it at all
+|     + Capture stderr of extensions to /var/tmp/KUAL.log
+|     + New KUAL sub-menu button "File KUAL log as a document"; moves KUAL.log to /mnt/us/documents/
+|     ! Still not quite working; the log file is always empty. Could it be due to the suicidal context ?!?
+|     - Fix out of range index in setTrail()
+|     - Removed more dead wood and command-line options -c -f
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 49 +++++++----
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  | 13 +++
+|  .../ixtab/kindlelauncher/resources/parse.sh       | 92 ++++++++-------------
+|  3 files changed, 83 insertions(+), 71 deletions(-)
+| 
+* commit b700165d9fe432ab14d9398915f99720e810dabe
+| Author: stepk <stepk@>
+| Date:   Thu Apr 4 23:01:04 2013 +0200
+| 
+|     - Fix file descriptors and segmentation fault
+|     = Port of user option handling complete
+| 
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  4 +
+|  .../ixtab/kindlelauncher/resources/parse.sh       | 91 +++++++++++++--------
+|  2 files changed, 60 insertions(+), 35 deletions(-)
+| 
+* commit 0dc3af427066aed1cdc4821099d1844f01a1275a
+| Author: stepk <stepk@>
+| Date:   Thu Apr 4 19:13:10 2013 +0200
+| 
+|     Fixed regression bug in EXTENSIONDIR scan
+|     Fixed missing version string (corner case)
+| 
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  3 +
+|  .../kindlelauncher/resources/aloop/tool/strip.awk | 20 +++++--
+|  .../ixtab/kindlelauncher/resources/parse.sh       | 65 ++++++++++-----------
+|  3 files changed, 49 insertions(+), 39 deletions(-)
+| 
+* commit 2aa397b48a586f64dc289a8c4576412985f75a5c
+| Author: stepk <stepk@>
+| Date:   Thu Apr 4 15:42:54 2013 +0200
+| 
+|     Minimal source to build KUAL 2 version 20130404,b
+|     + ixtab's KUAL 0.4.1 unicode support for KualButton.
+|     + ixtab's KUAL 0.4.1 improved GUI buttons
+|     See aloop/CHANGELOG.sh for the complete list of changes.
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     |  411 +++++--
+|  src/com/mobileread/ixtab/kindlelauncher/Util.java |    2 +-
+|  .../kindlelauncher/resources/aloop/CHANGELOG.txt  |  287 +++++
+|  .../ixtab/kindlelauncher/resources/aloop/KUAL.cfg |   22 +
+|  .../ixtab/kindlelauncher/resources/parse.sh       | 1141 +++++++++++++------
+|  .../ixtab/kindlelauncher/ui/UIAdapter.java        |    4 +-
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    |   18 +-
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    |   12 +
+|  8 files changed, 1429 insertions(+), 468 deletions(-)
+| 
+* commit 82728681b1a7c7c958182192acf514bf734aa9a7
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Thu Apr 4 13:27:55 2013 +0200
+| 
+|     Unicode support for KualButton
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     |  4 +-
+|  .../ixtab/kindlelauncher/ui/v1/KualButton.java    | 85 ++++++++++++++++++---
+|  2 files changed, 75 insertions(+), 14 deletions(-)
+| 
+* commit a91026341f3d1ba1cdd36b92a539e1ed4e126915
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Thu Apr 4 10:35:07 2013 +0200
+| 
+|     minimal fix to KualButton
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/ui/v1/KualButton.java | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit b87ba3212f3835b8a95b21e01b3e39f248b86db1
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Wed Apr 3 23:52:08 2013 +0200
+| 
+|     Nicer UI, especially concerning the buttons on K3/K4 devices
+| 
+|  build.properties                                  |  4 +-
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 35 +++++++++----
+|  src/com/mobileread/ixtab/kindlelauncher/Util.java | 19 +------
+|  .../ixtab/kindlelauncher/ui/GapComponent.java     | 46 ++++++++++++++++
+|  .../ixtab/kindlelauncher/ui/UIAdapter.java        |  4 ++
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    |  3 +-
+|  .../ixtab/kindlelauncher/ui/v1/KualButton.java    | 58 +++++++++++++++++++++
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    |  1 -
+|  8 files changed, 137 insertions(+), 33 deletions(-)
+| 
+* commit 69ff4ecb44b2748f0775961d3583932cf938b374
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sat Mar 2 03:27:15 2013 +0000
+| 
+|     Version 4.0
+| 
+|  build.properties | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit a8ec3aa2702153610a521b322e17b5dd75cc76ab
+| Author: stepk <stepk@>
+| Date:   Sat Mar 2 00:05:58 2013 +0100
+| 
+|     restrict search root to /mnt/us/extensions
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/resources/aloop/aloop.sh | 5 +++--
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.sh       | 4 ++--
+|  2 files changed, 5 insertions(+), 4 deletions(-)
+|   
+*   commit 114675e68e8cd2ffe6a452efa2cfdb1dcc2d3939
+|\  Merge: c1f040d 2bb24f5
+| | Author: stepk <step.list@gmail.com>
+| | Date:   Fri Mar 1 23:23:00 2013 +0100
+| | 
+| |     Merged in stepk/parser-aloop (pull request #2)
+| |     
+| |     ready to build new release
+| | 
+| * commit 2bb24f528387944f3904780ae5e51402f03970aa
+| | Author: stepk <stepk@>
+| | Date:   Fri Mar 1 20:39:49 2013 +0100
+| | 
+| |     aloop/parse feature complete for new release; new features, improvements and bug fixes
+| | 
+| |  .../resources/aloop/README-dev.txt               | 177 ++++--
+| |  .../kindlelauncher/resources/aloop/README.txt    |  82 +--
+| |  .../kindlelauncher/resources/aloop/aloop.sh      | 481 ++++++++++-----
+| |  .../ixtab/kindlelauncher/resources/parse.sh      | 588 ++++++++-----------
+| |  4 files changed, 755 insertions(+), 573 deletions(-)
+| | 
+| * commit 1a2bedcfc86826733da4bb62e4d2da47a9517404
+| | Author: stepk <stepk@>
+| | Date:   Fri Mar 1 20:36:20 2013 +0100
+| | 
+| |     fixed an issue with identical entries getting overwritten; in preparation for the upcoming aloop changes: changed kindlet read logic, and added support for 'screen reporting area' function (see aloop README)
+| | 
+| |  .../ixtab/kindlelauncher/LauncherKindlet.java    | 39 ++++++++++++++------
+| |  .../mobileread/ixtab/kindlelauncher/Util.java    | 11 +++---
+| |  2 files changed, 32 insertions(+), 18 deletions(-)
+| | 
+| * commit 9e1c0cc6922bae161dace2a0deadc8f432c9ed5c
+| | Author: stepk <stepk@>
+| | Date:   Fri Mar 1 20:19:46 2013 +0100
+| | 
+| |     use strip.awk to convert aloop.sh into parse.sh
+| | 
+| |  .../resources/aloop/tool/strip.awk               | 131 +++++++++++++++++++
+| |  1 file changed, 131 insertions(+)
+| | 
+* | commit c1f040de7604a5fbc586964b5175af8aa202eca4
+|\| Merge: ba62dbb e996b19
+| | Author: stepk <step.list@gmail.com>
+| | Date:   Fri Mar 1 20:54:44 2013 +0100
+| | 
+| |     Merged in stepk/parser-aloop (pull request #1)
+| |     
+| |     new features and potential bug fixes.
+| | 
+| * commit e996b19252aa5ad5f0cc185762f7842d8ea9811e
+| | Author: stepk <stepk@>
+| | Date:   Thu Feb 21 21:38:00 2013 +0100
+| | 
+| |     Same as aloop/aloop.sh.
+| | 
+| |  .../ixtab/kindlelauncher/resources/parse.sh      | 449 +++++++++++++++----
+| |  1 file changed, 373 insertions(+), 76 deletions(-)
+| | 
+| * commit 1bea9af76c1fe14c282dc6291e5c902cb55afea5
+| | Author: stepk <stepk@>
+| | Date:   Thu Feb 21 21:36:53 2013 +0100
+| | 
+| |     Fixed a potential problem with backgrounding multi-command actions.
+| |     Changed shell to /bin/ash for consistency.
+| | 
+| |  src/com/mobileread/ixtab/kindlelauncher/Util.java | 3 ++-
+| |  1 file changed, 2 insertions(+), 1 deletion(-)
+| | 
+| * commit 64c653ccdee48c3288425b722215c0b728597967
+| | Author: stepk <stepk@>
+| | Date:   Thu Feb 21 21:31:59 2013 +0100
+| | 
+| |     Added support for variable-length records (meta) and KUAL menu (deleteOnExit).
+| | 
+| |  .../ixtab/kindlelauncher/LauncherKindlet.java    | 22 ++++++++++++--------
+| |  1 file changed, 13 insertions(+), 9 deletions(-)
+| | 
+| * commit 3444be09f931d30ad4505feba2fb4558b438d0df
+|/  Author: stepk <stepk@>
+|   Date:   Thu Feb 21 21:18:47 2013 +0100
+|   
+|       Committer: stepk
+|       
+|       Branch stepk/parser-aloop is the dev branch for parser.sh since 20130221,
+|       older aloop versions are available upon request or visit the KUAL forum thread.
+|       
+|       NEW FEATURE HIGHLIGHTS
+|       ----------------------
+|       
+|       20130221,a,stepk
+|       + read script options from KUAL.cfg, type aloop.sh -h for rules
+|         (upon config errors the script bails out sensibly)
+|       + option -S or --nsort sorts menu by priority (json)
+|       + (tada!) enter the ***KUAL menu***
+|         with three new spanking functions:
+|         . Change sort order: lexicographic (ABC), by priority (123)
+|         . Replace/Restore Store Button (*)
+|           K5/PW only, tested on 5.3.2 should work on 5.1.2 also
+|         . Quit KUAL menu
+|       + expand entity &nbsp; (only) to hard space in json values
+|       + $EXTENSIONDIR can be a colon-separated list of directories
+|       - fix: didn't launch action when action path included spaces
+|       (*) KUAL menu entries appear at the end of the button list
+|           regardless of sort order.
+|       
+|       COMMIT HIGHLIGHTS
+|       -----------------
+|       
+|       New Files (complete aloop.sh dev bundle):
+|       . src/com/mobileread/ixtab/kindlelauncher/resources/aloop/README-dev.txt
+|       . src/com/mobileread/ixtab/kindlelauncher/resources/aloop/README.txt
+|       . src/com/mobileread/ixtab/kindlelauncher/resources/aloop/aloop.sh
+|           overwrite ../parse.sh with aloop.sh
+|       
+|       Test Harness:
+|       . src/com/mobileread/ixtab/kindlelauncher/resources/aloop/extensions-kindle-list.txt
+|       . src/com/mobileread/ixtab/kindlelauncher/resources/aloop/extensions-pc-list.txt
+|       . src/com/mobileread/ixtab/kindlelauncher/resources/aloop/test-tree-kindle.tgz
+|       . src/com/mobileread/ixtab/kindlelauncher/resources/aloop/test-tree-pc.zip
+|       
+|       Java Files (modified to support new features):
+|       . src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java
+|       . src/com/mobileread/ixtab/kindlelauncher/Util.java
+|       . src/com/mobileread/ixtab/kindlelauncher/resources/parse.sh
+|   
+|    .../resources/aloop/README-dev.txt               | 300 ++++++++
+|    .../kindlelauncher/resources/aloop/README.txt    | 193 +++++
+|    .../kindlelauncher/resources/aloop/aloop.sh      | 725 +++++++++++++++++++
+|    .../resources/aloop/extensions-kindle-list.txt   |  20 +
+|    .../resources/aloop/extensions-pc-list.txt       |  11 +
+|    .../resources/aloop/test-tree-kindle.tgz         | Bin 0 -> 1727 bytes
+|    .../resources/aloop/test-tree-pc.zip             | Bin 0 -> 4622 bytes
+|    7 files changed, 1249 insertions(+)
+| 
+* commit ba62dbb4e88c7a15c223638905d641d204e42e0b
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sat Feb 9 01:50:49 2013 +0000
+| 
+|     Version 0.3.2
+|     Label names allow special characters. If you REALLY want that.
+|     Extension folder names may have spaces now
+|     gpg files broken out into gpg-authenticity-verification-files-NOT-required-KUAL.V.0.3.2. bundles
+| 
+|  build.properties                                  |  2 +-
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 11 +--
+|  .../ixtab/kindlelauncher/resources/parse.sh       | 92 +++++++++++++--------
+|  3 files changed, 66 insertions(+), 39 deletions(-)
+| 
+* commit 096c55a254799933f40d8c16e5c49b95ca796143
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Mon Feb 4 02:46:32 2013 +0000
+| 
+|     scripts layout tidy up
+|     logo bump
+| 
+|  KindleLauncher.jpg                                | Bin 92677 -> 55694 bytes
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     |   5 ++++-
+|  src/com/mobileread/ixtab/kindlelauncher/Util.java |   2 +-
+|  3 files changed, 5 insertions(+), 2 deletions(-)
+| 
+* commit 1f1389351c3a63869a100f99172e6a295446ab98
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Mon Feb 4 02:14:49 2013 +0000
+| 
+|     Version 0.3.1
+|     Amended Java to accept two fields, currently concatentated with a middot
+|     sorting now works on -f=twolevel -s
+|     possibly note that this specialises the function
+|     old calls left in in comments for now
+| 
+|  build.properties                                             | 2 +-
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 9 +++++----
+|  src/com/mobileread/ixtab/kindlelauncher/Util.java            | 3 ++-
+|  3 files changed, 8 insertions(+), 6 deletions(-)
+| 
+* commit 2bd2a35d997faa766832b21a8434179fd23fba15
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sat Feb 2 02:53:45 2013 +0000
+| 
+|     Typo Fixes. Whoops.
+| 
+|  README.txt                                                 | 2 +-
+|  src/com/mobileread/ixtab/kindlelauncher/resources/parse.sh | 2 +-
+|  2 files changed, 2 insertions(+), 2 deletions(-)
+| 
+* commit 62944deaccf244f83c0b94f3eb34866f428be060
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sat Feb 2 02:30:40 2013 +0000
+| 
+|     Version 0.3.0
+|     Fixed up indirection.
+|     Silent script Update.
+|     Evolved Logo.
+|     Docs Bump.
+|     Pagination now "rolls-around"
+| 
+|  KindleLauncher.jpg                                | Bin 78003 -> 92677 bytes
+|  README.txt                                        |  19 ++++++++++++-------
+|  .../ixtab/kindlelauncher/resources/parse.sh       |  10 +++++-----
+|  3 files changed, 17 insertions(+), 12 deletions(-)
+| 
+* commit 64fb8a96144366de0849ed93dc6d595fa602af3b
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Fri Feb 1 23:37:20 2013 +0100
+| 
+|     Bugfix: forgot boundary case for reverse paging
+| 
+|  .../mobileread/ixtab/kindlelauncher/LauncherKindlet.java   | 12 ++++++++----
+|  1 file changed, 8 insertions(+), 4 deletions(-)
+| 
+* commit 2ffaadca80dd54c5cc4aa3d281a463ccf7ced44b
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Fri Feb 1 20:59:04 2013 +0100
+| 
+|     Version 0.3.0: "wrap-around" paging, and yet another (but hopefully close to the best) method to instantiate scripts :)
+| 
+|  build.properties                                  |   2 +-
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 185 ++++++++++++--------
+|  2 files changed, 115 insertions(+), 72 deletions(-)
+| 
+* commit e6000505333316a8a14348c58c015975a196a42c
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Fri Feb 1 17:35:04 2013 +0000
+| 
+|     Version 0.2.3 Docs bump
+| 
+|  README.txt | 29 ++++++++++++++++++-----------
+|  1 file changed, 18 insertions(+), 11 deletions(-)
+| 
+* commit 09870fe97e8baebaf8044a181c763c3840f4f878
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Fri Feb 1 17:26:32 2013 +0000
+| 
+|     Version 0.2.3
+|     Halved launcher delay for commands wth usleep
+|     aloop-20130130a.sh implemented with 200%+ speed increase for parser
+|     credit given to stepk for his, now long, work on improving the original parser
+|     product.vendor=twobob ixtab stepk
+| 
+|  build.properties                                  |   4 +-
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     |   2 +-
+|  .../ixtab/kindlelauncher/resources/parse.sh       | 261 ++++++++------------
+|  3 files changed, 110 insertions(+), 157 deletions(-)
+| 
+* commit a02808561fa359fcdfabf7040594152138316d3e
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Fri Feb 1 12:00:57 2013 +0000
+| 
+|     UPDATED README
+| 
+|  README.txt | 25 ++++++-------------------
+|  1 file changed, 6 insertions(+), 19 deletions(-)
+| 
+* commit 008e16f27a6cd625f7ac38cfb66af8653a0d77ae
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Fri Feb 1 00:27:49 2013 +0000
+| 
+|     added double indirection to bypass 711 bug. design okay? works anyhow.
+|     updated logo.
+|     version to 0.2.2
+| 
+|  KindleLauncher.jpg                                | Bin 65134 -> 78003 bytes
+|  build.properties                                  |   2 +-
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     |  16 +++++++++++++++-
+|  3 files changed, 16 insertions(+), 2 deletions(-)
+| 
+* commit deb8b32bdf73c6ba17eaa20a6acf0577a08100df
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Thu Jan 31 02:31:25 2013 +0100
+| 
+|     Cosmetic and organizational changes
+| 
+|  .gitignore       |  4 +++-
+|  .project         |  2 +-
+|  build.properties | 18 +++++++++++++++---
+|  build.xml        |  2 ++
+|  4 files changed, 21 insertions(+), 5 deletions(-)
+| 
+* commit d57419d1862aebeb70e28c9b5b540501e74864cd
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Mon Jan 28 04:45:51 2013 +0000
+| 
+|     Updated parser to new - k2i, DX, k3 busybox level - 1.7.2 ash
+|     changed seperator to "\u0001" to assist with ash find shortcomings
+|     added README.txt for inclusion in releases
+| 
+|  README.txt                                        |  76 +++
+|  build.properties                                  |   2 +-
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     |   3 +-
+|  .../ixtab/kindlelauncher/resources/parse.sh       | 507 +++++++++++++++++---
+|  4 files changed, 521 insertions(+), 67 deletions(-)
+| 
+* commit 1d0b03b852892a5e4ade4468967b80512d8bb429
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sun Jan 27 13:14:23 2013 +0000
+| 
+|     updated script to support older devices (tested down to DX 1.7.2 busybox)
+|     made .project reference unique (new split in Eclipse)
+|     removed redundant old script
+|     changed paging to 10 results for touch devices
+| 
+|  .project                                          |  2 +-
+|  build.properties                                  |  2 +-
+|  parse.sh                                          | 73 ---------------------
+|  .../ixtab/kindlelauncher/resources/parse.sh       |  7 +-
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    |  2 +-
+|  5 files changed, 6 insertions(+), 80 deletions(-)
+| 
+* commit 82a1b47423d71377360e3de92c662dc7f4852a85
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Sat Jan 26 23:02:57 2013 +0100
+| 
+|     "fix" for Kindle Touch sometimes showing empty pages. WTF is that device doing? :-D
+| 
+|  .../mobileread/ixtab/kindlelauncher/LauncherKindlet.java  | 13 ++++++++++++-
+|  1 file changed, 12 insertions(+), 1 deletion(-)
+| 
+* commit cc9838a628ee6e3374acf08dce568e2bcc7381bb
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Sat Jan 26 21:35:09 2013 +0100
+| 
+|     minor fixes & cleanup
+| 
+|  .../ixtab/kindlelauncher/LauncherKindlet.java       | 19 +------------------
+|  1 file changed, 1 insertion(+), 18 deletions(-)
+| 
+* commit 6bee13a4aacb50a95895162ab23aaccb4efeca17
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Sat Jan 26 21:29:28 2013 +0100
+| 
+|     Version 0.2.0: added paging
+| 
+|  build.properties                                  |   2 +-
+|  build.xml                                         |   6 -
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 117 +++++++++++++++-----
+|  .../ixtab/kindlelauncher/ui/UIAdapter.java        |   2 +
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    |  11 +-
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    |  11 +-
+|  6 files changed, 109 insertions(+), 40 deletions(-)
+| 
+* commit ccf17f559064ff5fcc5ccedf5f8a4c4cdc31f0d4
+| Author: ixtab <ixtab@fs-xtc.net>
+| Date:   Fri Jan 25 16:09:21 2013 +0100
+| 
+|     Still an experimental version, but now working on all devices (K3-KPW). Expect more soon.
+| 
+|  build.properties                                  |   2 +-
+|  build.xml                                         |   5 +
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 315 +++++++++-----------
+|  .../kindlelauncher/LauncherKindletJailbreak.java  |  15 +
+|  src/com/mobileread/ixtab/kindlelauncher/Util.java |  48 +++
+|  .../kindlelauncher/resources/ResourceLoader.java  |   9 +
+|  .../ixtab/kindlelauncher/resources/parse.sh       |  73 +++++
+|  .../ixtab/kindlelauncher/ui/UIAdapter.java        |   3 +
+|  .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    |  11 +
+|  .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    |  11 +
+|  10 files changed, 318 insertions(+), 174 deletions(-)
+| 
+* commit 3bc233e10286b89aa29c2821666974839b1da35a
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Mon Jan 21 02:56:46 2013 +0000
+| 
+|     // Let's tidy up some known offenders...
+|     rtime.exec("/usr/bin/killall -9 matchbox-keyboard", null);
+|     rtime.exec("/usr/bin/killall -9 kterm", null);
+|     rtime.exec("/usr/bin/killall -9 skipstone", null);
+|     
+|     in the absence of a better solution
+| 
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 9 ++++++++-
+|  1 file changed, 8 insertions(+), 1 deletion(-)
+| 
+* commit 968f77cc2aa0ed7511f5049f2d302319da71f2b3
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Mon Jan 21 02:35:28 2013 +0000
+| 
+|     Added backgrounding precedurally created shell script and java tidy up for resulting tmp script stubs
+|     Processes no longer hang the shell post inception as they are disconnected
+|     This aims to fixup the ailing applications that cause thread timeout exceptions
+| 
+|  build.xml                                         |   2 +-
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 261 +++++++++++---------
+|  2 files changed, 151 insertions(+), 112 deletions(-)
+| 
+* commit 5c2ff44b78b92821547c4072ed115f968682616a
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sun Jan 20 22:08:38 2013 +0000
+| 
+|     refactored logic in shell script to be more easily followable
+|     updated comments
+| 
+|  parse.sh | 26 ++++++++++----------------
+|  1 file changed, 10 insertions(+), 16 deletions(-)
+| 
+* commit d3422cc28b92dc89b9107e59c2123804fda92ad8
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sun Jan 20 14:52:49 2013 +0000
+| 
+|     final logo as teardrop button
+| 
+|  KindleLauncher.jpg | Bin 100105 -> 65134 bytes
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit 3d4997e2481be2144a2b73a07b2ce54f6f899c86
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sun Jan 20 14:45:18 2013 +0000
+| 
+|     updated image, removed debug tmp file location from status bar
+| 
+|  KindleLauncher.jpg                                | Bin 30383 -> 100105 bytes
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     |   4 +---
+|  2 files changed, 1 insertion(+), 3 deletions(-)
+| 
+* commit d301b2355670fa7a14cf15a4956b2c3152147f34
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sun Jan 20 13:25:04 2013 +0000
+| 
+|     Removed call to fix line endings (spoke with Silver18), added code to remove temp files more proactively.
+| 
+|  parse.sh                                                     | 8 ++++----
+|  src/com/mobileread/ixtab/kindlelauncher/LauncherKindlet.java | 9 ++++-----
+|  2 files changed, 8 insertions(+), 9 deletions(-)
+| 
+* commit 0cd7b3701f46355cdfa1f3ad6574bb62287f6f88
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sun Jan 20 03:10:04 2013 +0000
+| 
+|     added .script to build.properties and internalised script calls
+| 
+|  .gitignore                                        |  2 -
+|  build.xml                                         |  5 ++
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 75 +++++++++++++--------
+|  3 files changed, 51 insertions(+), 31 deletions(-)
+| 
+* commit 9bbff95bedcaa002152229fc449887e0da3953e7
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sat Jan 19 16:37:28 2013 +0000
+| 
+|     fixed ant build. Whoops!!!
+| 
+|  KindleLauncher.jpg | Bin 14808 -> 30383 bytes
+|  build.xml          |  10 ----------
+|  2 files changed, 10 deletions(-)
+| 
+* commit b6ab87de88cb7e58c1738b78509ff0ab5d245035
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sat Jan 19 16:03:30 2013 +0000
+| 
+|     Tidied up .gitignore, amended launcher image
+| 
+|  .gitignore         |   2 ++
+|  KindleLauncher.jpg | Bin 40952 -> 14808 bytes
+|  2 files changed, 2 insertions(+)
+| 
+* commit 8b8d53cf1c9320e11721f222eecedf0b05e981f3
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Sat Jan 19 15:56:47 2013 +0000
+| 
+|     refactored out all references to old JSON parsing classes into a sh script.
+|     very basic implementation with TreeMap to handle the instrinsic
+|     Button name ¬ command args relationship.
+|     removed all references to external jars from previous commit.
+| 
+|  .classpath                                        |   2 -
+|  lib/json-simple-1.1.1.jar                         | Bin 23737 -> 0 bytes
+|  lib/org.apache.felix.bundlerepository-1.4.2.jar   | Bin 151802 -> 0 bytes
+|  parse.sh                                          |  79 ++++++
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 274 ++++++++++----------
+|  .../ixtab/kindlelauncher/util/Extension.java      | 138 ----------
+|  .../kindlelauncher/util/ExtensionsLoader.java     | 214 ---------------
+|  .../ixtab/kindlelauncher/util/FileUtil.java       | 103 --------
+|  .../ixtab/kindlelauncher/util/JARClassLoader.java |  77 ------
+|  .../ixtab/kindlelauncher/util/JSONMenu.java       | 198 --------------
+|  .../util/KindleLauncherResources.java             |  30 ---
+|  .../ixtab/kindlelauncher/util/LauncherAction.java | 154 -----------
+|  .../ixtab/kindlelauncher/util/LauncherMenu.java   | 210 ---------------
+|  .../ixtab/kindlelauncher/util/LauncherScript.java |  69 -----
+|  14 files changed, 211 insertions(+), 1337 deletions(-)
+| 
+* commit 179d055fa567c4d2f155d73b317d7625e0f4cd79
+| Author: Twobob <seeTwobob@live.com>
+| Date:   Wed Jan 16 18:26:30 2013 +0000
+| 
+|     Interim, flawed, implementation with json support
+| 
+|  .classpath                                        |   2 +
+|  .gitignore                                        |   2 +-
+|  build.xml                                         |  10 +
+|  lib/json-simple-1.1.1.jar                         | Bin 0 -> 23737 bytes
+|  lib/org.apache.felix.bundlerepository-1.4.2.jar   | Bin 0 -> 151802 bytes
+|  .../ixtab/kindlelauncher/LauncherKindlet.java     | 161 +++++++++++++--
+|  .../ixtab/kindlelauncher/util/Extension.java      | 138 +++++++++++++
+|  .../kindlelauncher/util/ExtensionsLoader.java     | 214 ++++++++++++++++++++
+|  .../ixtab/kindlelauncher/util/FileUtil.java       | 103 ++++++++++
+|  .../ixtab/kindlelauncher/util/JARClassLoader.java |  77 +++++++
+|  .../ixtab/kindlelauncher/util/JSONMenu.java       | 198 ++++++++++++++++++
+|  .../util/KindleLauncherResources.java             |  30 +++
+|  .../ixtab/kindlelauncher/util/LauncherAction.java | 154 ++++++++++++++
+|  .../ixtab/kindlelauncher/util/LauncherMenu.java   | 210 +++++++++++++++++++
+|  .../ixtab/kindlelauncher/util/LauncherScript.java |  69 +++++++
+|  15 files changed, 1349 insertions(+), 19 deletions(-)
+| 
+* commit ca26a39f3e17d444148542e245bbd2e6ab952f47
+  Author: ixtab <ixtab@fs-xtc.net>
+  Date:   Sun Jan 13 01:44:11 2013 +0100
+  
+      project setup
+  
+   .classpath                                        |   8 ++
+   .gitignore                                        |   6 ++
+   .project                                          |  17 ++++
+   .settings/org.eclipse.jdt.core.prefs              |  12 +++
+   KindleLauncher.jpg                                | Bin 0 -> 40952 bytes
+   build.properties                                  |  16 ++++
+   build.xml                                         |  79 ++++++++++++++++++
+   developer.keystore                                | Bin 0 -> 3715 bytes
+   lib/README.txt                                    |   5 ++
+   lib/jailbreak.jar                                 | Bin 0 -> 12996 bytes
+   .../ixtab/kindlelauncher/LauncherKindlet.java     |  87 ++++++++++++++++++++
+   .../ixtab/kindlelauncher/ui/UIAdapter.java        |  53 ++++++++++++
+   .../ixtab/kindlelauncher/ui/v1/KUIAdapter.java    |  36 ++++++++
+   .../ixtab/kindlelauncher/ui/v2/JUIAdapter.java    |  36 ++++++++
+   14 files changed, 355 insertions(+)
