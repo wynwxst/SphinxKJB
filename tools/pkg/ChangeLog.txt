@@ -1,0 +1,2964 @@
+2021-03-25 17:16  NiLuJe
+
+	* [r18331] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Update version check to mimic FW 5.12.2.1.1 behavior: same-to-same
+	  is now forbidden :/.
+	  (Might be a bug, as that doesn't apply to the 5.13.x branch, and the
+	  VoiceView packages are *not* following this rule).
+
+2021-03-15 00:46  NiLuJe
+
+	* [r18286] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-03-10 19:50  NiLuJe
+
+	* [r18245] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-02-27 06:29  NiLuJe
+
+	* [r18219] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Python 2.7 hotfix)
+
+2021-02-21 03:12  NiLuJe
+
+	* [r18190] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-01-29 03:28  NiLuJe
+
+	* [r18137] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (busybox & requests hotfix)
+
+2021-01-28 18:52  NiLuJe
+
+	* [r18128] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-12-16 01:58  NiLuJe
+
+	* [r18009] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-11-14 13:10  NiLuJe
+
+	* [r17940] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-11-06 21:03  NiLuJe
+
+	* [r17915] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-10-21 12:30  NiLuJe
+
+	* [r17883] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-10-11 13:05  NiLuJe
+
+	* [r17853] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (requests hotfix)
+
+2020-10-10 23:46  NiLuJe
+
+	* [r17851] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-10-10 15:47  NiLuJe
+
+	* [r17847] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * X-TC:
+	  * Refresh binaries
+
+2020-10-01 20:54  NiLuJe
+
+	* [r17821] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-09-27 20:58  NiLuJe
+
+	* [r17805] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-09-07 10:57  NiLuJe
+
+	* [r17754] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-08-20 17:50  NiLuJe
+
+	* [r17718] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-08-03 03:32  NiLuJe
+
+	* [r17684] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (more polished zlib-ng fixes, unbreak HTTPie)
+
+2020-08-02 15:18  NiLuJe
+
+	* [r17679] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (hotfix the hotfix of the hotfix of the hotfix of
+	  the zlib-ng hotfix ;p)
+
+2020-08-01 20:09  NiLuJe
+
+	* [r17672] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * X-TC:
+	  * Refresh binaries (zlib hotfix)
+
+2020-08-01 05:07  NiLuJe
+
+	* [r17665] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Revert r17658
+
+2020-08-01 00:30  NiLuJe
+
+	* [r17659] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Duh, stupid typo.
+
+2020-08-01 00:24  NiLuJe
+
+	* [r17658] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Also handle the libz rename...
+
+2020-07-31 23:13  NiLuJe
+
+	* [r17648] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-06-13 20:55  NiLuJe
+
+	* [r17508] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-06-05 00:39  NiLuJe
+
+	* [r17466] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-06-02 01:48  NiLuJe
+
+	* [r17441] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-05-18 20:05  NiLuJe
+
+	* [r17349] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-05-13 02:19  NiLuJe
+
+	* [r17279] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-05-01 21:37  NiLuJe
+
+	* [r17174] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-04-06 04:25  NiLuJe
+
+	* [r17028] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-03-10 15:28  NiLuJe
+
+	* [r16952] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-03-06 00:06  NiLuJe
+
+	* [r16914] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Log KindleTool's output in case parsing fails...
+
+2020-02-11 03:08  NiLuJe
+
+	* [r16858] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix gdb)
+
+2020-02-10 16:58  NiLuJe
+
+	* [r16851] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-02-04 18:01  NiLuJe
+
+	* [r16835] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-11-25 22:32  NiLuJe
+
+	* [r16737] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Update binaries
+
+2019-11-23 23:12  NiLuJe
+
+	* [r16715] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-11-14 23:29  NiLuJe
+
+	* [r16672] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries:
+	  * Fix some readline & Python 2 EoL shenanigans.
+
+2019-11-14 15:43  NiLuJe
+
+	* [r16658] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-10-11 21:21  NiLuJe
+
+	* [r16572] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-10-06 19:37  NiLuJe
+
+	* [r16535] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-10-01 02:33  NiLuJe
+
+	* [r16517] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-09-15 22:01  NiLuJe
+
+	* [r16474] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-09-02 11:12  NiLuJe
+
+	* [r16438] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-08-14 18:50  NiLuJe
+
+	* [r16309] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (complete bs4 support)
+
+2019-08-14 11:31  NiLuJe
+
+	* [r16306] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-07-30 22:02  NiLuJe
+
+	* [r16286] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-07-27 17:36  NiLuJe
+
+	* [r16264] extensions/MRInstaller/CREDITS:
+	  
+	  Kindle Hacks:
+	  * Prepare for FBInk's relicensing
+
+2019-07-23 22:06  NiLuJe
+
+	* [r16257] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Handle some more potential filenames...
+
+2019-07-21 14:33  NiLuJe
+
+	* [r16247] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  • Oops, we need the hex encoded device ID for the new scheme now, not
+	  the string one...
+
+2019-07-20 17:23  NiLuJe
+
+	* [r16245] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Oops, fix device id on legacy Kindles
+
+2019-07-20 17:20  NiLuJe
+
+	* [r16244] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Missed an icon refresh on legacy Kindles
+
+2019-07-20 16:35  NiLuJe
+
+	* [r16241] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Rotate the logs after 1MB to avoid keeping a gigantic main log file.
+
+2019-07-20 15:59  NiLuJe
+
+	* [r16240] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Use a dedicated icon for RP/CRP
+
+2019-07-20 15:56  NiLuJe
+
+	* [r16237] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-07-19 17:14  NiLuJe
+
+	* [r16216] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Compute icon size in pixels. Makes sure it'll never encroach on
+	  text, and will look less tiny on weirder AR (i.e., DX).
+
+2019-07-19 15:09  NiLuJe
+
+	* [r16214] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * SImplify that in preparation of upcoming changes
+
+2019-07-19 04:30  NiLuJe
+
+	* [r16212] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Don't flash icons, turns out it's annoying ;D.
+
+2019-07-19 04:27  NiLuJe
+
+	* [r16211] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Slightly less terrible MRPI icon
+
+2019-07-19 04:24  NiLuJe
+
+	* [r16210] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Only show the OK checkmark once, at the end, for multi-script
+	  packages
+
+2019-07-19 04:15  NiLuJe
+
+	* [r16209] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Display a scary bomb when rootfs fails to remount ro ;p
+
+2019-07-19 04:06  NiLuJe
+
+	* [r16208] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Show the failure/success icon earlier
+
+2019-07-19 04:01  NiLuJe
+
+	* [r16207] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Show an early splash screen icon, too.
+	  I'm sure that'll annoy me enough to try to find a better icon :D.
+
+2019-07-19 02:30  NiLuJe
+
+	* [r16206] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Ups, really unbreak device checks...
+
+2019-07-19 02:11  NiLuJe
+
+	* [r16205] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Ups, need to setup FBInk first thing, otherwise, no prints ;p
+
+2019-07-19 02:07  NiLuJe
+
+	* [r16204] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Ooops, unbreak everything by actually storing our device ID as
+	  expected...
+
+2019-07-19 01:49  NiLuJe
+
+	* [r16203] extensions/MRInstaller/data/icons.py[ADD]:
+	  
+	  MRPI:
+	  * Import the Python script I used to test the glyphs.
+	  Because I initally started testing this on a Kobo, where locales are
+	  borked as hell, so going through Python's unicode handling seemed a
+	  safer bet...
+
+2019-07-19 01:47  NiLuJe
+
+	* [r16202] extensions/MRInstaller/CREDITS,
+	  extensions/MRInstaller/bin/mrinstaller.sh,
+	  extensions/MRInstaller/data/BigBlue_Terminal.ttf[ADD]:
+	  
+	  MRPI:
+	  * Import the NerdFont patched BigBlue Terminal font, and update
+	  CREDITS
+
+2019-07-19 01:37  NiLuJe
+
+	* [r16201] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Flash icons, to see how that works timing-wise in case of quick
+	  image succession...
+
+2019-07-19 01:36  NiLuJe
+
+	* [r16200] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Start displaying relevant icons...
+
+2019-07-19 01:11  NiLuJe
+
+	* [r16199] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Tweak a few things pointed out by shellcheck.
+	  Some of them are even actual bugs!
+
+2019-07-19 01:05  NiLuJe
+
+	* [r16198] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Start working on icon display...
+
+2019-07-19 00:48  NiLuJe
+
+	* [r16197] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Okay, got rid of eips :)
+
+2019-07-19 00:45  NiLuJe
+
+	* [r16196] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Update variable names
+
+2019-07-19 00:44  NiLuJe
+
+	* [r16195] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL:
+	  * Update function name
+
+2019-07-19 00:43  NiLuJe
+
+	* [r16194] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Start getting rid of eips handling in MRPI, as w'll eventually ship
+	  with a custom FBInk build.
+
+2019-07-17 13:58  NiLuJe
+
+	* [r16193] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * More accurate log when the version check fails.
+
+2019-07-11 04:37  NiLuJe
+
+	* [r16144] extensions/MRInstaller/data/mrpi-K3.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries (Fix Python 3)
+
+2019-07-10 17:21  NiLuJe
+
+	* [r16139] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-07-07 03:50  NiLuJe
+
+	* [r16071] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-06-18 04:56  NiLuJe
+
+	* [r16043] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Use the exact range of characters used in the weird base32 variant
+	  of the new S/N prefixes
+	  This fixes a nasty bug that prevented some KT4 IDs to be picked up...
+
+2019-06-06 00:29  NiLuJe
+
+	* [r16027] extensions/MRInstaller/data/mrpi-K3.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries to fix IM & gdb
+
+2019-06-04 01:56  NiLuJe
+
+	* [r15989] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Update the filenames to reflect the fact that stuff is packaged for
+	  the KT4 now
+
+2019-06-03 12:40  NiLuJe
+
+	* [r15983] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-06-01 13:18  NiLuJe
+
+	* [r15968] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Plug in a few new PW4 IDs...
+
+2019-04-30 14:17  NiLuJe
+
+	* [r15920] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-04-20 02:53  NiLuJe
+
+	* [r15898] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-04-12 03:14  NiLuJe
+
+	* [r15868] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the KT4
+
+2019-04-06 05:00  NiLuJe
+
+	* [r15860] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-03-10 18:16  NiLuJe
+
+	* [r15828] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-02-21 16:49  NiLuJe
+
+	* [r15788] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-02-01 23:32  NiLuJe
+
+	* [r15759] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (TC update)
+
+2019-02-01 14:16  NiLuJe
+
+	* [r15753] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Fix i.MX 6/7 detection regex...
+	  Some variants have a space between the MX and the number, others
+	  don't...
+
+2019-01-29 23:29  NiLuJe
+
+	* [r15746] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Fix return code logging on package parsing failure. (And add a
+	  comment for the most common cause).
+
+2019-01-03 16:20  NiLuJe
+
+	* [r15706] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix wand)
+
+2019-01-03 04:29  NiLuJe
+
+	* [r15700] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-12-11 22:44  NiLuJe
+
+	* [r15595] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Raise the tmpfs floor to 56MB
+	  According to my tests, most of this is extremely overkill: even on the
+	  K2, resize_mrpi_tmpfs is basically a nop ;).
+
+2018-12-11 22:20  NiLuJe
+
+	* [r15594] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Raise the tmpfs floor (32MB -> 48MB), as USBNet requires ~40MB
+
+2018-12-11 22:07  NiLuJe
+
+	* [r15593] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Listen to shellcheck a tiny bit
+
+2018-12-11 22:04  NiLuJe
+
+	* [r15592] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Add some more sanity checks around the tmpfs size...
+	  * Make sure awk will always print it as an integer
+	  * Compute a fraction of available memory we can spare to resize the
+	  tmpfs at runtime, once the framework is down.
+	  This should ensure we'll never go OOM, which would be bad, because we
+	  don't have swap.
+	  Abort if we can't spare more than 32MB, which should be enough to
+	  avoid ENOSPC in most cases ;).
+
+2018-12-11 01:05  NiLuJe
+
+	* [r15589] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Check for FBInk install between each package, to avoid mixing eips &
+	  fbink during a chained package install following the initial FBInk
+	  install...
+
+2018-12-11 00:51  NiLuJe
+
+	* [r15588] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Restore the logging lost in the FBInk move in r15360
+
+2018-12-10 23:06  NiLuJe
+
+	* [r15587] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Double-check tmpfs mount/umount, like we do for the rootfs...
+
+2018-12-10 22:58  NiLuJe
+
+	* [r15586] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Move staging directory to a tmpfs, to speed things up
+
+2018-12-09 22:43  NiLuJe
+
+	* [r15585] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-12-09 04:37  NiLuJe
+
+	* [r15581] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Add potentially bogus new PW4 IDs...
+
+2018-11-22 05:26  NiLuJe
+
+	* [r15562] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-11-13 02:50  NiLuJe
+
+	* [r15539] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Err, only be persistent on *failure*... -_-"
+
+2018-11-13 02:47  NiLuJe
+
+	* [r15538] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Be a little more persistent on rootfs remount failures...
+
+2018-11-09 16:42  NiLuJe
+
+	* [r15529] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-11-08 23:12  NiLuJe
+
+	* [r15516] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh KindleTool binaries
+
+2018-11-08 23:02  NiLuJe
+
+	* [r15515] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Tweak comments: Rex uses an i.MX6SL
+
+2018-11-08 21:24  NiLuJe
+
+	* [r15506] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the PW4
+
+2018-10-17 22:07  NiLuJe
+
+	* [r15483] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Log return code on kindletool-run failure...
+
+2018-09-28 02:00  NiLuJe
+
+	* [r15470] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (better requests fix, and actually ship OpenSSH..
+	  ;D)
+
+2018-09-27 19:23  NiLuJe
+
+	* [r15463] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Unbreak requests)
+
+2018-09-10 20:17  NiLuJe
+
+	* [r15434] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (unbreak Python's SQLite module)
+
+2018-09-10 02:10  NiLuJe
+
+	* [r15423] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries... (the great gold to bfd switch...)
+
+2018-09-01 18:02  NiLuJe
+
+	* [r15378] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Oops, unbreak progress handling :D.
+
+2018-09-01 17:49  NiLuJe
+
+	* [r15376] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * *sigh*, stupid c/py typo is stupid.
+
+2018-09-01 17:39  NiLuJe
+
+	* [r15374] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Rework FBInk detection
+	  Do it an source-time instead of on each print call.
+	  * Switch to real progress bars for libotautils + FBInk :)
+
+2018-08-31 20:40  NiLuJe
+
+	* [r15368] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Blank the screen before starting to process packages
+
+2018-08-31 20:38  NiLuJe
+
+	* [r15367] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Don't break the "empty string == blank line" idiom when using FBInk
+
+2018-08-31 18:49  NiLuJe
+
+	* [r15365] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * We don't care about line count in libotautils (and a non-0 return
+	  code is problematic in every case there anyway).
+
+2018-08-31 18:14  NiLuJe
+
+	* [r15362] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Prefer hack-specific fbink binaries over libkh's one.
+	  They're likely to be more up to date than the bridge, and they'll be
+	  platform-specific, while the bridge's is more generic.
+
+2018-08-31 17:59  NiLuJe
+
+	* [r15360] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Merge otautils updates in MRPI
+
+2018-08-22 14:30  NiLuJe
+
+	* [r15338] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-08-06 03:19  NiLuJe
+
+	* [r15299] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KIndle Hacks:
+	  * MRPI: Add a comment about the weird I/O redirection issue fixed in
+	  the previous commit...
+
+2018-08-06 02:45  NiLuJe
+
+	* [r15297] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Prevent a weird interaction between I/O redirections and KindleTool
+	  from truncating the log file...
+
+2018-07-25 00:05  NiLuJe
+
+	* [r15265] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-07-24 06:29  NiLuJe
+
+	* [r15253] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (unbreak dropbear)
+
+2018-07-24 00:33  NiLuJe
+
+	* [r15249] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (dropbear CFLAGS fix)
+
+2018-07-23 16:11  NiLuJe
+
+	* [r15247] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-07-20 14:41  NiLuJe
+
+	* [r15235] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-07-02 18:41  NiLuJe
+
+	* [r15128] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-06-21 23:03  NiLuJe
+
+	* [r15108] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-06-21 16:34  NiLuJe
+
+	* [r15100] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh KindleTool & FBInk binaries (proper version tags)
+
+2018-06-21 15:00  NiLuJe
+
+	* [r15092] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Updated TC)
+
+2018-06-03 17:07  NiLuJe
+
+	* [r15037] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Confirmed the eips block size on the KOA2 :)
+	  It hasn't changed, which means it'll look tiny as fuck on that
+	  screen...
+
+2018-06-02 23:17  NiLuJe
+
+	* [r15025] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * And follow my usual formatting for this while I'm there ;)
+
+2018-06-02 23:16  NiLuJe
+
+	* [r15024] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Be more verbose when we're passed a bogus argument
+
+2018-06-02 16:58  NiLuJe
+
+	* [r15011] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Use grep -q instead of IO reidrections where applicable
+
+2018-05-31 15:17  NiLuJe
+
+	* [r14996] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Oh, busybox is the pits. (Unbreak).
+
+2018-05-31 15:06  NiLuJe
+
+	* [r14995] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Bump free space check to 150MB (Python + bytecode now takes up to
+	  roughly ~110MB, plus the ~20MB package).
+
+2018-05-31 15:00  NiLuJe
+
+	* [r14994] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * MRPI:
+	  * Log KindleTool's output when extracting, to have an idea of why it
+	  might have failed.
+
+2018-05-30 22:35  NiLuJe
+
+	* [r14989] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-05-16 01:11  NiLuJe
+
+	* [r14941] extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh PW2 binaries
+
+2018-05-16 00:40  NiLuJe
+
+	* [r14940] extensions/MRInstaller/data/mrpi-K3.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries
+
+2018-05-16 00:14  NiLuJe
+
+	* [r14939] extensions/MRInstaller/data/mrpi-K5.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh K4 binaries
+
+2018-05-15 20:56  NiLuJe
+
+	* [r14935] extensions/MRInstaller/data/mrpi-K5.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Okay, static-libgcc experiment, let's see if that shakes things
+	  up...
+
+2018-05-14 20:45  NiLuJe
+
+	* [r14915] extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh PW2 binaries
+
+2018-05-14 18:30  NiLuJe
+
+	* [r14910] extensions/MRInstaller/data/mrpi-K5.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh K5 binaries
+
+2018-05-14 15:27  NiLuJe
+
+	* [r14902] extensions/MRInstaller/data/mrpi-K3.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries
+
+2017-11-28 00:54  NiLuJe
+
+	* [r14398] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Confirm some eips stuff thanks to knc1
+
+2017-11-26 06:25  NiLuJe
+
+	* [r14394] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Flag Zelda only packages as such
+
+2017-11-25 23:28  NiLuJe
+
+	* [r14393] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Slightly more accurate KOA2 screen size...
+
+2017-11-25 04:49  NiLuJe
+
+	* [r14389] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Fix MRPI binaries
+
+2017-11-25 04:41  NiLuJe
+
+	* [r14387] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Update FBGrab & KindleTool binaries
+
+2017-11-24 22:21  NiLuJe
+
+	* [r14380] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Another pass of KOA2 stuff...
+
+2017-11-24 22:12  NiLuJe
+
+	* [r14379] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * First pass of KOA2 detection
+
+2017-11-24 20:53  NiLuJe
+
+	* [r14375] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Hopefully properly detect the imx7d CPU on Zelda devices...
+
+2016-07-30 15:34  NiLuJe
+
+	* [r13408] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-07-12 13:18  NiLuJe
+
+	* [r13359] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * Log the current MRPI version
+
+2016-07-11 18:12  NiLuJe
+
+	* [r13353] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Update KindleTool
+
+2016-07-11 15:33  NiLuJe
+
+	* [r13343] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  MRPI:
+	  * (Hopefully) handle being called from anywhere, not only KUAL
+
+2016-07-11 12:24  NiLuJe
+
+	* [r13342] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Fix some device codes...
+
+2016-07-08 21:13  NiLuJe
+
+	* [r13339] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Some more stuff missing for KOA/KT3 support...
+
+2016-07-08 19:54  NiLuJe
+
+	* [r13338] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Update KindleTool builds
+
+2016-07-08 18:09  NiLuJe
+
+	* [r13337] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * *Potentially* slightly more accurate device code for the third
+	  KT3...
+
+2016-07-08 16:35  NiLuJe
+
+	* [r13336] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-07-08 03:34  NiLuJe
+
+	* [r13334] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * Detect the White PW3, the Oasis and the KT3
+
+2016-06-21 02:49  NiLuJe
+
+	* [r13309] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Update binaries (TC update)
+
+2016-06-20 13:40  NiLuJe
+
+	* [r13306] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-05-18 16:37  NiLuJe
+
+	* [r13265] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (update TC)
+
+2016-04-24 13:53  NiLuJe
+
+	* [r13216] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-04-18 14:01  NiLuJe
+
+	* [r13189] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KIndle Hacks:
+	  * MRPI:
+	  * Unbreak OTAv1 handling...
+	  A stray c/p duplicate slipped in way back in r12041... :(
+
+2016-04-17 23:32  NiLuJe
+
+	* [r13188] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Linaro 5.3 2016.04)
+
+2016-04-17 13:34  NiLuJe
+
+	* [r13182] extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (2016.04 test batch)
+
+2016-04-11 15:32  NiLuJe
+
+	* [r13157] extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * And refresh PW2 binaries (w/ the famous GCC 5.3 + Glibc 2.19 TC...
+	  But Glibc 2.12 friendly).
+
+2016-04-11 15:04  NiLuJe
+
+	* [r13156] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-04-11 01:21  NiLuJe
+
+	* [r13152] extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Initial set of nearly compatible PW2 binaries built w/ GCC 5.3 and a
+	  TC compiled against glibc 2.19...
+
+2016-04-04 21:29  NiLuJe
+
+	* [r13104] extensions/MRInstaller/data/mrpi-K3.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Fix K3 sscanf mess, part II
+
+2016-04-04 18:39  NiLuJe
+
+	* [r13102] extensions/MRInstaller/data/mrpi-K3.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries to fix the sscanf mess, part I
+
+2016-04-03 17:04  NiLuJe
+
+	* [r13099] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  KIndle Hacks:
+	  * Refresh binaries
+
+2016-03-02 20:43  NiLuJe
+
+	* [r13003] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * refresh binaries (initial GDB import)
+
+2016-02-21 00:10  NiLuJe
+
+	* [r12956] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-02-14 01:23  NiLuJe
+
+	* [r12903] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Linaro 5.2 2015.11-2)
+
+2016-02-13 21:37  NiLuJe
+
+	* [r12900] extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (incomplete, from my test buildbox)
+
+2016-02-07 18:12  NiLuJe
+
+	* [r12851] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-01-18 03:13  NiLuJe
+
+	* [r12798] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (downgrade TC to 2015.11, for some strange reason I
+	  don't have time to investigate, my 2016.01 builds are utterly
+	  broken...)
+
+2016-01-16 20:41  NiLuJe
+
+	* [r12795] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (update TC)
+
+2015-12-04 18:48  NiLuJe
+
+	* [r12672] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-11-28 00:59  NiLuJe
+
+	* [r12659] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-11-20 19:02  NiLuJe
+
+	* [r12644] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-11-14 21:14  NiLuJe
+
+	* [r12632] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaires (TC update).
+	  The Kobo set is incomplete because sourceforge went down during the
+	  build, and is currently still down...
+
+2015-11-13 17:06  NiLuJe
+
+	* [r12624] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-11-06 21:03  NiLuJe
+
+	* [r12603] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (stop playing with FT's new TT stem darkening)
+
+2015-11-06 11:28  NiLuJe
+
+	* [r12589] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-11-05 16:24  NiLuJe
+
+	* [r12580] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-10-31 18:46  NiLuJe
+
+	* [r12573] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix dropbear interactive logins)
+
+2015-10-27 18:56  NiLuJe
+
+	* [r12558] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-10-22 16:23  NiLuJe
+
+	* [r12546] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-10-16 18:15  NiLuJe
+
+	* [r12526] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (TC update)
+
+2015-10-10 13:30  NiLuJe
+
+	* [r12507] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-10-03 23:11  NiLuJe
+
+	* [r12498] extensions/MRInstaller/data/mrpi-K5.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (split K4/K5 FT binaries for the whole GCC 5 crashy
+	  weirdness)
+
+2015-10-03 21:06  NiLuJe
+
+	* [r12491] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (hopefully unbreaks FT overrides on legacy devices)
+
+2015-10-03 15:47  NiLuJe
+
+	* [r12487] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-27 14:01  NiLuJe
+
+	* [r12478] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-26 13:22  NiLuJe
+
+	* [r12465] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-25 22:32  NiLuJe
+
+	* [r12464] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-25 21:43  NiLuJe
+
+	* [r12463] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (kindletool update)
+
+2015-09-24 18:45  NiLuJe
+
+	* [r12450] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (nano fixes)
+
+2015-09-24 15:00  NiLuJe
+
+	* [r12441] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-20 00:16  NiLuJe
+
+	* [r12428] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaris (TC Update)
+
+2015-09-11 01:36  NiLuJe
+
+	* [r12385] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-05 02:01  NiLuJe
+
+	* [r12335] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (the great mmap enfixening!)
+
+2015-08-28 17:34  NiLuJe
+
+	* [r12304] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * refresh binaries
+
+2015-08-20 16:50  NiLuJe
+
+	* [r12267] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-08-18 20:28  NiLuJe
+
+	* [r12248] extensions/MRInstaller/config.xml:
+	  
+	  KUAL Extensions:
+	  * BatteryStatus:
+	  * Tag v1.1.N
+	  * GNU Awk Installer:
+	  * Tag v1.5.N
+	  * Helper:
+	  * Tag v0.5.N
+	  * MRPI:
+	  * Tag v1.6.N
+
+2015-08-17 13:27  NiLuJe
+
+	* [r12224] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Fix a comment, we're good on the K4 :)
+
+2015-08-17 13:23  NiLuJe
+
+	* [r12223] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * More logging tweaks...
+
+2015-08-17 11:28  NiLuJe
+
+	* [r12221] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Simplify the handling of the new device ID scheme. It's both simpler
+	  and more accurate.
+
+2015-08-17 11:20  NiLuJe
+
+	* [r12220] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Err, it's actually better if I actually write the log message *to*
+	  the log, and not the ether... -_-"
+
+2015-08-17 11:19  NiLuJe
+
+	* [r12219] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Make package switches clearer in the logs
+
+2015-08-17 11:13  NiLuJe
+
+	* [r12218] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * I'm fairly stupid. That had approximately zero chance to work, since
+	  ash only supports 32bit ints... -_-"
+	  TL;DR: Don't try to be smart, assume our ota version parsing works,
+	  and let the version check actually fail later if it somehow borked the
+	  value.
+
+2015-08-17 11:08  NiLuJe
+
+	* [r12217] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Fix version checks on legacy devices... (printf is being stupid
+	  there...)
+
+2015-08-17 10:58  NiLuJe
+
+	* [r12216] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Argh, forgot we can't do / substitutions on legacy devices... ;'(
+
+2015-08-17 10:53  NiLuJe
+
+	* [r12215] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Fix the device code extraction regex, it wasn't precise enough...
+
+2015-08-17 10:31  NiLuJe
+
+	* [r12214] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * More logging!
+
+2015-08-17 10:28  NiLuJe
+
+	* [r12213] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * More debug logging...
+
+2015-08-17 10:25  NiLuJe
+
+	* [r12212] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Typo
+
+2015-08-17 10:24  NiLuJe
+
+	* [r12211] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Make the log more useful for debugging...
+
+2015-08-16 10:33  NiLuJe
+
+	* [r12203] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (TC update)
+
+2015-08-15 13:31  NiLuJe
+
+	* [r12176] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-08-15 09:46  NiLuJe
+
+	* [r12172] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-08-14 17:52  NiLuJe
+
+	* [r12153] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Cover all bases when detecting models to avoid potential false
+	  positives with the new device ID scheme...
+
+2015-08-14 14:10  NiLuJe
+
+	* [r12151] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Rework the model detection to handle the PW3 properly...
+
+2015-08-14 12:35  NiLuJe
+
+	* [r12149] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MPRI:
+	  * Err, simplify the new device ID scheme handling...
+	  I kind of forgot that I made sure that KindleTool would be doing the
+	  heavy lifting yesterday.... -_-"
+
+2015-08-14 12:31  NiLuJe
+
+	* [r12148] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Oops, fix device code checking.
+	  Always get a device code in hex from KindleTool, we handle the
+	  base32hex conversion ourselves later as needed.
+
+2015-08-14 12:25  NiLuJe
+
+	* [r12147] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * More comment tweaks
+
+2015-08-14 12:23  NiLuJe
+
+	* [r12146] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAl Extensions:
+	  * MRPI:
+	  * Tweak a comment
+
+2015-08-14 12:23  NiLuJe
+
+	* [r12145] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Handle the new device ID scheme found on the PW3 when matching
+	  package device IDs...
+	  Playing with base32hex in fun as hell in shell... >_<".
+
+2015-08-14 09:39  NiLuJe
+
+	* [r12137] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-08-13 17:22  NiLuJe
+
+	* [r12127] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Missed a spot ;p
+
+2015-08-13 17:19  NiLuJe
+
+	* [r12126] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Update device code parsing to handle the new KindleTool format.
+	  Yup, that regex is beastly.
+	  
+	  Special "locked myself out of the flat" edition.
+
+2015-08-01 16:03  NiLuJe
+
+	* [r12110] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Package stuff for the PW3, and update docs accordingly.
+
+2015-08-01 15:49  NiLuJe
+
+	* [r12109] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * First innacurate stab at detecting the PW3.
+	  This will probably need to be fixed at one point...
+
+2015-07-30 06:39  NiLuJe
+
+	* [r12103] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-07-27 03:04  NiLuJe
+
+	* [r12097] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-07-25 18:30  NiLuJe
+
+	* [r12084] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Fix some more nonsensical keywords on binary files...
+
+2015-07-25 17:45  NiLuJe
+
+	* [r12080] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-06-17 14:53  NiLuJe
+
+	* [r12048] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Minor tweaks to the input sanitization for the version checks
+
+2015-06-17 05:54  NiLuJe
+
+	* [r12047] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * Nope, there truly was an issue, but only with really, really ancient
+	  builds.
+
+2015-06-17 05:40  NiLuJe
+
+	* [r12046] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * Unbreak OTA version computations. (Also, stop trying to do maths at
+	  night).
+
+2015-06-17 05:11  NiLuJe
+
+	* [r12045] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Fix version check by working around a busybox limitation...
+
+2015-06-17 04:33  NiLuJe
+
+	* [r12044] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Arrrgh. BB does arithmetics w/ signed 32bit ints... Our version
+	  checks almost always overflows. :(
+
+2015-06-17 03:48  NiLuJe
+
+	* [r12043] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * Make it more explicit when we're pulling OTA build numbers from thin
+	  air on weird builds, when we don't have a type contraint on the value
+
+2015-06-17 03:46  NiLuJe
+
+	* [r12042] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * Cut those silly bangs
+
+2015-06-17 03:40  NiLuJe
+
+	* [r12041] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Honor the version constraints of a package
+
+2015-06-17 01:45  NiLuJe
+
+	* [r12038] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (update IM to fix a ScreenSavers regression)
+
+2015-06-13 14:57  NiLuJe
+
+	* [r12025] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-06-05 22:17  NiLuJe
+
+	* [r12019] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  • Refresh binaries
+
+2015-05-31 01:14  NiLuJe
+
+	* [r12014] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-05-25 18:33  NiLuJe
+
+	* [r12003] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-05-07 22:32  NiLuJe
+
+	* [r11963] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Update binaries (updated TC)
+
+2015-05-01 02:02  NiLuJe
+
+	* [r11924] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Update binaries
+
+2015-04-29 11:29  NiLuJe
+
+	* [r11911] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Confirmed the eips stuff on the KT2. Thanks to @zfu on MR :).
+
+2015-04-28 16:23  NiLuJe
+
+	* [r11906] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Fix eips prints on the KT2...
+	  It appears to behave like the eips used on newer devices...
+	  Except on a much smaller screen. This probably means that most of my
+	  prints
+	  will be cropped on a KT2...
+	  Thanks to @zfu on MR for pointing that out :).
+
+2015-03-11 00:58  NiLuJe
+
+	* [r11729] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-03-07 16:23  NiLuJe
+
+	* [r11725] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-03-07 01:28  NiLuJe
+
+	* [r11720] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-03-06 17:44  NiLuJe
+
+	* [r11712] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MRPI:
+	  * Reminder to myself on why we're more or less forced to down usbnet
+	  during updates...
+
+2015-03-06 17:37  NiLuJe
+
+	* [r11711] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Tweak the header for Legacy/Wario packages
+
+2015-02-26 19:01  NiLuJe
+
+	* [r11698] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix fc-scan)
+
+2015-02-26 13:36  NiLuJe
+
+	* [r11688] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix Python)
+
+2015-02-26 02:23  NiLuJe
+
+	* [r11684] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh bianries...
+	  (LTO, AKA, The Breakening!)
+
+2015-02-25 15:00  NiLuJe
+
+	* [r11663] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  • Resync binaries
+
+2015-02-23 21:03  NiLuJe
+
+	* [r11616] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-02-23 02:18  NiLuJe
+
+	* [r11604] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * refresh binaries (fix readline)
+
+2015-02-22 20:47  NiLuJe
+
+	* [r11589] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Update binaries (misc zsh support)
+
+2015-02-22 14:25  NiLuJe
+
+	* [r11576] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-02-20 06:30  NiLuJe
+
+	* [r11558] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix strace)
+
+2015-02-19 23:37  NiLuJe
+
+	* [r11554] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (strace w/ libunwind, Python & SQLite3 w/ readline)
+
+2015-02-18 21:19  NiLuJe
+
+	* [r11541] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Update binaries (widec ncurses)
+
+2015-02-17 23:35  NiLuJe
+
+	* [r11537] extensions/MRInstaller/data/mrpi-K3.tar.gz,
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz,
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Linaro 4.9 2015.02)
+
+2015-02-14 00:06  NiLuJe
+
+	* [r11513] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Minor tweak to the staging directory handling (absolute paths, avoid
+	  surprises in case of funky/missing cd's)
+
+2015-02-12 20:47  NiLuJe
+
+	* [r11505] extensions/MRInstaller/config.xml:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Tag v1.5.N
+
+2015-02-12 20:44  NiLuJe
+
+	* [r11504] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MRPI:
+	  * Fix failures on legacy for good.
+	  I actually can't read svn blame, apparently... :D
+
+2015-02-12 19:22  NiLuJe
+
+	* [r11503] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Fix binaries install...
+
+2015-02-12 19:14  NiLuJe
+
+	* [r11502] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Nice typo.
+
+2015-02-12 19:10  NiLuJe
+
+	* [r11501] extensions/MRInstaller/bin/K3/kindletool[DEL],
+	  extensions/MRInstaller/bin/K5/kindletool[DEL],
+	  extensions/MRInstaller/bin/PW2/kindletool[DEL],
+	  extensions/MRInstaller/bin/mrinstaller.sh,
+	  extensions/MRInstaller/data[ADD],
+	  extensions/MRInstaller/data/mrpi-K3.tar.gz[ADD],
+	  extensions/MRInstaller/data/mrpi-K5.tar.gz[ADD],
+	  extensions/MRInstaller/data/mrpi-PW2.tar.gz[ADD],
+	  extensions/MRInstaller/lib/K3/libz.so.1[DEL],
+	  extensions/MRInstaller/lib/K5/libz.so.1[DEL],
+	  extensions/MRInstaller/lib/PW2/libz.so.1[DEL]:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Tweak binary handling. Only install the relevant ones.
+
+2015-02-12 18:30  NiLuJe
+
+	* [r11500] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MRPI:
+	  * Amend last commit. Revert it, and instead add a comment aimed at
+	  package authors.
+
+2015-02-12 18:23  NiLuJe
+
+	* [r11499] extensions/MRInstaller/bin/K3/kindletool,
+	  extensions/MRInstaller/bin/K5/kindletool,
+	  extensions/MRInstaller/bin/PW2/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update binaries
+
+2015-02-12 18:11  NiLuJe
+
+	* [r11498] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MRPI:
+	  * Err, unbreak on legacy devices?
+	  Apparently, we can't use set -e there, because sourcing _FUNCTIONS
+	  isn't actually errorless... -_-"
+
+2015-02-12 17:33  NiLuJe
+
+	* [r11497] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MRPI:
+	  * Update comments
+
+2015-02-12 16:19  NiLuJe
+
+	* [r11496] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MRPI:
+	  * Moar logging
+
+2015-02-12 15:47  NiLuJe
+
+	* [r11494] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  • MRPI:
+	  • Minor tweaks to aid debugging...
+
+2015-01-31 19:58  NiLuJe
+
+	* [r11464] extensions/MRInstaller/bin/K3/kindletool,
+	  extensions/MRInstaller/bin/K5/kindletool,
+	  extensions/MRInstaller/bin/PW2/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-01-17 20:34  NiLuJe
+
+	* [r11432] extensions/MRInstaller/bin/K3/kindletool,
+	  extensions/MRInstaller/bin/K5/kindletool,
+	  extensions/MRInstaller/bin/PW2/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-01-07 23:20  NiLuJe
+
+	* [r11355] extensions/MRInstaller/CREDITS:
+	  
+	  Kobo Hacks:
+	  * KoboStuff:
+	  * Add a readme
+
+2015-01-05 23:16  NiLuJe
+
+	* [r11332] extensions/MRInstaller/bin/K3/kindletool,
+	  extensions/MRInstaller/bin/K5/kindletool,
+	  extensions/MRInstaller/bin/PW2/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-12-23 14:56  NiLuJe
+
+	* [r11305] extensions/MRInstaller/menu.json:
+	  
+	  KUAL Extensions:
+	  * Make sure the "Helper" menu is always right below the "KUAL" one.
+	  * Make sure MRI is always at the top of the "Helper" menu.
+
+2014-12-18 13:05  NiLuJe
+
+	* [r11252] extensions/MRInstaller/bin/K3/kindletool,
+	  extensions/MRInstaller/bin/K5/kindletool,
+	  extensions/MRInstaller/bin/PW2/kindletool,
+	  extensions/MRInstaller/lib/K3/libz.so.1,
+	  extensions/MRInstaller/lib/K5/libz.so.1,
+	  extensions/MRInstaller/lib/PW2/libz.so.1:
+	  
+	  Kindle Hacks:
+	  * Refresh binaires (updated TC)
+
+2014-12-04 14:02  NiLuJe
+
+	* [r11223] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  • MR Installer:
+	  • Don't source _FUNCTIONS twice on legacy devices. Good catch, @knc1
+	  ;).
+
+2014-11-29 15:11  NiLuJe
+
+	* [r11181] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Babysit AcXE some more (its start on/stop on stanzas make it so that
+	  it doesn't depend on the UI, so we need to stop/start it ourselves)
+
+2014-11-29 14:58  NiLuJe
+
+	* [r11180] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Move the sync calls to the make_rootfs functions themselves
+
+2014-11-29 01:46  NiLuJe
+
+	* [r11178] extensions/MRInstaller/config.xml:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Tag v1.4.N
+
+2014-11-29 01:45  NiLuJe
+
+	* [r11177] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Cleanup properly on error
+
+2014-11-29 01:30  NiLuJe
+
+	* [r11176] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Reimplement mntroot ourselves, in a more robust manner.
+
+2014-11-29 01:12  NiLuJe
+
+	* [r11174] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MPRI:
+	  * Raise the priority of RP installers
+
+2014-11-29 01:08  NiLuJe
+
+	* [r11173] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * More accurate rw/ro rootfs check...
+
+2014-11-28 20:46  NiLuJe
+
+	* [r11172] extensions/MRInstaller/bin/K3/kindletool,
+	  extensions/MRInstaller/bin/K5/kindletool,
+	  extensions/MRInstaller/bin/PW2/kindletool,
+	  extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-11-25 21:29  NiLuJe
+
+	* [r11168] extensions/MRInstaller/bin/K3/kindletool,
+	  extensions/MRInstaller/bin/K5/kindletool,
+	  extensions/MRInstaller/bin/PW2/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-11-25 19:14  NiLuJe
+
+	* [r11166] extensions/MRInstaller/config.xml:
+	  
+	  KUAL Extensions:
+	  * MR Installer:
+	  * Tag v1.3.N
+
+2014-11-23 20:44  NiLuJe
+
+	* [r11150] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Oooh, I can't spell ;).
+
+2014-11-23 16:18  NiLuJe
+
+	* [r11142] extensions/MRInstaller/config.xml:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Tag v1.13.N
+	  * USBNetwork:
+	  * Tag v0.18.N
+	  * MR Installer:
+	  * Tag v1.2.N
+
+2014-11-22 18:45  NiLuJe
+
+	* [r11135] extensions/MRInstaller/bin/K3/kindletool,
+	  extensions/MRInstaller/bin/K5/kindletool,
+	  extensions/MRInstaller/bin/PW2/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-11-22 16:23  NiLuJe
+
+	* [r11129] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Use a more reliable method to check the current UID,
+	  the env cannot be trusted.
+
+2014-11-22 15:30  NiLuJe
+
+	* [r11127] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * More safety nets around the FW 5.6.1 mess...
+
+2014-11-17 18:33  NiLuJe
+
+	* [r11115] extensions/MRInstaller/CREDITS[ADD]:
+	  
+	  KUAl extensions:
+	  * MR Installer:
+	  * Forgot the credits file for the binaries
+
+2014-11-17 18:28  NiLuJe
+
+	* [r11114] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MR Installer:
+	  * Actually, die earlier on FW 5.6.1, we might not be able to bring the
+	  UI back up properly otherwise.
+
+2014-11-17 18:15  NiLuJe
+
+	* [r11113] extensions/MRInstaller/config.xml:
+	  
+	  KUAl extensions:
+	  * MR Installer:
+	  * Tag v1.1.N
+
+2014-11-17 17:46  NiLuJe
+
+	* [r11111] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MR Installer:
+	  * Tweak a few more eips calls
+
+2014-11-17 17:36  NiLuJe
+
+	* [r11110] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MR Installer:
+	  * Add some more error checking, to avoid going kablooey in case stuff
+	  doesn't go as planned...
+	  (FW 5.6.1, i'm looking at you...)
+
+2014-11-16 14:01  NiLuJe
+
+	* [r11109] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MR Installer:
+	  * Actually destroy invalid packages ;)
+
+2014-11-16 02:49  NiLuJe
+
+	* [r11108] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MR Installer:
+	  * Try harder not to let our last eips call get eaten by the driver...
+
+2014-11-15 23:47  NiLuJe
+
+	* [r11101] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAl extensions:
+	  * MR Installer:
+	  * Shorten an eips msg
+
+2014-11-15 22:18  NiLuJe
+
+	* [r11094] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MR Installer:
+	  * More sleepytime tweaks...
+
+2014-11-15 22:14  NiLuJe
+
+	* [r11093] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MR Installer:
+	  * Down usbnet manually on legacy devices.
+	  (fixes USBNet not coming back up if USE_VOLUMD is true)
+
+2014-11-15 22:05  NiLuJe
+
+	* [r11092] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAl extensions:
+	  * MR Installer:
+	  * Wait a bit for X to get torn down on K5
+
+2014-11-15 21:52  NiLuJe
+
+	* [r11091] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MR Installer:
+	  * More sleepytime on legacy devices
+
+2014-11-15 21:51  NiLuJe
+
+	* [r11090] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MR Installer:
+	  * Wait much longer for us to really have switched to single-user
+	  runlevel
+
+2014-11-15 21:42  NiLuJe
+
+	* [r11089] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  Kindle Hacks:
+	  * Oops, fix progress outside of the updater ;)
+
+2014-11-15 21:36  NiLuJe
+
+	* [r11088] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MR Installer:
+	  * The parser doesn't care if the code is reachable or not ;'(
+
+2014-11-15 21:33  NiLuJe
+
+	* [r11087] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MR Installer:
+	  * Multiple fixes for legacy devices
+
+2014-11-15 21:03  NiLuJe
+
+	* [r11085] extensions/MRInstaller/bin/K3/kindletool[ADD],
+	  extensions/MRInstaller/bin/K5/kindletool[ADD],
+	  extensions/MRInstaller/bin/PW2/kindletool[ADD],
+	  extensions/MRInstaller/lib/K3/libz.so.1[ADD],
+	  extensions/MRInstaller/lib/K5/libz.so.1[ADD],
+	  extensions/MRInstaller/lib/PW2/libz.so.1[ADD]:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-11-15 19:57  NiLuJe
+
+	* [r11084] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MR Installer:
+	  * Should now handle legacy devices, too...
+
+2014-11-15 18:55  NiLuJe
+
+	* [r11082] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL Extensions:
+	  * MR Installer:
+	  * More extensive package validation
+
+2014-11-15 18:02  NiLuJe
+
+	* [r11081] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MR Installer:
+	  * More eips msg tweaks
+
+2014-11-15 17:55  NiLuJe
+
+	* [r11080] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MR Installer:
+	  * More eips tweaks ;)
+
+2014-11-15 17:51  NiLuJe
+
+	* [r11078] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MR Installer:
+	  * Tweak some eips msgs some more
+
+2014-11-15 17:42  NiLuJe
+
+	* [r11077] extensions/MRInstaller/bin/mrinstaller.sh,
+	  extensions/MRInstaller/log[ADD]:
+	  
+	  KUAL Extensions:
+	  * MR Installer:
+	  * Tweak some eips messages, and add some more logging
+
+2014-11-15 17:12  NiLuJe
+
+	* [r11076] extensions/MRInstaller/bin/mrinstaller.sh:
+	  
+	  KUAL extensions:
+	  * MR Installer:
+	  * Make sure the package directory exists first
+
+2014-11-15 17:11  NiLuJe
+
+	* [r11075] .[ADD], extensions[ADD], extensions/MRInstaller[ADD],
+	  extensions/MRInstaller/bin[ADD], extensions/MRInstaller/bin/K3[ADD],
+	  extensions/MRInstaller/bin/K5[ADD],
+	  extensions/MRInstaller/bin/PW2[ADD],
+	  extensions/MRInstaller/bin/mrinstaller.sh[ADD],
+	  extensions/MRInstaller/config.xml[ADD],
+	  extensions/MRInstaller/lib[ADD], extensions/MRInstaller/lib/K3[ADD],
+	  extensions/MRInstaller/lib/K5[ADD],
+	  extensions/MRInstaller/lib/PW2[ADD],
+	  extensions/MRInstaller/menu.json[ADD], mrpackages[ADD]:
+	  
+	  Kindle Hacks, KUAL Extensions:
+	  * Initial import of the K5 MR Package Installer :)
+

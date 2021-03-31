@@ -1,0 +1,27 @@
+  kindletool: KindleTool, Copyright (C) 2011-2015  Yifan Lu, licensed under the GNU General Public License version 3+ (http://www.gnu.org/licenses/gpl.html).
+(https://github.com/NiLuJe/KindleTool/)
+
+    |
+    |->   libarchive, Copyright (C) Tim Kientzle, licensed under the New BSD License (http://www.opensource.org/licenses/bsd-license.php)
+    |   (http://libarchive.github.com/)
+    |
+    |->   GMP, GNU MP Library, Copyright 1991-2013 Free Software Foundation, Inc.,
+    |   licensed under the GNU Lesser General Public License version 3+ (http://www.gnu.org/licenses/lgpl.html).
+    |   (http://gmplib.org/)
+    |
+    `->   nettle, Copyright (C) 2001-2013 Niels Möller,
+        licensed under the GNU Lesser General Public License version 2.1+ (https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).
+        (http://www.lysator.liu.se/~nisse/nettle)
+
+  libz: zlib, Copyright (C) 1995-2013 Jean-loup Gailly and Mark Adler,
+        Licensed under the zlib license (http://zlib.net/zlib_license.html)
+        (http://zlib.net/)
+
+  fbink: FBInk (FrameBuffer eInker), Copyright (C) 2018-2019 NiLuJe <ninuje@gmail.com>,
+        Released under the GNU General Public License version 3+ (https://www.gnu.org/licenses/gpl.html)
+        (https://github.com/NiLuJe/FBInk)
+
+  BigBlue_Terminal.ttf: BigBlue Terminal +, Copyright (C) VileR, <viler@int10h.org>,
+        Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-sa/4.0/)
+        (https://int10h.org/blog/2015/12/bigblue-terminal-oldschool-fixed-width-font/).
+        Patched with extra glyphs via https://github.com/ryanoasis/nerd-fonts/, see the WiKi for individual licenses.
