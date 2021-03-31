@@ -344,7 +344,7 @@ print_jb_install_feedback()
 	# We need to know our model
 	check_model
 	# Prepare our stuff...
-	kh_eips_string="**** JAILBREAK ****"
+	kh_eips_string="**** JAILBREAK BY SPHINX****"
 
 	# And finally, show our message, centered on the bottom of the screen
 	eips $(((${EIPS_MAXCHARS} - ${#kh_eips_string}) / 2)) $((${EIPS_MAXLINES} - 2)) "${kh_eips_string}"
