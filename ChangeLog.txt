@@ -1,0 +1,1819 @@
+2021-03-24 18:06  NiLuJe
+
+	* [r18326] src/install-emergency.sh:
+	  
+	  Kindle Hacks:
+	  * Emergency:
+	  * Port the latest KindleBreak tweaks here
+
+2021-03-24 00:04  NiLuJe
+
+	* [r18299] src/install-emergency.sh:
+	  
+	  Kindle Hacks:
+	  * JB:
+	  * Make the emergency script be able to deal with remnants of recent
+	  bridge versions
+
+2020-12-15 03:32  NiLuJe
+
+	* [r18002] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Add a corss-ref on the subject of finding the root part...
+
+2020-05-24 03:16  NiLuJe
+
+	* [r17396] src/5.4-install.sh, src/install-bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Deal with varlocal's silliness some more...
+
+2020-05-24 03:13  NiLuJe
+
+	* [r17395] src/install-emergency.sh:
+	  
+	  Kindle Hacks:
+	  * Emergency:
+	  * Mostly harmless c/p mistake
+
+2020-05-24 03:08  NiLuJe
+
+	* [r17394] src/install-bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Deal with one more varlocal setgid quirk at install time
+
+2020-05-24 02:56  NiLuJe
+
+	* [r17393] src/5.4-install.sh, src/install-bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Take care of varlocal's setgid bit at install time
+
+2020-05-24 02:36  NiLuJe
+
+	* [r17392] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Missed that in the previous comment
+
+2020-05-24 02:35  NiLuJe
+
+	* [r17391] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Oh, joy. -O & -G tests don't behave on symlinks (either they don't
+	  work at all, or they deref).
+
+2020-05-24 02:18  NiLuJe
+
+	* [r17390] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * The folder itself needs to be mutable to be able to recreate a
+	  symlink
+
+2020-05-24 02:12  NiLuJe
+
+	* [r17389] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * And in there, too.
+
+2020-05-24 01:46  NiLuJe
+
+	* [r17386] build/build-updates.sh, src/install-emergency.sh[ADD]:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Bundle the emergency script variant as part of the JB itself.
+	  So I don't have to maintain another off-thread copy somewhere.
+
+2020-05-24 01:17  NiLuJe
+
+	* [r17382] src/5.4-install.sh, src/install-bridge.sh:
+	  
+	  Bridge:
+	  * Make the RP/CRP persistent storage immutable, too
+
+2020-05-17 17:41  NiLuJe
+
+	* [r17338] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Meaning we can get rid of that...
+
+2020-05-17 17:39  NiLuJe
+
+	* [r17337] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Unbreak it.
+
+2020-05-17 16:31  NiLuJe
+
+	* [r17335] src/5.4-install.sh, src/install-bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * And that should be the final one...
+
+2020-05-17 16:18  NiLuJe
+
+	* [r17333] src/install-bridge.sh, src/install-dispatch.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Handle mutability in install scripts, too.
+
+2020-05-17 16:09  NiLuJe
+
+	* [r17332] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Better folder/symlink handling in thos elast few changes...
+
+2020-05-17 16:02  NiLuJe
+
+	* [r17331] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge: It's hammer time!
+
+2020-05-17 15:50  NiLuJe
+
+	* [r17330] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Minor shellcheck pass
+
+2020-05-17 15:45  NiLuJe
+
+	* [r17329] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge: Can't touch this!
+
+2020-03-09 19:47  NiLuJe
+
+	* [r16935] src/install-bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Minor review pass
+
+2020-03-08 18:29  NiLuJe
+
+	* [r16928] src/dispatch.sh:
+	  
+	  Dispatch:
+	  * Oops.
+
+2020-03-08 18:26  NiLuJe
+
+	* [r16927] src/5.4-install.sh, src/install-bridge.sh,
+	  src/install-dispatch.sh:
+	  
+	  JB:
+	  * Minor tweaks for consistency
+
+2020-03-08 18:02  NiLuJe
+
+	* [r16925] src/dispatch.sh:
+	  
+	  Bridge:
+	  * Harden the dispatch script against potential shenanigans...
+
+2020-03-08 17:55  NiLuJe
+
+	* [r16924] src/bridge.sh, src/dispatch.sh:
+	  
+	  Bridge:
+	  * Bridge the dispatch command, too.
+	  Hopefully without any horrible side-effects...
+
+2020-03-08 04:41  NiLuJe
+
+	* [r16922] src/5.4-install.sh, src/bridge.sh, src/install-bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Double-check gandalf's permissions
+
+2020-03-08 04:26  NiLuJe
+
+	* [r16921] src/bridge.sh:
+	  
+	  Bridge:
+	  * That makes more sense in this order ;).
+
+2020-03-08 01:24  NiLuJe
+
+	* [r16920] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Log the bridge revision
+
+2020-02-19 23:28  NiLuJe
+
+	* [r16889] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Be extremely paranoid.
+
+2020-02-19 23:21  NiLuJe
+
+	* [r16888] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Be paranoid everywhere.
+
+2020-02-19 23:15  NiLuJe
+
+	* [r16886] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Eh. Make that more complete.
+
+2020-02-19 20:34  NiLuJe
+
+	* [r16881] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Same logic for dispatch.
+	  Not that it matters much now that ;log is gone.
+
+2020-02-19 20:32  NiLuJe
+
+	* [r16880] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * The relaxed check allows us to do this...
+	  Who knows.
+
+2020-02-19 17:42  NiLuJe
+
+	* [r16879] src/install-bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Comment typo
+
+2020-02-19 17:37  NiLuJe
+
+	* [r16878] src/install-bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Explain why a bridge install won't actually *run* the bridge.
+
+2020-02-19 17:30  NiLuJe
+
+	* [r16877] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * More lenient key check.
+	  Shouldn't matter one bit, though.
+
+2020-02-11 17:08  NiLuJe
+
+	* [r16860] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge: Stray space indent
+
+2019-11-15 06:48  NiLuJe
+
+	* [r16683] src/dispatch.sh:
+	  
+	  Kindle Hacks:
+	  * Dispatch:
+	  * Random 5.12.2 comment...
+
+2019-10-08 15:21  NiLuJe
+
+	* [r16552] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Bridge:
+	  * Handle the potential double-mount properly
+
+2019-10-07 16:38  NiLuJe
+
+	* [r16543] src/install-bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Bridge:
+	  * Some more double-checks...
+
+2019-10-07 16:30  NiLuJe
+
+	* [r16541] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Bridge:
+	  * Tag v1.16.N
+
+2019-10-07 16:08  NiLuJe
+
+	* [r16537] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Bridge:
+	  * Make sure we do the right thing if ROOT ought to be set (i.e.,
+	  running from diags).
+
+2019-10-07 15:54  NiLuJe
+
+	* [r16536] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Bridge:
+	  * Make a vague attempt at dealing with FW 5.12.2...
+
+2019-07-23 22:04  NiLuJe
+
+	* [r16256] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Prepare packaging for the KOA3.
+	  This is currently a NOP (and unusable, anyway, since we lack a JB).
+	  Hence the filenames not being updated.
+
+2019-07-23 21:47  NiLuJe
+
+	* [r16253] src/5.4-install.sh:
+	  
+	  Kindle Hacks:
+	  * Minor c/p typo
+
+2019-07-23 21:44  NiLuJe
+
+	* [r16252] src/5.4-install.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the KOA3
+
+2019-07-23 21:27  NiLuJe
+
+	* [r16251] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Bridge:
+	  * Dry-code KOA3 handling. Because why not? ;p
+
+2019-07-12 02:33  NiLuJe
+
+	* [r16160] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Make sure we deref hardlinks when creating tarballs that might be
+	  unpacked on vfat...
+
+2019-07-12 01:38  NiLuJe
+
+	* [r16157] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Switch from hard copies to hard links for most move/copy operations
+	  in the packaging scripts.
+	  Should hopefully make rebuilding the snapshots a tiny bit faster with
+	  no adverse affects ;).
+
+2019-06-03 21:32  NiLuJe
+
+	* [r15987] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Actually package stuff for the KT4, whoops.
+
+2019-06-01 13:18  NiLuJe
+
+	* [r15968] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Plug in a few new PW4 IDs...
+
+2019-04-12 03:21  NiLuJe
+
+	* [r15870] src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Point the bridge to the right partition on the KT4
+
+2019-04-12 03:14  NiLuJe
+
+	* [r15868] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the KT4
+
+2018-12-09 04:37  NiLuJe
+
+	* [r15581] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Add potentially bogus new PW4 IDs...
+
+2018-11-09 02:18  NiLuJe
+
+	* [r15526] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Bridge:
+	  * Fix typo in comment
+
+2018-11-09 02:11  NiLuJe
+
+	* [r15525] src/bridge.sh, src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Bridge:
+	  * Make sure we won't fail to install the Kindlet key,
+	  even on devices without a keystore (because without Kindlet support at
+	  all).
+
+2018-11-09 02:07  NiLuJe
+
+	* [r15524] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Bridge:
+	  * Fix PW4 rootfs block device, as pointed out by @coplate
+
+2018-11-08 22:15  NiLuJe
+
+	* [r15511] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Package stuff for the PW4
+
+2018-11-08 21:24  NiLuJe
+
+	* [r15506] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the PW4
+
+2018-10-17 22:34  NiLuJe
+
+	* [r15484] src/5.4-install.sh, src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Fix a rather nasty bug in order to detect FW 5.10 properly (unbreaks
+	  the bridge)
+
+2018-08-31 18:11  NiLuJe
+
+	* [r15361] build/build-updates.sh, src/install-bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Install an fbink binary as part of the bridge *install* process (not
+	  the bridge code itself).
+
+2018-06-03 17:07  NiLuJe
+
+	* [r15037] src/5.4-install.sh, src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Confirmed the eips block size on the KOA2 :)
+	  It hasn't changed, which means it'll look tiny as fuck on that
+	  screen...
+
+2018-06-03 04:00  NiLuJe
+
+	* [r15035] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Document one more KOA2 mystery...
+
+2018-06-02 23:20  NiLuJe
+
+	* [r15026] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Properly install the dispatch script in the non-hotfix bridge
+	  installer, too.
+
+2018-06-02 16:58  NiLuJe
+
+	* [r15011] build/build-updates.sh, src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Use grep -q instead of IO reidrections where applicable
+
+2018-06-01 23:25  NiLuJe
+
+	* [r15007] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Tag v1.15.N
+
+2018-06-01 23:22  NiLuJe
+
+	* [r15006] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Don't package the legacy JB for anything that has no hope of ever
+	  being vulnerable to it (i.e., anything that shipped on FW >= 5.5.x)
+
+2018-06-01 23:17  NiLuJe
+
+	* [r15004] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Package for the KOA2 now that the bridge code is safe
+
+2018-06-01 23:09  NiLuJe
+
+	* [r15003] src/5.4-install.sh, src/install-ninja.sh, src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Missed a few spots... Having seventy-billion variants of this piece
+	  of code is fun.
+
+2018-06-01 23:04  NiLuJe
+
+	* [r15002] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Not mounting rootfs inside root's home on diags does indeed sound
+	  like a saner proposition
+
+2018-06-01 22:46  NiLuJe
+
+	* [r15001] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Safely handle the KOA2 in the bridge code
+
+2018-06-01 17:59  NiLuJe
+
+	* [r15000] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Prettier PackageName in packaging metadata
+
+2018-06-01 17:30  NiLuJe
+
+	* [r14998] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Add packaging metadata to all OTAv2 packages that will *always* go
+	  through MRPI.
+
+2018-05-15 15:59  NiLuJe
+
+	* [r14930] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * This iteration does NOT support the KOA2 (different partition
+	  layout, mostly).
+	  So make sure we don't package it for the KOA2.
+
+2017-11-25 23:28  NiLuJe
+
+	* [r14393] src/5.4-install.sh, src/bridge.sh, src/install.sh,
+	  src/payload/jailbreak-koa2.png[ADD]:
+	  
+	  Kindle Hacks:
+	  * Slightly more accurate KOA2 screen size...
+
+2017-11-24 22:32  NiLuJe
+
+	* [r14382] src/5.4-install.sh:
+	  
+	  Typo
+
+2017-11-24 22:01  NiLuJe
+
+	* [r14378] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * First pass of KOA2 detection
+
+2016-07-11 18:33  NiLuJe
+
+	* [r13356] src/dispatch.sh:
+	  
+	  Dispatcher:
+	  * Oops, actually ask to launch MRPI ;p
+
+2016-07-11 18:32  NiLuJe
+
+	* [r13355] src/dispatch.sh:
+	  
+	  Dispatch:
+	  * More readable eips prints
+
+2016-07-11 18:01  NiLuJe
+
+	* [r13351] src/install-dispatch.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Unstupidify Dispatch installer...
+
+2016-07-11 17:53  NiLuJe
+
+	* [r13350] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * And another one...
+
+2016-07-11 17:26  NiLuJe
+
+	* [r13346] CREDITS[ADD], build/build-updates.sh, src/bridge.sh,
+	  src/dispatch.sh[ADD], src/install-dispatch.sh[ADD]:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Poor man's workaround for KOA users to let them install and launch
+	  stuff
+
+2016-07-11 12:24  NiLuJe
+
+	* [r13342] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Fix some device codes...
+
+2016-07-08 18:09  NiLuJe
+
+	* [r13337] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * *Potentially* slightly more accurate device code for the third
+	  KT3...
+
+2016-07-08 02:43  NiLuJe
+
+	* [r13333] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Handle the White PW3, the Oasis & the KT3
+	  * Detect FW 5.8
+
+2016-02-06 23:13  NiLuJe
+
+	* [r12841] src/5.4-install.sh, src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * LibKH:
+	  * Detect FW 5.7 properly, instead of relying on the fallback.
+
+2016-02-06 15:52  NiLuJe
+
+	* [r12833] README:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Minor touch up to the JB doc re: @BD's 5.6.5 JB :).
+
+2015-11-14 01:09  NiLuJe
+
+	* [r12627] src/5.4-install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Guard against missing assets
+
+2015-11-14 00:54  NiLuJe
+
+	* [r12626] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Minor comment tweak
+
+2015-11-14 00:46  NiLuJe
+
+	* [r12625] src/5.4-install.sh, src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Make slightly more effort to behave properly when run from diags...
+
+2015-09-30 18:06  NiLuJe
+
+	* [r12482] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Harmonizes permissions of our pubkey file
+
+2015-08-17 13:47  NiLuJe
+
+	* [r12225] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Rework the new device ID stuff.
+	  Get rid of the kmodel_v2 crap, kmodel now always points to the actual
+	  device code, no matter the scheme.
+
+2015-08-14 17:52  NiLuJe
+
+	* [r12153] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Cover all bases when detecting models to avoid potential false
+	  positives with the new device ID scheme...
+
+2015-08-14 14:10  NiLuJe
+
+	* [r12151] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Rework the model detection to handle the PW3 properly...
+
+2015-08-01 15:49  NiLuJe
+
+	* [r12109] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * First innacurate stab at detecting the PW3.
+	  This will probably need to be fixed at one point...
+
+2015-07-28 04:14  NiLuJe
+
+	* [r12098] src/5.4-install.sh, src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JB:
+	  * Handle the KV & KT2 in the fallback FW version detection
+
+2015-05-08 16:26  NiLuJe
+
+	* [r11979] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Refresh docs.
+	  * Kindle Touch Hacks:
+	  * JailBreak:
+	  * Revert the version bump, it's confusing and useless.
+	  (-> Tag v1.14.N again)
+
+2015-05-08 15:38  NiLuJe
+
+	* [r11976] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Fonts:
+	  * Tag v0.12.N
+	  * JailBreak:
+	  * Tag v1.15.N
+	  * Python:
+	  * Tag v0.13.N
+	  * ScreenSavers:
+	  * Tag v0.23.N
+	  * USBNetwork:
+	  * Tag v0.20.N
+
+2015-04-29 11:29  NiLuJe
+
+	* [r11911] src/5.4-install.sh, src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Confirmed the eips stuff on the KT2. Thanks to @zfu on MR :).
+
+2015-04-28 19:31  NiLuJe
+
+	* [r11910] build/build-updates.sh:
+	  
+	  The great shebang enfixening!
+
+2015-04-28 16:23  NiLuJe
+
+	* [r11906] src/5.4-install.sh, src/bridge.sh:
+	  
+	  Kindle Hacks:
+	  * Fix eips prints on the KT2...
+	  It appears to behave like the eips used on newer devices...
+	  Except on a much smaller screen. This probably means that most of my
+	  prints
+	  will be cropped on a KT2...
+	  Thanks to @zfu on MR for pointing that out :).
+
+2015-02-26 14:07  NiLuJe
+
+	* [r11689] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Avoid pigz for device-facing tarballs, based on the same
+	  compatibility concerns as with lbzip2...
+
+2015-02-23 22:30  NiLuJe
+
+	* [r11620] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Parallelize compression in buildscripts... (lbzip2, pigz & threaded
+	  xz)
+
+2014-12-17 18:50  NiLuJe
+
+	* [r11246] README:
+	  
+	  Kindle Touch Hacks:
+	  * Forgot the credits for Gandalf
+
+2014-11-29 16:06  NiLuJe
+
+	* [r11186] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Tag v1.14.N
+	  * MKK:
+	  * Tag v20141129
+
+2014-11-29 15:57  NiLuJe
+
+	* [r11185] src/5.4-install.sh, src/install-bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * jailBreak:
+	  * Oops, fix a very dump c/p typo.
+
+2014-11-29 15:52  NiLuJe
+
+	* [r11184] src/5.4-install.sh, src/install-bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Try to survive a varlocal wipe (& a factory reset, w/ a bit of
+	  manual intervention [restoring the userstore]).
+
+2014-11-27 19:51  NiLuJe
+
+	* [r11170] src/install-bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Forgot to update a highly unlikely error code path
+
+2014-11-24 17:20  NiLuJe
+
+	* [r11155] build/build-updates.sh, src/5.4-install.sh, src/bridge.sh,
+	  src/install-bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * MKK:
+	  * Try harder to not get screwed by FW 5.6.1...
+
+2014-11-23 16:18  NiLuJe
+
+	* [r11142] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Tag v1.13.N
+	  * USBNetwork:
+	  * Tag v0.18.N
+	  * MR Installer:
+	  * Tag v1.2.N
+
+2014-11-23 15:45  NiLuJe
+
+	* [r11140] src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Use cp -af instead of cp -a
+
+2014-11-23 15:42  NiLuJe
+
+	* [r11139] src/5.4-install.sh, src/bridge.sh, src/install-bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * The bridge will now carry the RP & CRP too, provided they were
+	  installed *before* the bridge (at least until the RP & CRP themselves
+	  are updated).
+
+2014-11-23 15:12  NiLuJe
+
+	* [r11138] src/5.4-install.sh, src/install-bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Kill a stupid idea
+
+2014-11-23 15:10  NiLuJe
+
+	* [r11137] README:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * More docs update
+
+2014-11-22 17:25  NiLuJe
+
+	* [r11133] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Jailreak Bridge:
+	  * Can't do that, userstore isn't mounted yet
+
+2014-11-22 17:18  NiLuJe
+
+	* [r11132] build/build-updates.sh, src/5.4-install.sh, src/bridge.sh,
+	  src/install-bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Setup Gandalf tohelp with the FW 5.6.1 mess...
+
+2014-11-14 16:09  NiLuJe
+
+	* [r11063] src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect another KT2 variant
+
+2014-11-07 23:25  NiLuJe
+
+	* [r11047] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect more KV variants
+
+2014-11-07 18:01  NiLuJe
+
+	* [r11042] src/5.4-install.sh, src/bridge.sh, src/install.sh,
+	  src/payload/jailbreak-kv.png[ADD]:
+	  
+	  Kindle Hacks:
+	  * First pass at detecting the Voyage...
+
+2014-10-25 00:34  NiLuJe
+
+	* [r10997] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  • JailBreak:
+	  • Tag v1.12.N
+	  • K4 JailBreak:
+	  • Tag v1.8.N
+	  • USBNetwork:
+	  • Tag v0.17.N
+	  • ScreenSavers:
+	  • Tag v0.18.N
+	  • Python:
+	  • Tag v0.11.N
+	  • Fonts:
+	  • Tag v0.9.N
+
+2014-10-05 15:03  NiLuJe
+
+	* [r10947] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Possibly handle the Kindle Basic...
+
+2014-08-30 17:57  NiLuJe
+
+	* [r10881] src/5.4-install.sh, src/bridge.sh, src/install-bridge.sh:
+	  
+	  Kindle Hacks:
+	  * More /var/local free space checks
+
+2014-08-22 15:54  NiLuJe
+
+	* [r10837] README, build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Tag v1.11.N
+	  * Update doc
+	  * MKK:
+	  * Update doc
+
+2014-08-22 15:40  NiLuJe
+
+	* [r10836] build/build-updates.sh, src/5.4-install.sh, src/bridge.sh,
+	  src/install-bridge.sh, src/uninstall.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Bundle MKK w/ the JB
+	  * Make the bridge restore MKK, too (thanks to kaznelson for the push,
+	  and an original implementation ;)).
+
+2014-07-21 22:23  NiLuJe
+
+	* [r10721] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect a bunch of new unidentified PW2 models
+
+2014-07-15 18:45  NiLuJe
+
+	* [r10714] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the 4GB, 3G EU PW2
+
+2014-07-07 22:19  NiLuJe
+
+	* [r10702] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the 4GB EU WiFi PW2
+
+2014-06-26 23:56  NiLuJe
+
+	* [r10677] src/5.4-install.sh, src/bridge.sh, src/install-bridge.sh,
+	  src/install-ninja.sh, src/install.sh, src/uninstall.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Fix logmsg() usage. The third arg is for key=value pairs.
+
+2014-06-26 21:21  NiLuJe
+
+	* [r10674] build/build-updates.sh, build/consts[DEL], build/ui[DEL],
+	  src/install-bridge.sh, src/uninstall.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Move everyone to libOTAUtils
+
+2014-06-24 22:37  NiLuJe
+
+	* [r10659] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  • Replace more non-portable sed -i usage w/ perl
+
+2014-06-24 22:21  NiLuJe
+
+	* [r10658] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  • Detect GNU tar properly on OS X.
+	  The individual build scripts should now run on OS X, but the release
+	  scripts probably still don't (svn2cl [trivial], and some sed usage,
+	  mostly).
+
+2014-05-10 21:48  NiLuJe
+
+	* [r10539] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Mention 5.4.4.2, which is apparently still a go.
+
+2014-04-26 17:11  NiLuJe
+
+	* [r10477] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * >= 5.4.4.1
+	  * X-TC:
+	  * Add a round of security patches for Python & rsync, and an OpenSSH
+	  snafu.
+
+2014-04-11 13:08  NiLuJe
+
+	* [r10460] build/build-updates.sh:
+	  
+	  KUAL Extensions:
+	  * gawk:
+	  * Tag v1.3.N
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Tag v1.10.N
+	  * USBNetwork:
+	  * Tag v0.16.N
+	  * ScreenSavers:
+	  * Tag v0.17.N
+	  * Python:
+	  * Tag v0.10.N
+	  * Fonts:
+	  * Tag v0.8.N
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Tag v0.12.N
+	  * ScreenSavers:
+	  * Tag v0.43.N
+	  * Fonts:
+	  * Tag v5.13.N
+	  * USBNetwork:
+	  * Tag v0.54.N
+	  * Python:
+	  * Tag v0.10.N
+
+2014-03-09 00:18  NiLuJe
+
+	* [r10411] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Tag v1.9.N
+
+2014-03-08 23:48  NiLuJe
+
+	* [r10410] src/5.4-install.sh, src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * 5.4 landed on the PW1, be smarter to avoid getting screwed
+
+2014-03-06 22:53  NiLuJe
+
+	* [r10404] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the CA PW2 3G
+
+2014-02-14 19:48  NiLuJe
+
+	* [r10342] README:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Add a FAQ to the doc ;).
+
+2014-02-14 17:28  NiLuJe
+
+	* [r10329] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak: Mention that FW 5.4.2.1 is handled.
+
+2014-02-14 17:27  NiLuJe
+
+	* [r10328] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Use Update_*.bin package filenames instead of update_*.bin,
+	  to avoid triggering the recovery updater on boot. (thanks, dsmid ;))
+
+2014-01-10 03:55  NiLuJe
+
+	* [r10305] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Revert r10301, false alarm ;).
+
+2014-01-09 23:10  NiLuJe
+
+	* [r10301] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect a new 3G PW2 model (Central Africa?)
+
+2013-12-23 16:13  NiLuJe
+
+	* [r10250] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Avoid some forks & simplify model detection...
+	  
+	  For some strange reason, I was convinced cut wasn't feature-complete
+	  enough to handle that on FW 2.x... o_O
+
+2013-11-28 17:49  NiLuJe
+
+	* [r10177] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the JP 3G PW2
+
+2013-11-25 17:23  NiLuJe
+
+	* [r10171] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the RU 3G PW2
+
+2013-11-24 13:02  NiLuJe
+
+	* [r10169] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Handle the weird 90-prefixed S/N...
+
+2013-11-23 14:51  NiLuJe
+
+	* [r10152] src/5.4-install.sh, src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the EU 3G PW2
+
+2013-11-21 19:32  NiLuJe
+
+	* [r10135] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * More packaging tweaks
+
+2013-11-21 19:16  NiLuJe
+
+	* [r10133] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Build a zip compatible with yossarian's launcher.
+
+2013-11-21 18:56  NiLuJe
+
+	* [r10131] README:
+	  
+	  Kindle Hacks:
+	  * Update docs
+
+2013-11-21 18:45  NiLuJe
+
+	* [r10129] README[ADD], build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Tag v1.8.N
+	  * USBNet:
+	  * Tag v0.14.N
+
+2013-11-21 18:40  NiLuJe
+
+	* [r10128] OLD_README[CPY], README[DEL]:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Update doc.
+
+2013-11-21 17:46  NiLuJe
+
+	* [r10127] build/build-updates.sh, src/5.4-install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Install the bridge w/ the 5.4 JB
+
+2013-11-21 17:19  NiLuJe
+
+	* [r10126] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Don't needlessly switch rootfs rw
+
+2013-11-21 17:09  NiLuJe
+
+	* [r10125] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Horror! A space!
+
+2013-11-21 17:08  NiLuJe
+
+	* [r10124] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Fix packaging
+
+2013-11-21 17:04  NiLuJe
+
+	* [r10123] build/build-updates.sh, src/5.4-install.sh[ADD],
+	  src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Minimal version of a 5.4-friendly payload
+
+2013-11-21 16:41  NiLuJe
+
+	* [r10122] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Make the bridge useful on the PW2.
+
+2013-11-10 23:07  NiLuJe
+
+	* [r10053] src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Detect the PW2 3G US
+
+2013-11-01 15:04  NiLuJe
+
+	* [r10017] src/bridge.sh, src/install.sh:
+	  
+	  Kindle Stuff:
+	  * Detect the JP PW2 WiFi
+
+2013-10-03 17:32  NiLuJe
+
+	* [r9911] src/bridge.sh, src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Handle the PW2 WiFi device code
+
+2013-09-18 16:09  NiLuJe
+
+	* [r9819] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Fix the eips prints on the PW... I love the weirdness of the fb
+	  size...
+
+2013-09-18 11:34  NiLuJe
+
+	* [r9807] src/bridge.sh, src/install-ninja.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Tweak the libkh eips prints to *really* be edge-to-edge...
+
+2013-06-24 20:15  NiLuJe
+
+	* [r9325] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Make all build scripts automatically bomb out on non 0 return codes,
+	  so I can safely catch
+	  snafus during my full rebuilds...
+
+2013-04-26 16:50  NiLuJe
+
+	* [r9095] src/bridge.sh, src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Detect the Brazilian 3G PW
+
+2013-01-29 15:44  NiLuJe
+
+	* [r9048] src/bridge.sh, src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Properly detect JP & CA 3G PW devices
+
+2012-11-10 02:17  NiLuJe
+
+	* [r8900] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Use the new aliases for the whole K4 & K5 model range in every build
+	  script
+
+2012-11-09 18:02  NiLuJe
+
+	* [r8895] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Fix a comment
+
+2012-11-09 15:43  NiLuJe
+
+	* [r8892] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Tag v1.7.N
+
+2012-11-09 15:41  NiLuJe
+
+	* [r8891] src/install-bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Fix a comment
+
+2012-11-09 15:41  NiLuJe
+
+	* [r8890] build/build-updates.sh, src/install-bridge.sh[ADD]:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Package the bridge :)
+
+2012-11-09 15:32  NiLuJe
+
+	* [r8889] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Fix centered eips on PW
+
+2012-11-09 15:25  NiLuJe
+
+	* [r8888] src/bridge.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Prettier bridge ;).
+
+2012-11-09 14:59  NiLuJe
+
+	* [r8887] src/bridge.sh[ADD]:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * First stab at a JB 'bridge' for 5.3.0...
+
+2012-11-06 20:46  NiLuJe
+
+	* [r8850] keys/developer.keystore, src/payload/jailbreak.keystore:
+	  
+	  Kindle Touch Hacks:
+	  * Bump developer keystore to 20121106
+
+2012-10-25 19:28  NiLuJe
+
+	* [r8768] README:
+	  
+	  Kindle Touch Hacks:
+	  * Make it more explicit that one shouldn't reboot a Kindle with a
+	  custom
+	  update package.
+
+2012-10-25 18:32  NiLuJe
+
+	* [r8765] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Tag v1.6.N
+
+2012-10-25 18:31  NiLuJe
+
+	* [r8764] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Build the uninstaller for the UK 3G PW, too
+
+2012-10-25 18:25  NiLuJe
+
+	* [r8761] src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Handle/Detect the UK PW 3G
+
+2012-10-23 18:39  NiLuJe
+
+	* [r8748] src/install-ninja.sh[ADD]:
+	  
+	  Kindle Touch Hacks:
+	  * Add a silent & deadly variant to the payload, one that doesn't sleep
+	  and just executes runme.sh
+
+2012-10-17 17:05  NiLuJe
+
+	* [r8708] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Bump to v1.5.N
+
+2012-10-17 17:01  NiLuJe
+
+	* [r8705] src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Fix potential minor issues on the PaperWhite...
+
+2012-10-16 15:17  NiLuJe
+
+	* [r8699] src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Be case senstivie when we extract the S/N, we're case-sensitive
+	  later when comparing them...
+
+2012-10-16 15:16  NiLuJe
+
+	* [r8698] src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * Cast a wider net when parsing S/N to avoid missing some...
+
+2012-10-15 22:55  NiLuJe
+
+	* [r8697] src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Fix a stupid bug in model detection via S/N matching:
+	  The S/N aren't in base16, they're in base32hex!
+	  (at the very least, I might need some more data to confirm that...)
+
+2012-10-07 17:33  NiLuJe
+
+	* [r8672] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * use the documented pw shortname for the buildscript
+
+2012-10-05 21:53  NiLuJe
+
+	* [r8667] src/payload/jailbreak.png:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * It's even better when I don't mess up the dimension of the Touch
+	  splash screen... Ooops.
+
+2012-10-05 21:25  NiLuJe
+
+	* [r8660] README:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * mention the PaperWhite in the readme
+
+2012-10-05 21:24  NiLuJe
+
+	* [r8659] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Package the uninstaller for the PW, too
+
+2012-10-05 21:23  NiLuJe
+
+	* [r8658] src/install.sh, src/payload/jailbreak-pw.png[ADD],
+	  src/payload/jailbreak.png:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Handle the PaperWhite screen resolution properly when showing our
+	  splash screen
+
+2012-10-05 21:20  NiLuJe
+
+	* [r8657] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Works on 5.2.0 (PaperWhite) :).
+
+2012-10-04 02:06  NiLuJe
+
+	* [r8655] src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Update S/N based model detection logic to handle the US PW ids
+
+2012-10-03 00:03  NiLuJe
+
+	* [r8650] keys/developer.keystore, src/payload/jailbreak.keystore:
+	  
+	  Kindle Touch Hacks:
+	  * Update dev keystore to 2012 10 02 (Thanks, PoP ;)).
+
+2012-09-22 18:02  NiLuJe
+
+	* [r8621] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Bump to v1.3.N
+
+2012-09-22 17:40  NiLuJe
+
+	* [r8615] src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * And one more version detection tweak...
+
+2012-09-22 17:37  NiLuJe
+
+	* [r8614] src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Update the the more accurate version detection logic
+
+2012-09-15 23:33  NiLuJe
+
+	* [r8521] src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Moar tabs!
+
+2012-09-13 16:36  NiLuJe
+
+	* [r8484] keys/developer.keystore:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Update keystore to 20120712 (the keys copy, the one actually
+	  installed was up to date)
+
+2012-08-01 02:38  NiLuJe
+
+	* [r8349] src/payload/jailbreak.keystore:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Update the developper keystore (20120712)
+
+2012-06-29 15:10  NiLuJe
+
+	* [r8271] src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Log who triggered our payload
+
+2012-06-28 20:18  NiLuJe
+
+	* [r8268] src/install.sh, src/uninstall.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Comment the functions/utils stuff in update scripts
+
+2012-06-28 04:02  NiLuJe
+
+	* [r8265] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Let's use root:root instead of 0:0, it's prettier ;)
+
+2012-06-28 04:00  NiLuJe
+
+	* [r8264] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Also make sure we're using GNU tar
+
+2012-06-28 03:56  NiLuJe
+
+	* [r8263] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Make everything owned by root:root in our tarballs
+
+2012-06-26 21:17  NiLuJe
+
+	* [r8256] build/build-updates.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Make sure we're using a recent enough KindleTool version...
+
+2012-06-26 19:05  NiLuJe
+
+	* [r8255] src/install.sh:
+	  
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Don't leave the system in a mess when exiting because we couldn't
+	  determine that we were a Kindle 5...
+
+2012-06-26 18:29  NiLuJe
+
+	* [r8251] README[CPY], README.txt[DEL]:
+	  
+	  Kindle Hacks:
+	  * Touch Hacks:
+	  * Initial packager script
+
+2012-06-26 17:47  NiLuJe
+
+	* [r8247] README.txt, keys[ADD], keys/developer.keystore[ADD],
+	  keys/updater_key.pem[ADD]:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * Update docs
+
+2012-06-26 17:31  NiLuJe
+
+	* [r8246] src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * Yep, version detection looks solid, at least for the Touch.
+
+2012-06-26 17:12  NiLuJe
+
+	* [r8245] src/install.sh:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * Fix version detection on some diags builds...
+
+2012-06-26 16:58  NiLuJe
+
+	* [r8244] src/install.sh, src/uninstall.sh:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * Port install to Touch functions, and remove K4 support.
+
+2012-06-26 16:41  NiLuJe
+
+	* [r8243] build/build-updates.sh, build/consts[ADD],
+	  build/consts/patchconsts[ADD], build/ui[ADD], build/ui/blanket[ADD],
+	  build/ui/progressbar[ADD], src/uninstall.sh:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * Port uninstall script to Touch functions, instead of legacy funcs
+
+2012-06-26 01:31  NiLuJe
+
+	* [r8242] build/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * Pretty comments!
+
+2012-06-26 01:30  NiLuJe
+
+	* [r8241] README.txt, build/build-updates.sh, src/install.sh,
+	  src/uninstall.sh:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * Fix SVN props
+
+2012-06-26 01:11  NiLuJe
+
+	* [r8239] build/build-updates.sh, data.tar.gz[DEL]:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * 5.1.x build script :)
+
+2012-06-26 01:03  NiLuJe
+
+	* [r8238] build/build-updates.sh, data.tar.gz:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * Fix build script for 5.0.x
+
+2012-06-26 00:48  NiLuJe
+
+	* [r8237] build[ADD], build/build-updates.sh[ADD],
+	  src/payload/jailbreak.init[DEL], src/payload/jailbreak.sh[DEL]:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * Remove non Touch stuff
+	  * Initial build script
+
+2012-06-26 00:23  NiLuJe
+
+	* [r8236] keys[DEL], src/payload/jailbreak.keystore:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * Update keystore to ixtab's 20120509 release
+	  (http://www.mobileread.com/forums/showthread.php?t=168765)
+
+2012-06-26 00:14  NiLuJe
+
+	* [r8235] README.txt[ADD], data.tar.gz[ADD], keys[ADD],
+	  keys/.DS_Store[ADD], keys/developer.keystore[ADD],
+	  keys/updater_key.pem[ADD], src[ADD], src/install.sh[ADD],
+	  src/payload[ADD], src/payload/jailbreak.init[ADD],
+	  src/payload/jailbreak.keystore[ADD], src/payload/jailbreak.pem[ADD],
+	  src/payload/jailbreak.png[ADD], src/payload/jailbreak.sh[ADD],
+	  src/uninstall.sh[ADD]:
+	  
+	  Kindle Hacks:
+	  * Touch JB:
+	  * Import Yifan's 1.1 JB (http://yifan.lu/p/kindle-touch-jailbreak/)
+
+2012-06-14 23:58  NiLuJe
+
+	* [r8170] .[ADD]:
+	  
+	  Kindle Hacks:
+	  * All hail the Cortex A8! (K4/K5 binaries ;p)
+

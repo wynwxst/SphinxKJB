@@ -1,0 +1,73 @@
+See http://www.mobileread.com/forums/showthread.php?t=186645 & http://www.mobileread.com/forums/showthread.php?t=227532 for more info :)
+
+Kindle 5 (Touch/PaperWhite 1/PaperWhite 2) FW 5.0.x - 5.4.4.2 JailBreak
+
+Payload based on Yifan Lu's Kindle 4/5 Jailbreak, delivery method discovered by yossarian17.
+
+$Id: README 12833 2016-02-06 15:52:59Z NiLuJe $
+
+--== Information ==--
+
+What does the jailbreak do? All it does is open the door to unsigned modifications by installing a developer key into the device. It does not modify any existing files and it only writes one new file.
+It does NOT do anything useful or noticeable other than this. You must find and install modifications that extend the device (the jailbreak only allows that to be possible.)
+
+After installing the jailbreak, there is NO side effects at all (battery life, stability, etc). However, because you are no longer limited to Amazon's sandbox, you could potently damage your device by installing modifications that are improperly coded or by incorrectly using the modifications. Just a warning.
+
+--== Installation ==--
+
+This jailbreak is designed for usage on the Kindle 5 (Touch/PaperWhite 1 & 2). Please follow the directions in order.
+
+1) Unzip the contents of the "kindle-5.4-jailbreak.zip" archive to the Kindle's USB drive's root.
+2) Safely remove the USB cable, and launch the fake update from the Settings menu (Menu -> Settings -> Menu -> Update Your Kindle)
+3) The updater will not actually run at all. This is normal. After a few seconds, the words "**** JAILBREAK ****" should appear at the bottom of your screen.
+4) Congratulations, you're done!
+5) MKK will automatically be installed on the next boot of your device (whill will happen when installing a package through the "Update Your Kindle", or you can trigger one manually: Menu -> Settings -> Menu -> Restart)
+
+--== Installing Packages ==--
+
+You should NOT copy any packages until AFTER the jailbreak is successful. To install a package that you obtained as a .bin file, copy it to the Kindle's USB drive's root. Then go to Menu -> Settings -> Menu -> Update Your Kindle to install. DO NOT reboot your device with a custom .bin in the Kindle's USB drive's root, it won't work.
+
+Again, the jailbreak itself does NOTHING except open the door for other packages. Do not expect ads to magically disappear or internet to be unrestricted just by jailbreaking. In fact, don't expect those things at all.
+
+Note that you won't be able to install packages this way on FW >= 5.6.x, where your best bet is to use the MR Package Installer (http://www.mobileread.com/forums/showthread.php?t=251143) instead.
+
+--== Uninstallation ==--
+
+If you wish to uninstall the jailbreak, it is recommended that you first uninstall all packages first because you cannot run any other uninstallers after removing the jailbreak.
+
+1) Plug in the Kindle and copy the uninstaller .bin to the Kindle's USB drive's root
+2) Safely remove the USB cable
+3) On the device, go to Menu -> Settings -> Menu -> Update Your Kindle
+
+--== FAQ ==--
+
+Q. The "Update Your Kindle" link stays grayed out?
+
+A. If you can't find your specific model in there: http://wiki.mobileread.com/wiki/Kindle_Serial_Numbers, please contact us on the forum with: the exact model of your device (WiFi/3G), the country it was bought in/shipped to, and finally, and most importantly, the first four characters of its serial number ([b]Settings -> Device Info[/b])
+
+
+Q. The "Update Your Kindle" link stays grayed out (and my device is supported)?
+
+A. First, read the instructions again, and make sure you followed them exactly. A common oversight is to upload the zip file itself, instead of what's *in* the zip file after it's been unpacked ;).
+If you think you did that right, don't worry, there's a known (upstream) issue that might cause the OTA updater to crash and fail to pick up new update files. If you still have the jailbreak files on the root of your device, remove them, and make sure you don't have any other .bin files laying around in there.
+Restart your device, and try the installation procedure again.
+(If this happens for any other hack, and you have a shell access, a restart otaupd usually puts things to right).
+
+
+Q. My hacks suddenly failed to work properly, how come? (aka. What happens if I get an OTA update?)
+
+A. Since FW 5.3.x, official updates (OTA or not, actually) are complete updates, overwriting the complete main system. This has the side effect of breaking a lot of custom hacks. For instance, you'll have to reinstall MKK for sure, along with most full hacks that touch the system, whereas simple KUAL extensions should survive the process ;).
+On a sidenote, FW updates are usually a game of cat and mouse, so do make sure you check the forums to see if the hacks you care about will actually *work* on a new FW version before updating ;).
+
+
+Q. What's this 'MKK' (Mobileread Kindlet Kit) thing? Do I need it?
+
+A. Short answer: most likely, yes, although, since v1.11.N, the JB should take care of it. See here: http://www.mobileread.com/forums/showthread.php?t=233932 for more details ;).
+
+
+--------
+
+CREDITS
+
+  gandalf: BusyBox, licensed under the GNU General Public License version 2.
+(http://www.busybox.net/license.html)
