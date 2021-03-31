@@ -55,6 +55,12 @@ Go to tools/pkg/kual/ If you’re on a Kindle Paperwhite 1, 2, or 3, or Kindle T
 
 On your Kindle, tap Menu > Settings > Menu > Update Your Kindle. Tap “Ok.”
 
+### Next?
+go to https://www.mobileread.com/forums/showthread.php?t=180113 and check out all the packages
+
+
+### Insalling packages
+paste the extensions into the mrinstaller folder in the / directory of your kindle
 
 (TO DO: add automation and support for kindle 2.x)
 
